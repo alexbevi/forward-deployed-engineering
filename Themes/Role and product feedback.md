@@ -3,7 +3,7 @@ type: theme
 collection: fde
 status: evolving
 created: 2026-10-05
-updated: 2026-10-19
+updated: 2026-10-20
 tags:
   - fde
   - fde/role
@@ -16,6 +16,7 @@ How should FDE responsibilities connect to the organisation's product and engine
 
 ## Catalogue
 
+- [[Articles/2026-10-19 - Caroline Clark - What is a Forward Deployed Product Manager|Clark, 2026]]. Adjacent FDPM function and field-to-product coordination; peripheral to the FDE role definition.
 - [[Articles/2026-10-16 - McKinsey - What is a forward-deployed engineer|McKinsey, 2026]]. Disagreement about consulting boundaries.
 - [[Articles/2026-10-16 - Forte Group - FDEs in AI-shaped organizations|Forte Group, 2026]]. Internal business-function framing and staffing options; product feedback remains unspecified.
 - [[Articles/undated - Kusum Motiani - What 133 companies reveal about FDE|Motiani, updated October 2026]]. Survey with varied structures and pricing.

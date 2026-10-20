@@ -2,7 +2,7 @@
 type: operating-model
 collection: fde
 created: 2026-10-05
-updated: 2026-10-14T13:33
+updated: 2026-10-20
 tags:
   - fde
 status: evolving
@@ -12,6 +12,7 @@ engagement_type: Customer engagements feeding maintained product work
 ownership: Product stewardship with customer operational responsibilities to establish
 success_measure: Customer results and accepted shared capabilities
 sources:
+  - "[[Articles/2026-10-19 - Caroline Clark - What is a Forward Deployed Product Manager]]"
   - "[[Articles/2026-10-13 - Dominik Metzger - Industry AI and measurable value]]"
   - "[[Articles/2026-09-12 - Vinoo Ganesh - The rise of the forward deployed engineer]]"
   - "[[Articles/2026-03-24 - Doug McClure - How FDE was born at PagerDuty]]"
@@ -26,6 +27,8 @@ sources:
 The recurring aim in [[Articles/2026-09-12 - Vinoo Ganesh - The rise of the forward deployed engineer]] and [[Articles/2026-03-24 - Doug McClure - How FDE was born at PagerDuty]] is to convert field problems into maintained product capabilities. PagerDuty describes onboarding into product teams so contributions can use their standards and release process. [[Articles/2026-10-06 - Jove Zhong - Building a world-class FDE team|Cresta]] places FDE inside Product Engineering, gives the team a direct product contribution path, and reports turning repeated task patterns, missing connectors, workflow friction, and evaluation gaps into shared platform capabilities. [[Articles/2026-09-21 - Pablo Bermejo - Turning intelligence into lasting value]] adds a test of whether an improvement works in another customer's conditions.
 
 ## Decision rights and ownership
+
+[[Articles/2026-10-19 - Caroline Clark - What is a Forward Deployed Product Manager|Clark's FDPM overview]] describes an adjacent product counterpart. Its questions about roadmap authority and reserved engineering capacity expose a coordination dependency; the title alone supplies neither.
 
 [[Articles/2026-10-13 - Dominik Metzger - Industry AI and measurable value|SAP]] adds industry-software ambitions without specifying contribution authority or handover.
 
