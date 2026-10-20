@@ -1,6 +1,6 @@
 {
-  "fingerprint": "feaab982a9e51cd8271ab6ebac48d7d8c36c020ba74e01760a9318cd8f01ba09",
-  "source_commit": "d619960649e38667da23d249dc763c3b9ebdfa63",
+  "fingerprint": "4cb01aa2cb6742c5a97a4919d5ab595143e009f9a5c40e578a2f737c60273d2b",
+  "source_commit": "a2f137c207430510066a5770329c745bac354fc3",
   "records": {
     "AGENTS.md": {
       "path": "AGENTS.md",
@@ -2909,37 +2909,8 @@
     },
     "Approaches.md": {
       "dependencies": {
-        "base:Bases/Approaches.base": "28dd30bac3537adf8b29ed313477722e86a5e7fa7aaa2f1736f12b5079b7c834",
         "Bases/Approaches.base": [
           "Bases/Approaches.md",
-          ""
-        ],
-        "Approaches/Contract-based governed task transfer.md": [
-          "Approaches/Contract-based governed task transfer.md",
-          ""
-        ],
-        "Articles/2026-09-24 - Jeremy Canale - The Last Human Gate": [
-          "Articles/2026-09-24 - Jeremy Canale - The Last Human Gate.md",
-          ""
-        ],
-        "Playbooks/Stage agent autonomy": [
-          "Playbooks/Stage agent autonomy.md",
-          ""
-        ],
-        "Playbooks/Evaluate outcomes and reuse": [
-          "Playbooks/Evaluate outcomes and reuse.md",
-          ""
-        ],
-        "Approaches/Deployment verification through fresh replay.md": [
-          "Approaches/Deployment verification through fresh replay.md",
-          ""
-        ],
-        "Articles/2026-09-23 - Weihang Ding et al - FDE-Bench": [
-          "Articles/2026-09-23 - Weihang Ding et al - FDE-Bench.md",
-          ""
-        ],
-        "Playbooks/Rehearse a deployment from delivered artifacts": [
-          "Playbooks/Rehearse a deployment from delivered artifacts.md",
           ""
         ],
         "Approaches/Deployment verification through fresh replay": [
@@ -2968,7 +2939,7 @@
         ]
       },
       "source_blob": "fdb033839d93b9eadecd3ddef295286b1228acae",
-      "sha256": "45e017dea96856d935f5620509e6ff83dd1869f541539135b4111af0ef15380d"
+      "sha256": "0bf2db43e61aeca336846267e283240e8fbca33f873c2a09917c6ad31bbd5db6"
     },
     "Approaches/Contract-based governed task transfer.md": {
       "dependencies": {
@@ -4741,189 +4712,8 @@
           "Themes/Staff engineering and influence.md",
           ""
         ],
-        "base:Bases/Sources.base": "29574cf359b1471d0c068218f3a3618bde18261c088f38d92fa19f06ac5db7a1",
         "Bases/Sources.base": [
           "Bases/Sources.md",
-          ""
-        ],
-        "Articles/2020-09-04 - Will Larson - Work on what matters.md": [
-          "Articles/2020-09-04 - Will Larson - Work on what matters.md",
-          ""
-        ],
-        "Themes/Technical and professional development": [
-          "Themes/Technical and professional development.md",
-          ""
-        ],
-        "People/Will Larson": [
-          "People/Will Larson.md",
-          ""
-        ],
-        "Articles/2020-11-28 - Will Larson - What do Staff engineers actually do.md": [
-          "Articles/2020-11-28 - Will Larson - What do Staff engineers actually do.md",
-          ""
-        ],
-        "Articles/2026-03-18 - Carlos Becker - FDE evolution at HappyRobot.md": [
-          "Articles/2026-03-18 - Carlos Becker - FDE evolution at HappyRobot.md",
-          ""
-        ],
-        "Themes/Field discovery and execution": [
-          "Themes/Field discovery and execution.md",
-          ""
-        ],
-        "People/Carlos Becker": [
-          "People/Carlos Becker.md",
-          ""
-        ],
-        "Articles/2026-03-24 - Doug McClure - How FDE was born at PagerDuty.md": [
-          "Articles/2026-03-24 - Doug McClure - How FDE was born at PagerDuty.md",
-          ""
-        ],
-        "Themes/Ownership and sustainable delivery": [
-          "Themes/Ownership and sustainable delivery.md",
-          ""
-        ],
-        "People/Doug McClure": [
-          "People/Doug McClure.md",
-          ""
-        ],
-        "Articles/2026-08-18 - James Socol - Staff engineers must rebuild team culture.md": [
-          "Articles/2026-08-18 - James Socol - Staff engineers must rebuild team culture.md",
-          ""
-        ],
-        "People/James Socol": [
-          "People/James Socol.md",
-          ""
-        ],
-        "Articles/2026-08-26 - Anna Selway - Staff engineers shift from solving problems to shaping systems.md": [
-          "Articles/2026-08-26 - Anna Selway - Staff engineers shift from solving problems to shaping systems.md",
-          ""
-        ],
-        "People/Anna Selway": [
-          "People/Anna Selway.md",
-          ""
-        ],
-        "Articles/2026-09-12 - Vinoo Ganesh - The rise of the forward deployed engineer.md": [
-          "Articles/2026-09-12 - Vinoo Ganesh - The rise of the forward deployed engineer.md",
-          ""
-        ],
-        "People/Vinoo Ganesh": [
-          "People/Vinoo Ganesh.md",
-          ""
-        ],
-        "Articles/2026-09-14 - Arun Prasath E G - FDE and adjacent roles.md": [
-          "Articles/2026-09-14 - Arun Prasath E G - FDE and adjacent roles.md",
-          ""
-        ],
-        "People/Arun Prasath E G": [
-          "People/Arun Prasath E G.md",
-          ""
-        ],
-        "Articles/2026-09-14 - Arun Prasath E G - FDE engagements for owners.md": [
-          "Articles/2026-09-14 - Arun Prasath E G - FDE engagements for owners.md",
-          ""
-        ],
-        "Articles/2026-09-14 - Arun Prasath E G - How an FDE engagement works.md": [
-          "Articles/2026-09-14 - Arun Prasath E G - How an FDE engagement works.md",
-          ""
-        ],
-        "Articles/2026-09-14 - Arun Prasath E G - What is an FDE.md": [
-          "Articles/2026-09-14 - Arun Prasath E G - What is an FDE.md",
-          ""
-        ],
-        "Articles/2026-09-21 - Pablo Bermejo - Turning intelligence into lasting value.md": [
-          "Articles/2026-09-21 - Pablo Bermejo - Turning intelligence into lasting value.md",
-          ""
-        ],
-        "People/Pablo Bermejo": [
-          "People/Pablo Bermejo.md",
-          ""
-        ],
-        "Articles/2026-09-23 - Weihang Ding et al - FDE-Bench.md": [
-          "Articles/2026-09-23 - Weihang Ding et al - FDE-Bench.md",
-          ""
-        ],
-        "Approaches/Deployment verification through fresh replay": [
-          "Approaches/Deployment verification through fresh replay.md",
-          ""
-        ],
-        "Articles/2026-09-24 - Jeremy Canale - The Last Human Gate.md": [
-          "Articles/2026-09-24 - Jeremy Canale - The Last Human Gate.md",
-          ""
-        ],
-        "People/Jeremy Canale": [
-          "People/Jeremy Canale.md",
-          ""
-        ],
-        "Approaches/Contract-based governed task transfer": [
-          "Approaches/Contract-based governed task transfer.md",
-          ""
-        ],
-        "Articles/2026-09-29 - Gartner - Vendor FDE abandonment forecast.md": [
-          "Articles/2026-09-29 - Gartner - Vendor FDE abandonment forecast.md",
-          ""
-        ],
-        "People/Mukul Saha": [
-          "People/Mukul Saha.md",
-          ""
-        ],
-        "Articles/2026-10-01 - Karthik Sonti et al - FDE pathways for AWS partners.md": [
-          "Articles/2026-10-01 - Karthik Sonti et al - FDE pathways for AWS partners.md",
-          ""
-        ],
-        "People/Karthik Sonti": [
-          "People/Karthik Sonti.md",
-          ""
-        ],
-        "People/Priya Bains": [
-          "People/Priya Bains.md",
-          ""
-        ],
-        "People/Erik Farr": [
-          "People/Erik Farr.md",
-          ""
-        ],
-        "Articles/2026-10-06 - CTERA - Forward deployed engineering for enterprise AI.md": [
-          "Articles/2026-10-06 - CTERA - Forward deployed engineering for enterprise AI.md",
-          ""
-        ],
-        "Articles/2026-10-06 - Jove Zhong - Building a world-class FDE team.md": [
-          "Articles/2026-10-06 - Jove Zhong - Building a world-class FDE team.md",
-          ""
-        ],
-        "People/Jove Zhong": [
-          "People/Jove Zhong.md",
-          ""
-        ],
-        "Articles/2026-10-13 - Dominik Metzger - Industry AI and measurable value.md": [
-          "Articles/2026-10-13 - Dominik Metzger - Industry AI and measurable value.md",
-          ""
-        ],
-        "Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works.md": [
-          "Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works.md",
-          ""
-        ],
-        "Articles/2026-10-16 - Forte Group - FDEs in AI-shaped organizations.md": [
-          "Articles/2026-10-16 - Forte Group - FDEs in AI-shaped organizations.md",
-          ""
-        ],
-        "Articles/2026-10-16 - McKinsey - What is a forward-deployed engineer.md": [
-          "Articles/2026-10-16 - McKinsey - What is a forward-deployed engineer.md",
-          ""
-        ],
-        "Articles/undated - Atlassian - Forward deployed engineering playbook.md": [
-          "Articles/undated - Atlassian - Forward deployed engineering playbook.md",
-          ""
-        ],
-        "Attachments/atlassian-fde-playbook-c9cd5956a217.pdf": [
-          "Attachments/atlassian-fde-playbook-c9cd5956a217.pdf",
-          ""
-        ],
-        "Attachments/atlassian-fde-playbook-c9cd5956a217": [
-          "Attachments/atlassian-fde-playbook-c9cd5956a217.md",
-          ""
-        ],
-        "Articles/undated - Kusum Motiani - What 133 companies reveal about FDE.md": [
-          "Articles/undated - Kusum Motiani - What 133 companies reveal about FDE.md",
           ""
         ],
         "Operating models": [
@@ -4948,7 +4738,7 @@
         ]
       },
       "source_blob": "cf823108f102cfe5b85c576f4cfafb6f4c30cf7e",
-      "sha256": "2d0b56aa22732153cad2165dda98f2531438435b5a6f5d14269fe0fe3e4652b2"
+      "sha256": "2d18ca5c0c0a5b171287b087b1d86293aed25505fc8c54284a47513e07c25816"
     },
     "FDE.md": {
       "dependencies": {
@@ -5128,260 +4918,18 @@
           "Themes/Staff engineering and influence.md",
           ""
         ],
-        "base:Bases/Sources.base": "29574cf359b1471d0c068218f3a3618bde18261c088f38d92fa19f06ac5db7a1",
         "Bases/Sources.base": [
           "Bases/Sources.md",
-          ""
-        ],
-        "Articles/2020-09-04 - Will Larson - Work on what matters.md": [
-          "Articles/2020-09-04 - Will Larson - Work on what matters.md",
-          ""
-        ],
-        "People/Will Larson": [
-          "People/Will Larson.md",
-          ""
-        ],
-        "Articles/2020-11-28 - Will Larson - What do Staff engineers actually do.md": [
-          "Articles/2020-11-28 - Will Larson - What do Staff engineers actually do.md",
-          ""
-        ],
-        "Articles/2026-03-18 - Carlos Becker - FDE evolution at HappyRobot.md": [
-          "Articles/2026-03-18 - Carlos Becker - FDE evolution at HappyRobot.md",
-          ""
-        ],
-        "People/Carlos Becker": [
-          "People/Carlos Becker.md",
-          ""
-        ],
-        "Articles/2026-03-24 - Doug McClure - How FDE was born at PagerDuty.md": [
-          "Articles/2026-03-24 - Doug McClure - How FDE was born at PagerDuty.md",
-          ""
-        ],
-        "People/Doug McClure": [
-          "People/Doug McClure.md",
-          ""
-        ],
-        "Articles/2026-08-18 - James Socol - Staff engineers must rebuild team culture.md": [
-          "Articles/2026-08-18 - James Socol - Staff engineers must rebuild team culture.md",
-          ""
-        ],
-        "People/James Socol": [
-          "People/James Socol.md",
-          ""
-        ],
-        "Articles/2026-08-26 - Anna Selway - Staff engineers shift from solving problems to shaping systems.md": [
-          "Articles/2026-08-26 - Anna Selway - Staff engineers shift from solving problems to shaping systems.md",
-          ""
-        ],
-        "People/Anna Selway": [
-          "People/Anna Selway.md",
-          ""
-        ],
-        "Articles/2026-09-12 - Vinoo Ganesh - The rise of the forward deployed engineer.md": [
-          "Articles/2026-09-12 - Vinoo Ganesh - The rise of the forward deployed engineer.md",
-          ""
-        ],
-        "People/Vinoo Ganesh": [
-          "People/Vinoo Ganesh.md",
-          ""
-        ],
-        "Articles/2026-09-14 - Arun Prasath E G - FDE and adjacent roles.md": [
-          "Articles/2026-09-14 - Arun Prasath E G - FDE and adjacent roles.md",
-          ""
-        ],
-        "People/Arun Prasath E G": [
-          "People/Arun Prasath E G.md",
-          ""
-        ],
-        "Articles/2026-09-14 - Arun Prasath E G - FDE engagements for owners.md": [
-          "Articles/2026-09-14 - Arun Prasath E G - FDE engagements for owners.md",
-          ""
-        ],
-        "Articles/2026-09-14 - Arun Prasath E G - How an FDE engagement works.md": [
-          "Articles/2026-09-14 - Arun Prasath E G - How an FDE engagement works.md",
-          ""
-        ],
-        "Articles/2026-09-14 - Arun Prasath E G - What is an FDE.md": [
-          "Articles/2026-09-14 - Arun Prasath E G - What is an FDE.md",
-          ""
-        ],
-        "Articles/2026-09-21 - Pablo Bermejo - Turning intelligence into lasting value.md": [
-          "Articles/2026-09-21 - Pablo Bermejo - Turning intelligence into lasting value.md",
-          ""
-        ],
-        "People/Pablo Bermejo": [
-          "People/Pablo Bermejo.md",
-          ""
-        ],
-        "Articles/2026-09-23 - Weihang Ding et al - FDE-Bench.md": [
-          "Articles/2026-09-23 - Weihang Ding et al - FDE-Bench.md",
-          ""
-        ],
-        "Approaches/Deployment verification through fresh replay": [
-          "Approaches/Deployment verification through fresh replay.md",
-          ""
-        ],
-        "Articles/2026-09-24 - Jeremy Canale - The Last Human Gate.md": [
-          "Articles/2026-09-24 - Jeremy Canale - The Last Human Gate.md",
-          ""
-        ],
-        "People/Jeremy Canale": [
-          "People/Jeremy Canale.md",
-          ""
-        ],
-        "Articles/2026-09-29 - Gartner - Vendor FDE abandonment forecast.md": [
-          "Articles/2026-09-29 - Gartner - Vendor FDE abandonment forecast.md",
-          ""
-        ],
-        "People/Mukul Saha": [
-          "People/Mukul Saha.md",
-          ""
-        ],
-        "Articles/2026-10-01 - Karthik Sonti et al - FDE pathways for AWS partners.md": [
-          "Articles/2026-10-01 - Karthik Sonti et al - FDE pathways for AWS partners.md",
-          ""
-        ],
-        "People/Karthik Sonti": [
-          "People/Karthik Sonti.md",
-          ""
-        ],
-        "People/Priya Bains": [
-          "People/Priya Bains.md",
-          ""
-        ],
-        "People/Erik Farr": [
-          "People/Erik Farr.md",
-          ""
-        ],
-        "Articles/2026-10-06 - CTERA - Forward deployed engineering for enterprise AI.md": [
-          "Articles/2026-10-06 - CTERA - Forward deployed engineering for enterprise AI.md",
-          ""
-        ],
-        "Articles/2026-10-06 - Jove Zhong - Building a world-class FDE team.md": [
-          "Articles/2026-10-06 - Jove Zhong - Building a world-class FDE team.md",
-          ""
-        ],
-        "People/Jove Zhong": [
-          "People/Jove Zhong.md",
-          ""
-        ],
-        "Articles/2026-10-13 - Dominik Metzger - Industry AI and measurable value.md": [
-          "Articles/2026-10-13 - Dominik Metzger - Industry AI and measurable value.md",
-          ""
-        ],
-        "Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works.md": [
-          "Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works.md",
-          ""
-        ],
-        "Articles/2026-10-16 - Forte Group - FDEs in AI-shaped organizations.md": [
-          "Articles/2026-10-16 - Forte Group - FDEs in AI-shaped organizations.md",
-          ""
-        ],
-        "Articles/2026-10-16 - McKinsey - What is a forward-deployed engineer.md": [
-          "Articles/2026-10-16 - McKinsey - What is a forward-deployed engineer.md",
-          ""
-        ],
-        "Articles/undated - Atlassian - Forward deployed engineering playbook.md": [
-          "Articles/undated - Atlassian - Forward deployed engineering playbook.md",
-          ""
-        ],
-        "Attachments/atlassian-fde-playbook-c9cd5956a217.pdf": [
-          "Attachments/atlassian-fde-playbook-c9cd5956a217.pdf",
-          ""
-        ],
-        "Attachments/atlassian-fde-playbook-c9cd5956a217": [
-          "Attachments/atlassian-fde-playbook-c9cd5956a217.md",
-          ""
-        ],
-        "Articles/undated - Kusum Motiani - What 133 companies reveal about FDE.md": [
-          "Articles/undated - Kusum Motiani - What 133 companies reveal about FDE.md",
           ""
         ]
       },
       "source_blob": "a668eaa992e09a2b440d85c526f9da1954fe3ddc",
-      "sha256": "11eee57a87e65980f6cd25ee4d7af4ad2bfe486b4e112e9af6601525c0d52619"
+      "sha256": "8161638a0cc12cbbc75b56a3f3b617a6b0f110e29f3713528fb8df46167df9ea"
     },
     "Operating models.md": {
       "dependencies": {
-        "base:Bases/Operating models.base": "24f36768d52c0ff87e6f878d486c8d5ef384b240a2b04a782b9a937a80c66b1f",
         "Bases/Operating models.base": [
           "Bases/Operating models.md",
-          ""
-        ],
-        "Operating models/Atlassian co-engineering.md": [
-          "Operating models/Atlassian co-engineering.md",
-          ""
-        ],
-        "Articles/undated - Atlassian - Forward deployed engineering playbook": [
-          "Articles/undated - Atlassian - Forward deployed engineering playbook.md",
-          ""
-        ],
-        "Operating models/Customer-owned delivery.md": [
-          "Operating models/Customer-owned delivery.md",
-          ""
-        ],
-        "Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works": [
-          "Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works.md",
-          ""
-        ],
-        "Articles/2026-09-14 - Arun Prasath E G - How an FDE engagement works": [
-          "Articles/2026-09-14 - Arun Prasath E G - How an FDE engagement works.md",
-          ""
-        ],
-        "Articles/2026-09-14 - Arun Prasath E G - FDE engagements for owners": [
-          "Articles/2026-09-14 - Arun Prasath E G - FDE engagements for owners.md",
-          ""
-        ],
-        "Articles/2026-09-29 - Gartner - Vendor FDE abandonment forecast": [
-          "Articles/2026-09-29 - Gartner - Vendor FDE abandonment forecast.md",
-          ""
-        ],
-        "Articles/2026-09-21 - Pablo Bermejo - Turning intelligence into lasting value": [
-          "Articles/2026-09-21 - Pablo Bermejo - Turning intelligence into lasting value.md",
-          ""
-        ],
-        "Articles/2026-10-06 - CTERA - Forward deployed engineering for enterprise AI": [
-          "Articles/2026-10-06 - CTERA - Forward deployed engineering for enterprise AI.md",
-          ""
-        ],
-        "Operating models/Ground-prove-expand-transfer delivery.md": [
-          "Operating models/Ground-prove-expand-transfer delivery.md",
-          ""
-        ],
-        "Operating models/Outcome-scoped missions.md": [
-          "Operating models/Outcome-scoped missions.md",
-          ""
-        ],
-        "Articles/2026-03-18 - Carlos Becker - FDE evolution at HappyRobot": [
-          "Articles/2026-03-18 - Carlos Becker - FDE evolution at HappyRobot.md",
-          ""
-        ],
-        "Operating models/Partner production delivery.md": [
-          "Operating models/Partner production delivery.md",
-          ""
-        ],
-        "Articles/2026-10-01 - Karthik Sonti et al - FDE pathways for AWS partners": [
-          "Articles/2026-10-01 - Karthik Sonti et al - FDE pathways for AWS partners.md",
-          ""
-        ],
-        "Operating models/Product-oriented FDE.md": [
-          "Operating models/Product-oriented FDE.md",
-          ""
-        ],
-        "Articles/2026-10-13 - Dominik Metzger - Industry AI and measurable value": [
-          "Articles/2026-10-13 - Dominik Metzger - Industry AI and measurable value.md",
-          ""
-        ],
-        "Articles/2026-09-12 - Vinoo Ganesh - The rise of the forward deployed engineer": [
-          "Articles/2026-09-12 - Vinoo Ganesh - The rise of the forward deployed engineer.md",
-          ""
-        ],
-        "Articles/2026-03-24 - Doug McClure - How FDE was born at PagerDuty": [
-          "Articles/2026-03-24 - Doug McClure - How FDE was born at PagerDuty.md",
-          ""
-        ],
-        "Articles/2026-10-06 - Jove Zhong - Building a world-class FDE team": [
-          "Articles/2026-10-06 - Jove Zhong - Building a world-class FDE team.md",
           ""
         ],
         "Operating models/Product-oriented FDE": [
@@ -5408,13 +4956,17 @@
           "Operating models/Ground-prove-expand-transfer delivery.md",
           ""
         ],
+        "Articles/2026-10-06 - Jove Zhong - Building a world-class FDE team": [
+          "Articles/2026-10-06 - Jove Zhong - Building a world-class FDE team.md",
+          ""
+        ],
         "FDE": [
           "FDE.md",
           ""
         ]
       },
       "source_blob": "7e85a79f68ec4a021b5d14a7544ae2ae7bc52e86",
-      "sha256": "eacb589000e81be499a683c7232a31e455274bba3fc4d9b5c8a99a62e9afe4a4"
+      "sha256": "f093c84b87aed5ab9e98df5319091ccb08b650634c9c29fed2c62335764a9c34"
     },
     "Operating models/Atlassian co-engineering.md": {
       "dependencies": {
@@ -5610,129 +5162,8 @@
     },
     "People.md": {
       "dependencies": {
-        "base:Bases/People.base": "9512b4d1c67d69587480100710221769e8d8cfb90a04289df9398c4642880fee",
         "Bases/People.base": [
           "Bases/People.md",
-          ""
-        ],
-        "People/Anna Selway.md": [
-          "People/Anna Selway.md",
-          ""
-        ],
-        "Articles/2026-08-26 - Anna Selway - Staff engineers shift from solving problems to shaping systems": [
-          "Articles/2026-08-26 - Anna Selway - Staff engineers shift from solving problems to shaping systems.md",
-          ""
-        ],
-        "People/Arun Prasath E G.md": [
-          "People/Arun Prasath E G.md",
-          ""
-        ],
-        "Articles/2026-09-14 - Arun Prasath E G - FDE and adjacent roles": [
-          "Articles/2026-09-14 - Arun Prasath E G - FDE and adjacent roles.md",
-          ""
-        ],
-        "Articles/2026-09-14 - Arun Prasath E G - FDE engagements for owners": [
-          "Articles/2026-09-14 - Arun Prasath E G - FDE engagements for owners.md",
-          ""
-        ],
-        "Articles/2026-09-14 - Arun Prasath E G - How an FDE engagement works": [
-          "Articles/2026-09-14 - Arun Prasath E G - How an FDE engagement works.md",
-          ""
-        ],
-        "Articles/2026-09-14 - Arun Prasath E G - What is an FDE": [
-          "Articles/2026-09-14 - Arun Prasath E G - What is an FDE.md",
-          ""
-        ],
-        "People/Carlos Becker.md": [
-          "People/Carlos Becker.md",
-          ""
-        ],
-        "Articles/2026-03-18 - Carlos Becker - FDE evolution at HappyRobot": [
-          "Articles/2026-03-18 - Carlos Becker - FDE evolution at HappyRobot.md",
-          ""
-        ],
-        "People/Doug McClure.md": [
-          "People/Doug McClure.md",
-          ""
-        ],
-        "Articles/2026-03-24 - Doug McClure - How FDE was born at PagerDuty": [
-          "Articles/2026-03-24 - Doug McClure - How FDE was born at PagerDuty.md",
-          ""
-        ],
-        "People/Erik Farr.md": [
-          "People/Erik Farr.md",
-          ""
-        ],
-        "Articles/2026-10-01 - Karthik Sonti et al - FDE pathways for AWS partners": [
-          "Articles/2026-10-01 - Karthik Sonti et al - FDE pathways for AWS partners.md",
-          ""
-        ],
-        "People/James Socol.md": [
-          "People/James Socol.md",
-          ""
-        ],
-        "Articles/2026-08-18 - James Socol - Staff engineers must rebuild team culture": [
-          "Articles/2026-08-18 - James Socol - Staff engineers must rebuild team culture.md",
-          ""
-        ],
-        "People/Jeremy Canale.md": [
-          "People/Jeremy Canale.md",
-          ""
-        ],
-        "Articles/2026-09-24 - Jeremy Canale - The Last Human Gate": [
-          "Articles/2026-09-24 - Jeremy Canale - The Last Human Gate.md",
-          ""
-        ],
-        "People/Jove Zhong.md": [
-          "People/Jove Zhong.md",
-          ""
-        ],
-        "Articles/2026-10-06 - Jove Zhong - Building a world-class FDE team": [
-          "Articles/2026-10-06 - Jove Zhong - Building a world-class FDE team.md",
-          ""
-        ],
-        "People/Karthik Sonti.md": [
-          "People/Karthik Sonti.md",
-          ""
-        ],
-        "People/Mukul Saha.md": [
-          "People/Mukul Saha.md",
-          ""
-        ],
-        "Articles/2026-09-29 - Gartner - Vendor FDE abandonment forecast": [
-          "Articles/2026-09-29 - Gartner - Vendor FDE abandonment forecast.md",
-          ""
-        ],
-        "People/Pablo Bermejo.md": [
-          "People/Pablo Bermejo.md",
-          ""
-        ],
-        "Articles/2026-09-21 - Pablo Bermejo - Turning intelligence into lasting value": [
-          "Articles/2026-09-21 - Pablo Bermejo - Turning intelligence into lasting value.md",
-          ""
-        ],
-        "People/Priya Bains.md": [
-          "People/Priya Bains.md",
-          ""
-        ],
-        "People/Vinoo Ganesh.md": [
-          "People/Vinoo Ganesh.md",
-          ""
-        ],
-        "Articles/2026-09-12 - Vinoo Ganesh - The rise of the forward deployed engineer": [
-          "Articles/2026-09-12 - Vinoo Ganesh - The rise of the forward deployed engineer.md",
-          ""
-        ],
-        "People/Will Larson.md": [
-          "People/Will Larson.md",
-          ""
-        ],
-        "Articles/2020-09-04 - Will Larson - Work on what matters": [
-          "Articles/2020-09-04 - Will Larson - Work on what matters.md",
-          ""
-        ],
-        "Articles/2020-11-28 - Will Larson - What do Staff engineers actually do": [
-          "Articles/2020-11-28 - Will Larson - What do Staff engineers actually do.md",
           ""
         ],
         "Catalogue": [
@@ -5745,7 +5176,7 @@
         ]
       },
       "source_blob": "69c5766e5fdbfa5a249445634dea96035c0566dd",
-      "sha256": "4717ac815357f454ae5cce1a239b5756bf2ad86637ecba81d925e288f63e68c4"
+      "sha256": "995d8fe0ff02f4f315aeed46050e9ebf41245e9cc0655d46ca705c4adf81b590"
     },
     "People/Anna Selway.md": {
       "dependencies": {
@@ -5961,97 +5392,8 @@
     },
     "Playbooks.md": {
       "dependencies": {
-        "base:Bases/Playbooks.base": "7e1740afe1140b5ee6445b562315cd035fc57b5c7ea9289f6bcb742ba0f61dbc",
         "Bases/Playbooks.base": [
           "Bases/Playbooks.md",
-          ""
-        ],
-        "Playbooks/Build and review safely.md": [
-          "Playbooks/Build and review safely.md",
-          ""
-        ],
-        "Articles/2026-09-14 - Arun Prasath E G - How an FDE engagement works": [
-          "Articles/2026-09-14 - Arun Prasath E G - How an FDE engagement works.md",
-          ""
-        ],
-        "Articles/2026-03-24 - Doug McClure - How FDE was born at PagerDuty": [
-          "Articles/2026-03-24 - Doug McClure - How FDE was born at PagerDuty.md",
-          ""
-        ],
-        "Playbooks/Evaluate outcomes and reuse.md": [
-          "Playbooks/Evaluate outcomes and reuse.md",
-          ""
-        ],
-        "Articles/2026-09-21 - Pablo Bermejo - Turning intelligence into lasting value": [
-          "Articles/2026-09-21 - Pablo Bermejo - Turning intelligence into lasting value.md",
-          ""
-        ],
-        "Articles/2026-09-12 - Vinoo Ganesh - The rise of the forward deployed engineer": [
-          "Articles/2026-09-12 - Vinoo Ganesh - The rise of the forward deployed engineer.md",
-          ""
-        ],
-        "Articles/2026-10-01 - Karthik Sonti et al - FDE pathways for AWS partners": [
-          "Articles/2026-10-01 - Karthik Sonti et al - FDE pathways for AWS partners.md",
-          ""
-        ],
-        "Articles/2026-03-18 - Carlos Becker - FDE evolution at HappyRobot": [
-          "Articles/2026-03-18 - Carlos Becker - FDE evolution at HappyRobot.md",
-          ""
-        ],
-        "Articles/undated - Atlassian - Forward deployed engineering playbook": [
-          "Articles/undated - Atlassian - Forward deployed engineering playbook.md",
-          ""
-        ],
-        "Articles/2026-09-24 - Jeremy Canale - The Last Human Gate": [
-          "Articles/2026-09-24 - Jeremy Canale - The Last Human Gate.md",
-          ""
-        ],
-        "Articles/2026-10-06 - Jove Zhong - Building a world-class FDE team": [
-          "Articles/2026-10-06 - Jove Zhong - Building a world-class FDE team.md",
-          ""
-        ],
-        "Playbooks/Prove a handover.md": [
-          "Playbooks/Prove a handover.md",
-          ""
-        ],
-        "Articles/2026-09-14 - Arun Prasath E G - FDE engagements for owners": [
-          "Articles/2026-09-14 - Arun Prasath E G - FDE engagements for owners.md",
-          ""
-        ],
-        "Articles/2026-09-29 - Gartner - Vendor FDE abandonment forecast": [
-          "Articles/2026-09-29 - Gartner - Vendor FDE abandonment forecast.md",
-          ""
-        ],
-        "Playbooks/Rehearse a deployment from delivered artifacts.md": [
-          "Playbooks/Rehearse a deployment from delivered artifacts.md",
-          ""
-        ],
-        "Articles/2026-09-23 - Weihang Ding et al - FDE-Bench": [
-          "Articles/2026-09-23 - Weihang Ding et al - FDE-Bench.md",
-          ""
-        ],
-        "Playbooks/Scope an engagement.md": [
-          "Playbooks/Scope an engagement.md",
-          ""
-        ],
-        "Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works": [
-          "Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works.md",
-          ""
-        ],
-        "Articles/2026-10-16 - McKinsey - What is a forward-deployed engineer": [
-          "Articles/2026-10-16 - McKinsey - What is a forward-deployed engineer.md",
-          ""
-        ],
-        "Articles/undated - Kusum Motiani - What 133 companies reveal about FDE": [
-          "Articles/undated - Kusum Motiani - What 133 companies reveal about FDE.md",
-          ""
-        ],
-        "Articles/2026-09-14 - Arun Prasath E G - What is an FDE": [
-          "Articles/2026-09-14 - Arun Prasath E G - What is an FDE.md",
-          ""
-        ],
-        "Playbooks/Stage agent autonomy.md": [
-          "Playbooks/Stage agent autonomy.md",
           ""
         ],
         "Playbooks/Scope an engagement": [
@@ -6088,7 +5430,7 @@
         ]
       },
       "source_blob": "78efadff3ea72139f6a21725f968b0906884af16",
-      "sha256": "d3fca81d04de78d5b5977dea87de583a86a6ec9f74e21f417df4e8d6145b761d"
+      "sha256": "a394d51450bc0f47cadee23635c59619eac1bf45efab8bdeeae1a866d6351397"
     },
     "Playbooks/Build and review safely.md": {
       "dependencies": {
@@ -6303,65 +5645,8 @@
           "Resources/FDEOps.md",
           ""
         ],
-        "base:Bases/Resources.base": "f7344b24a6094d09daffd0eacc7d90ed879f7d509040b62166e453f35d5bf7d7",
         "Bases/Resources.base": [
           "Bases/Resources.md",
-          ""
-        ],
-        "Resources/Atlassian FDE playbook.md": [
-          "Resources/Atlassian FDE playbook.md",
-          ""
-        ],
-        "Articles/undated - Atlassian - Forward deployed engineering playbook": [
-          "Articles/undated - Atlassian - Forward deployed engineering playbook.md",
-          ""
-        ],
-        "Attachments/atlassian-fde-playbook-c9cd5956a217.pdf": [
-          "Attachments/atlassian-fde-playbook-c9cd5956a217.pdf",
-          ""
-        ],
-        "Attachments/atlassian-fde-playbook-c9cd5956a217": [
-          "Attachments/atlassian-fde-playbook-c9cd5956a217.md",
-          ""
-        ],
-        "Resources/AWS Partner FDE pathways.md": [
-          "Resources/AWS Partner FDE pathways.md",
-          ""
-        ],
-        "Articles/2026-10-01 - Karthik Sonti et al - FDE pathways for AWS partners": [
-          "Articles/2026-10-01 - Karthik Sonti et al - FDE pathways for AWS partners.md",
-          ""
-        ],
-        "Resources/DGF-Bench repository.md": [
-          "Resources/DGF-Bench repository.md",
-          ""
-        ],
-        "Articles/2026-09-24 - Jeremy Canale - The Last Human Gate": [
-          "Articles/2026-09-24 - Jeremy Canale - The Last Human Gate.md",
-          ""
-        ],
-        "Resources/FDE-Bench development repository.md": [
-          "Resources/FDE-Bench development repository.md",
-          ""
-        ],
-        "Articles/2026-09-23 - Weihang Ding et al - FDE-Bench": [
-          "Articles/2026-09-23 - Weihang Ding et al - FDE-Bench.md",
-          ""
-        ],
-        "Resources/FDEOps.md": [
-          "Resources/FDEOps.md",
-          ""
-        ],
-        "Resources/Obsidian Bases syntax.md": [
-          "Resources/Obsidian Bases syntax.md",
-          ""
-        ],
-        "Resources/PagerDuty AI Delivery Workbench.md": [
-          "Resources/PagerDuty AI Delivery Workbench.md",
-          ""
-        ],
-        "Articles/2026-03-24 - Doug McClure - How FDE was born at PagerDuty": [
-          "Articles/2026-03-24 - Doug McClure - How FDE was born at PagerDuty.md",
           ""
         ],
         "Approaches": [
@@ -6382,7 +5667,7 @@
         ]
       },
       "source_blob": "1f67ced882945a1925e3c8dcc3a14deb1be4c7d9",
-      "sha256": "676a2d6eda7980d7a738f8e9cd38d19f8a886be0889e1465999da0a21de8a180"
+      "sha256": "8e0c6e47a53346dfe6d75e7a33d2b2f6b1d3b0bf2fff91f3f31d83e1f0c7a2ad"
     },
     "Resources/AWS Partner FDE pathways.md": {
       "dependencies": {
