@@ -31,6 +31,8 @@ After each invocation of the FDE catalogue skill (`fde-catalogue`) or Staff Engi
 
 Use Conventional Commits with a brief description of the actual content changed, such as `docs(fde): catalogue OrNsoft engagement gates` or `docs(staff): add technical influence source`. Use an appropriate type and optional scope for skill or infrastructure changes. Keep device-local `.agents/` and `.codex/` registrations and generated caches out of Git; `Skills/` is the synced workflow source.
 
+Pushes to `main` trigger `.github/workflows/publish.yml`, which incrementally exports standard Markdown to `published`. Edit the source on `main`; the workflow manages the generated branch and its `.publish-cache.json`. The cache records the last source commit and page dependencies so content edits update only affected pages and tables. `Skills/publish/README.md` documents local export, supported syntax and cache behavior. When changing the exporter, run its tests and inspect a generated export before pushing; report any failed publication workflow.
+
 ## Structure
 
 - `FDE.md` is the evolving synthesis and entry point.

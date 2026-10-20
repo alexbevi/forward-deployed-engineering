@@ -2,6 +2,8 @@
 
 An Obsidian knowledge base about forward deployed engineering and Staff-level engineering practice. It brings together attributed sources, evolving syntheses, practical procedures and useful tools. Source claims, proposed practices and locally observed results are kept distinct.
 
+Read the [published Markdown edition](https://github.com/alexbevi/forward-deployed-engineering/tree/published) for working links and generated catalogue tables on GitHub. It updates automatically from committed changes to `main`.
+
 | Root note | Contents |
 | --- | --- |
 | [FDE.md](FDE.md) | The FDE role, effective execution, peer development, tradeoffs and open questions. |

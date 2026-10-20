@@ -1,0 +1,58 @@
+name: Publish Markdown
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-markdown
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - name: Install exporter dependency
+        run: python -m pip install PyYAML==6.0.3
+      - name: Test incremental export
+        run: python -m unittest discover -s Skills/tests -v
+      - name: Prepare published branch and cache
+        env:
+          PUBLISH_DIR: ${{ runner.temp }}/published
+        run: |
+          if git show-ref --verify --quiet refs/remotes/origin/published; then
+            git worktree add "$PUBLISH_DIR" -B published origin/published
+          else
+            git worktree add --detach "$PUBLISH_DIR" HEAD
+            git -C "$PUBLISH_DIR" switch --orphan published
+          fi
+      - name: Export committed content
+        env:
+          PUBLISH_DIR: ${{ runner.temp }}/published
+          SOURCE_REPOSITORY: https://github.com/${{ github.repository }}
+        run: |
+          python Skills/publish/export.py --output "$PUBLISH_DIR" --repository "$SOURCE_REPOSITORY"
+      - name: Commit and push publication
+        env:
+          PUBLISH_DIR: ${{ runner.temp }}/published
+        run: |
+          git -C "$PUBLISH_DIR" config user.name 'github-actions[bot]'
+          git -C "$PUBLISH_DIR" config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git -C "$PUBLISH_DIR" add --all
+          git -C "$PUBLISH_DIR" diff --cached --check
+          if ! git -C "$PUBLISH_DIR" diff --cached --quiet; then
+            source_commit=$(git rev-parse --short HEAD)
+            git -C "$PUBLISH_DIR" commit -m "docs(publish): export vault at $source_commit"
+            git -C "$PUBLISH_DIR" push origin published
+          fi
