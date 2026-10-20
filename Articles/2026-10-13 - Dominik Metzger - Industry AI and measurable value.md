@@ -1,0 +1,49 @@
+# Industry AI and measurable value
+
+[Read the SAP article](https://news.sap.com/2026/10/industry-ai-deep-industry-knowledge-fde-measurable-value/).
+
+## Contribution and evidence
+
+SAP advocates industry expertise and governed co-development, aiming to convert customer solutions into industry-wide software.
+
+Doehler reports roughly one-third of troubleshooting time recovered. Takeda describes planned supply-chain assistance.
+
+## Limits and interpretation
+
+Measurement methods, baselines, independent verification, reuse results, decision rights, and handover remain unspecified. The vendor's claim of proven compounding exceeds its evidence.
+
+The account supports [Product-oriented FDE](../Operating%20models/Product-oriented%20FDE.md) without resolving that model's ownership questions. Compare [Cresta's more explicit contribution mechanism](2026-10-06%20-%20Jove%20Zhong%20-%20Building%20a%20world-class%20FDE%20team.md).
+
+For a follow-up, request the Doehler measurement boundary and recurring review effort before treating recovered troubleshooting time as net labor savings. This is a proposed evidence check through [Evaluate outcomes and reuse](../Playbooks/Evaluate%20outcomes%20and%20reuse.md), not a locally tested practice.
+
+## Verification
+
+Full article reviewed; title, byline, date, and canonical URL checked against metadata. Repeated SAP cases share provenance, not independent corroboration.
+
+## Record metadata
+
+| Property | Value |
+| --- | --- |
+| type | article |
+| collection | fde |
+| title | Industry AI: Deep Industry Knowledge, Forward-Deployed Engineering, Measurable Value |
+| author | Dominik Metzger |
+| site | SAP News Center |
+| url | https://news.sap.com/2026/10/industry-ai-deep-industry-knowledge-fde-measurable-value/ |
+| canonical_url | https://news.sap.com/2026/10/industry-ai-deep-industry-knowledge-fde-measurable-value/ |
+| publication_date | 2026-10-13 |
+| publication_date_basis | Visible date and article published_time metadata agree |
+| accessed | 2026-10-14 |
+| created | 2026-10-14 |
+| updated | 2026-10-14T13:34 |
+| status | reviewed |
+| source_kind | vendor-perspective |
+| evidence_family | sap-industry-ai-2026 |
+| evidence_basis | practitioner-argument; reported-experience; future-expectation |
+| contribution | Connects industry-specific co-development to shared software ambitions |
+| tags | fde; fde/product-feedback; fde/execution; fde/evaluation |
+| themes | [Role and product feedback](../Themes/Role%20and%20product%20feedback.md); [Field discovery and execution](../Themes/Field%20discovery%20and%20execution.md) |
+| models | [Product-oriented FDE](../Operating%20models/Product-oriented%20FDE.md) |
+| playbooks | [Evaluate outcomes and reuse](../Playbooks/Evaluate%20outcomes%20and%20reuse.md) |
+| people |  |
+| resources |  |

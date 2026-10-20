@@ -1,0 +1,39 @@
+# People
+
+This directory records people whose contributions appear in the sources. It is not an influence ranking. Profiles link to the material that makes each person relevant; organisational authors such as Gartner remain publishers rather than person records.
+
+[All views](Bases/People.md)
+
+### All people
+
+| file.name | relevance | public_url | sources |
+| --- | --- | --- | --- |
+| [Anna Selway](People/Anna%20Selway.md) | Staff-level problem framing, system design, alignment, and capability-building. |  | [2026-08-26 - Anna Selway - Staff engineers shift from solving problems to shaping systems](Articles/2026-08-26%20-%20Anna%20Selway%20-%20Staff%20engineers%20shift%20from%20solving%20problems%20to%20shaping%20systems.md) |
+| [Arun Prasath E G](People/Arun%20Prasath%20E%20G.md) | Embedded delivery, owner decisions, role comparison, and handover. |  | [2026-09-14 - Arun Prasath E G - FDE and adjacent roles](Articles/2026-09-14%20-%20Arun%20Prasath%20E%20G%20-%20FDE%20and%20adjacent%20roles.md); [2026-09-14 - Arun Prasath E G - FDE engagements for owners](Articles/2026-09-14%20-%20Arun%20Prasath%20E%20G%20-%20FDE%20engagements%20for%20owners.md); [2026-09-14 - Arun Prasath E G - How an FDE engagement works](Articles/2026-09-14%20-%20Arun%20Prasath%20E%20G%20-%20How%20an%20FDE%20engagement%20works.md); [2026-09-14 - Arun Prasath E G - What is an FDE](Articles/2026-09-14%20-%20Arun%20Prasath%20E%20G%20-%20What%20is%20an%20FDE.md) |
+| [Carlos Becker](People/Carlos%20Becker.md) | HappyRobot role evolution and domain expertise. |  | [2026-03-18 - Carlos Becker - FDE evolution at HappyRobot](Articles/2026-03-18%20-%20Carlos%20Becker%20-%20FDE%20evolution%20at%20HappyRobot.md) |
+| [Doug McClure](People/Doug%20McClure.md) | PagerDuty organisational evolution and product contribution practices. |  | [2026-03-24 - Doug McClure - How FDE was born at PagerDuty](Articles/2026-03-24%20-%20Doug%20McClure%20-%20How%20FDE%20was%20born%20at%20PagerDuty.md) |
+| [Erik Farr](People/Erik%20Farr.md) | Coauthor of the AWS partner pathways announcement. |  | [2026-10-01 - Karthik Sonti et al - FDE pathways for AWS partners](Articles/2026-10-01%20-%20Karthik%20Sonti%20et%20al%20-%20FDE%20pathways%20for%20AWS%20partners.md) |
+| [James Socol](People/James%20Socol.md) | Staff-level influence on team culture under AI-enabled autonomous delivery. |  | [2026-08-18 - James Socol - Staff engineers must rebuild team culture](Articles/2026-08-18%20-%20James%20Socol%20-%20Staff%20engineers%20must%20rebuild%20team%20culture.md) |
+| [Jeremy Canale](People/Jeremy%20Canale.md) | Governance task-transfer contracts, complete human-work accounting, and DGF-Bench. | https://www.jeremycanale.com | [2026-09-24 - Jeremy Canale - The Last Human Gate](Articles/2026-09-24%20-%20Jeremy%20Canale%20-%20The%20Last%20Human%20Gate.md) |
+| [Jove Zhong](People/Jove%20Zhong.md) | Cresta's engineering-owned FDE model, delivery cadence, evaluation stance, and hiring signals. | https://cresta.com/authors/jove-zhong | [2026-10-06 - Jove Zhong - Building a world-class FDE team](Articles/2026-10-06%20-%20Jove%20Zhong%20-%20Building%20a%20world-class%20FDE%20team.md) |
+| [Karthik Sonti](People/Karthik%20Sonti.md) | Coauthor of the AWS partner pathways announcement. |  | [2026-10-01 - Karthik Sonti et al - FDE pathways for AWS partners](Articles/2026-10-01%20-%20Karthik%20Sonti%20et%20al%20-%20FDE%20pathways%20for%20AWS%20partners.md) |
+| [Mukul Saha](People/Mukul%20Saha.md) | Analyst quoted on vendor engagements and independence. |  | [2026-09-29 - Gartner - Vendor FDE abandonment forecast](Articles/2026-09-29%20-%20Gartner%20-%20Vendor%20FDE%20abandonment%20forecast.md) |
+| [Pablo Bermejo](People/Pablo%20Bermejo.md) | Evaluation, operational feedback, reuse, and supportable dependencies. |  | [2026-09-21 - Pablo Bermejo - Turning intelligence into lasting value](Articles/2026-09-21%20-%20Pablo%20Bermejo%20-%20Turning%20intelligence%20into%20lasting%20value.md) |
+| [Priya Bains](People/Priya%20Bains.md) | Coauthor of the AWS partner pathways announcement. |  | [2026-10-01 - Karthik Sonti et al - FDE pathways for AWS partners](Articles/2026-10-01%20-%20Karthik%20Sonti%20et%20al%20-%20FDE%20pathways%20for%20AWS%20partners.md) |
+| [Vinoo Ganesh](People/Vinoo%20Ganesh.md) | Product-oriented role argument and field-to-product learning. |  | [2026-09-12 - Vinoo Ganesh - The rise of the forward deployed engineer](Articles/2026-09-12%20-%20Vinoo%20Ganesh%20-%20The%20rise%20of%20the%20forward%20deployed%20engineer.md) |
+| [Will Larson](People/Will%20Larson.md) | Staff-level work selection, technical direction, organisational influence, sponsorship, and capability-building. | https://lethain.com/about/ | [2020-09-04 - Will Larson - Work on what matters](Articles/2020-09-04%20-%20Will%20Larson%20-%20Work%20on%20what%20matters.md); [2020-11-28 - Will Larson - What do Staff engineers actually do](Articles/2020-11-28%20-%20Will%20Larson%20-%20What%20do%20Staff%20engineers%20actually%20do.md) |
+
+Add public profiles and dated role information when verified. Record evidence of influence separately from authorship or repeated mentions. Do not infer a person's biography from their site's title or how often we have catalogued their work.
+
+Return to [Catalogue](Catalogue.md) and [FDE](FDE.md).
+
+## Record metadata
+
+| Property | Value |
+| --- | --- |
+| type | index |
+| collection | fde |
+| status | evolving |
+| created | 2026-10-05 |
+| updated | 2026-10-05 |
+| tags | fde |
