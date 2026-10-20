@@ -2,7 +2,7 @@
 
 `main` holds the Obsidian source. The `Publish Markdown` GitHub Actions workflow exports it to the generated [`published` branch](https://github.com/alexbevi/forward-deployed-engineering/tree/published) after each push to `main`, or on manual dispatch. Publication commits use `docs(publish): export vault at <source commit>`.
 
-The exporter converts wikilinks and heading references to relative Markdown links, turns PDF embeds into attachment links, and renders frontmatter as a metadata table. Embedded Bases show their first view with a link to a generated page containing all views. Links to tracked workflow files excluded from the edition point back to `main`. Code examples and fenced PDF search text remain literal.
+The exporter converts wikilinks and heading references to relative Markdown links, turns PDF embeds into attachment links, and renders frontmatter as a metadata table. Base embeds become links to generated pages containing all their views. Links to tracked workflow files excluded from the edition point back to `main`. Code examples and fenced PDF search text remain literal.
 
 ## Incremental cache
 
@@ -10,7 +10,7 @@ The published branch retains `.publish-cache.json`, including the last exported 
 
 - Unchanged notes reuse cached metadata and rendered files.
 - A body-only edit renders that note.
-- Changed metadata can update a Base and pages embedding it. Base signatures reflect the selected rows, columns and grouping, so unrelated tables stay cached.
+- Changed metadata can update a Base. Base signatures reflect the selected rows, columns and grouping, so unrelated tables and pages linking to them stay cached.
 - Renames and deletions remove stale outputs; incoming links must still resolve.
 - Missing or modified output files are restored. Exporter code changes rebuild the cache.
 

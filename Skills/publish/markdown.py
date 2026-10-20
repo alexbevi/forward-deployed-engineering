@@ -166,7 +166,9 @@ class Renderer:
         )
         label = (
             label
-            or posixpath.basename(target.split("#")[0]).removesuffix(".md")
+            or posixpath.basename(target.split("#")[0])
+            .removesuffix(".md")
+            .removesuffix(".base")
             or target.lstrip("#")
         )
         label = label.replace("[", "\\[").replace("]", "\\]")
@@ -183,11 +185,7 @@ class Renderer:
         def replace(match):
             embed, content = match.groups()
             target, _, label = content.partition("|")
-            if embed and target.endswith(".base"):
-                deps["base:" + target] = self.bases[target]["signature"]
-                navigation = self.link(target, caller, deps, "All views")
-                return navigation + "\n\n" + self.base(target, caller, deps, first=True)
-            if embed and not target.split("#")[0].endswith(".pdf"):
+            if embed and not target.split("#")[0].endswith((".pdf", ".base")):
                 raise ValueError(f"{caller}: unsupported embed {target}")
             return self.link(target, caller, deps, label)
 
@@ -209,11 +207,10 @@ class Renderer:
             .replace("\n", "<br>")
         )
 
-    def base(self, path: str, caller: str, deps: dict, first: bool = False) -> str:
+    def base(self, path: str, caller: str, deps: dict) -> str:
         parts = []
-        views = self.bases[path]["views"][:1] if first else self.bases[path]["views"]
-        for view in views:
-            parts.append(("### " if first else "## ") + view["name"])
+        for view in self.bases[path]["views"]:
+            parts.append("## " + view["name"])
             groups = sorted(
                 {row["group"] for row in view["rows"]},
                 reverse=view["group"].get("direction") == "DESC",

@@ -134,7 +134,7 @@ views:
         self.assertEqual(result["rendered"], ["Articles/One.md"])
         self.assert_matches_fresh()
 
-    def test_metadata_edit_rebuilds_affected_base_and_embed(self):
+    def test_metadata_edit_rebuilds_base_and_reuses_linking_page(self):
         self.export()
         path = self.root / "Articles/One.md"
         self.write(
@@ -145,7 +145,7 @@ views:
         result = self.export()
         self.assertEqual(
             set(result["rendered"]),
-            {"Articles/One.md", "Bases/Sources.md", "README.md"},
+            {"Articles/One.md", "Bases/Sources.md"},
         )
         self.assert_matches_fresh()
 
@@ -213,6 +213,8 @@ views:
         self.assertIn("[PDF page](Attachments/test.pdf#page=2)", text)
         self.assertIn("`[[literal]]`", text)
         self.assertIn("~~~text\n[[also literal]]\n~~~", text)
+        self.assertIn("[Sources](Bases/Sources.md)", text)
+        self.assertNotIn("| file.name |", text)
         base = (self.output / "Bases/Sources.md").read_text()
         self.assertIn("### alpha", base)
         self.assertIn("[One](../Articles/One.md)", base)
