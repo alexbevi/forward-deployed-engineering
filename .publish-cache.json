@@ -1,6 +1,6 @@
 {
   "fingerprint": "4cb01aa2cb6742c5a97a4919d5ab595143e009f9a5c40e578a2f737c60273d2b",
-  "source_commit": "a2f137c207430510066a5770329c745bac354fc3",
+  "source_commit": "c099ab68fecc3f8fe1dd315ead206b82ceab9c7b",
   "records": {
     "AGENTS.md": {
       "path": "AGENTS.md",
@@ -1355,6 +1355,56 @@
         "Verification": "verification"
       }
     },
+    "Articles/2026-10-19 - Caroline Clark - What is a Forward Deployed Product Manager.md": {
+      "path": "Articles/2026-10-19 - Caroline Clark - What is a Forward Deployed Product Manager.md",
+      "meta": {
+        "type": "article",
+        "collection": "fde",
+        "title": "What is a Forward Deployed Product Manager, anyway?",
+        "author": [
+          "Caroline Clark"
+        ],
+        "site": "Mind the Product",
+        "url": "https://www.mindtheproduct.com/what-is-a-forward-deployed-product-manager-anyway/",
+        "canonical_url": "https://www.mindtheproduct.com/what-is-a-forward-deployed-product-manager-anyway/",
+        "publication_date": "2026-10-19",
+        "publication_date_basis": "Visible date, article:published_time and JSON-LD datePublished agree",
+        "source_updated": "2026-10-19",
+        "source_updated_basis": "article:modified_time and JSON-LD dateModified",
+        "accessed": "2026-10-20",
+        "created": "2026-10-20",
+        "updated": "2026-10-20",
+        "status": "reviewed",
+        "source_kind": "practitioner-overview",
+        "evidence_family": "mindtheproduct-fdpm-clark-2026",
+        "evidence_basis": [
+          "practitioner-argument",
+          "reported-experience",
+          "hypothetical-example"
+        ],
+        "contribution": "Adjacent product role connecting customer outcomes with roadmap decisions",
+        "tags": [
+          "fde",
+          "fde/adjacent-roles",
+          "fde/product-feedback"
+        ],
+        "themes": [
+          "[[Themes/Role and product feedback]]"
+        ],
+        "models": [
+          "[[Operating models/Product-oriented FDE]]"
+        ],
+        "playbooks": [],
+        "people": [],
+        "resources": []
+      },
+      "headings": {
+        "What is a Forward Deployed Product Manager, anyway?": "what-is-a-forward-deployed-product-manager-anyway",
+        "Adjacent function": "adjacent-function",
+        "Evidence and interpretation": "evidence-and-interpretation",
+        "Verification": "verification"
+      }
+    },
     "Articles/undated - Atlassian - Forward deployed engineering playbook.md": {
       "path": "Articles/undated - Atlassian - Forward deployed engineering playbook.md",
       "meta": {
@@ -1741,7 +1791,7 @@
         "type": "operating-model",
         "collection": "fde",
         "created": "2026-10-05",
-        "updated": "2026-10-14T13:33",
+        "updated": "2026-10-20",
         "tags": [
           "fde"
         ],
@@ -1752,6 +1802,7 @@
         "ownership": "Product stewardship with customer operational responsibilities to establish",
         "success_measure": "Customer results and accepted shared capabilities",
         "sources": [
+          "[[Articles/2026-10-19 - Caroline Clark - What is a Forward Deployed Product Manager]]",
           "[[Articles/2026-10-13 - Dominik Metzger - Industry AI and measurable value]]",
           "[[Articles/2026-09-12 - Vinoo Ganesh - The rise of the forward deployed engineer]]",
           "[[Articles/2026-03-24 - Doug McClure - How FDE was born at PagerDuty]]",
@@ -2615,7 +2666,7 @@
         "collection": "fde",
         "status": "evolving",
         "created": "2026-10-05",
-        "updated": "2026-10-19",
+        "updated": "2026-10-20",
         "tags": [
           "fde",
           "fde/role",
@@ -3877,6 +3928,32 @@
       "source_blob": "0b44bd257329d8826c6f506229ec83fddbc89ee1",
       "sha256": "c156901538f28842ec9cfdd5501980997e8aed73b5a22d3383b2010285ef7b15"
     },
+    "Articles/2026-10-19 - Caroline Clark - What is a Forward Deployed Product Manager.md": {
+      "dependencies": {
+        "Operating models/Product-oriented FDE": [
+          "Operating models/Product-oriented FDE.md",
+          ""
+        ],
+        "Playbooks/Scope an engagement": [
+          "Playbooks/Scope an engagement.md",
+          ""
+        ],
+        "Articles/2026-10-16 - McKinsey - What is a forward-deployed engineer": [
+          "Articles/2026-10-16 - McKinsey - What is a forward-deployed engineer.md",
+          ""
+        ],
+        "Articles/2026-10-06 - Jove Zhong - Building a world-class FDE team": [
+          "Articles/2026-10-06 - Jove Zhong - Building a world-class FDE team.md",
+          ""
+        ],
+        "Themes/Role and product feedback": [
+          "Themes/Role and product feedback.md",
+          ""
+        ]
+      },
+      "source_blob": "ff751dcd70e53f62fbc94ab18074f84a7a935a90",
+      "sha256": "6a957104147d64c1193409b310eea1254828a566b32d4c203894d369b24ba16a"
+    },
     "Articles/undated - Atlassian - Forward deployed engineering playbook.md": {
       "dependencies": {
         "Attachments/atlassian-fde-playbook-c9cd5956a217.pdf": [
@@ -4121,7 +4198,7 @@
     },
     "Bases/Operating models.md": {
       "dependencies": {
-        "base:Bases/Operating models.base": "24f36768d52c0ff87e6f878d486c8d5ef384b240a2b04a782b9a937a80c66b1f",
+        "base:Bases/Operating models.base": "5ac5bbfc8163dedd53233eb935475b4e4771c174ccf048445c4d97f0beac1913",
         "Operating models/Atlassian co-engineering.md": [
           "Operating models/Atlassian co-engineering.md",
           ""
@@ -4182,6 +4259,10 @@
           "Operating models/Product-oriented FDE.md",
           ""
         ],
+        "Articles/2026-10-19 - Caroline Clark - What is a Forward Deployed Product Manager": [
+          "Articles/2026-10-19 - Caroline Clark - What is a Forward Deployed Product Manager.md",
+          ""
+        ],
         "Articles/2026-10-13 - Dominik Metzger - Industry AI and measurable value": [
           "Articles/2026-10-13 - Dominik Metzger - Industry AI and measurable value.md",
           ""
@@ -4200,7 +4281,7 @@
         ]
       },
       "source_blob": "cbaf2207d36514483d6477bcd762aac50083ef5b",
-      "sha256": "3085afe852eef7f9f32935296b52cd88b0d2c1fbe9941e17132f390f42caf9dc"
+      "sha256": "f6855f80c9a4d22b0f29b005e3554e07c30ae63753634c12a0365640f42ebec2"
     },
     "Bases/People.md": {
       "dependencies": {
@@ -4489,7 +4570,7 @@
     },
     "Bases/Sources.md": {
       "dependencies": {
-        "base:Bases/Sources.base": "29574cf359b1471d0c068218f3a3618bde18261c088f38d92fa19f06ac5db7a1",
+        "base:Bases/Sources.base": "7a7f11d2bade30450685569e0c99b1d025e72bf60994714197a60684cda7cf9f",
         "Articles/2020-09-04 - Will Larson - Work on what matters.md": [
           "Articles/2020-09-04 - Will Larson - Work on what matters.md",
           ""
@@ -4662,6 +4743,10 @@
           "Articles/2026-10-16 - McKinsey - What is a forward-deployed engineer.md",
           ""
         ],
+        "Articles/2026-10-19 - Caroline Clark - What is a Forward Deployed Product Manager.md": [
+          "Articles/2026-10-19 - Caroline Clark - What is a Forward Deployed Product Manager.md",
+          ""
+        ],
         "Articles/undated - Atlassian - Forward deployed engineering playbook.md": [
           "Articles/undated - Atlassian - Forward deployed engineering playbook.md",
           ""
@@ -4692,7 +4777,7 @@
         ]
       },
       "source_blob": "fe01b99ce28b7a1e9dee85cdd07bf1a05aeae470",
-      "sha256": "fe3212b5b3be454b6800a1eca9753df8e2f54027fc76e2803e7a766f29bb6030"
+      "sha256": "6c02c6b977d90882a4e3d0c9e98623bb249178ce25a0dd92a25afa1f1e9cbc76"
     },
     "Catalogue.md": {
       "dependencies": {
@@ -5140,6 +5225,10 @@
           "Articles/2026-09-21 - Pablo Bermejo - Turning intelligence into lasting value.md",
           ""
         ],
+        "Articles/2026-10-19 - Caroline Clark - What is a Forward Deployed Product Manager": [
+          "Articles/2026-10-19 - Caroline Clark - What is a Forward Deployed Product Manager.md",
+          ""
+        ],
         "Articles/2026-10-13 - Dominik Metzger - Industry AI and measurable value": [
           "Articles/2026-10-13 - Dominik Metzger - Industry AI and measurable value.md",
           ""
@@ -5157,8 +5246,8 @@
           ""
         ]
       },
-      "source_blob": "0d409f145e1129f4fcdc3e95b91ebf9e4b8aca07",
-      "sha256": "6b06976f8286dc33bc191903d5411736046c9534adab04ef0c82fba40b1bf16c"
+      "source_blob": "d3fe7e377c24b9ddca07bcf495bcc378682accff",
+      "sha256": "b2b3a3c210b6cdb12c9d47547ee7496520a2d7bdfb92b907f640af2d2fe41918"
     },
     "People.md": {
       "dependencies": {
@@ -6055,6 +6144,10 @@
     },
     "Themes/Role and product feedback.md": {
       "dependencies": {
+        "Articles/2026-10-19 - Caroline Clark - What is a Forward Deployed Product Manager": [
+          "Articles/2026-10-19 - Caroline Clark - What is a Forward Deployed Product Manager.md",
+          ""
+        ],
         "Articles/2026-10-16 - McKinsey - What is a forward-deployed engineer": [
           "Articles/2026-10-16 - McKinsey - What is a forward-deployed engineer.md",
           ""
@@ -6148,8 +6241,8 @@
           ""
         ]
       },
-      "source_blob": "e39beda840c89929cb28e7f781f0fd90a684e4ba",
-      "sha256": "4fb1b3b9960fc0458fbb6d0c4189408be11966585684f4cacf766891816e0c7f"
+      "source_blob": "d5005a03355f463bad7d93fbd4ea4dbfa7d66492",
+      "sha256": "f083dab5dfe8e2c420e5279d12a87f9b106b3c285111c935d92d51408dd1eb7f"
     },
     "Themes/Staff engineering and influence.md": {
       "dependencies": {
