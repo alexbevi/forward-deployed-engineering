@@ -1,0 +1,8 @@
+# Device-local Codex registrations
+/.agents/
+/.codex/
+
+# Python caches and macOS metadata
+__pycache__/
+*.py[cod]
+.DS_Store

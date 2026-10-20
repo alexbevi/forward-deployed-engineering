@@ -1,0 +1,16 @@
+filters:
+  and:
+    - file.ext == "md"
+    - note.collection == "fde"
+    - note.type == "approach"
+views:
+  - type: table
+    name: All approaches
+    order:
+      - file.name
+      - purpose
+      - application_scope
+      - evidence_status
+      - application_status
+      - sources
+      - playbooks

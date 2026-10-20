@@ -1,0 +1,16 @@
+filters:
+  and:
+  - file.ext == "md"
+  - note.collection == "fde"
+  - note.type == "operating-model"
+views:
+- type: table
+  name: All operating models
+  order:
+  - file.name
+  - note.mandate
+  - note.engagement_type
+  - note.ownership
+  - note.success_measure
+  - note.evidence_status
+  - note.sources

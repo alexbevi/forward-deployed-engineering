@@ -1,0 +1,35 @@
+filters:
+  and:
+  - file.ext == "md"
+  - note.collection == "fde"
+  - note.type == "resource"
+views:
+- type: table
+  name: All resources
+  order:
+  - file.name
+  - note.resource_kind
+  - note.purpose
+  - note.status
+  - note.availability
+  - note.last_verified
+  - note.reviewed_version
+  - note.reviewed_revision
+  - note.license
+  - note.review_scope
+  - note.url
+  - note.sources
+  - note.attachments
+  - note.text_indexes
+- type: table
+  name: Unreviewed leads
+  filters: note.status == "mentioned"
+  order:
+  - file.name
+  - note.resource_kind
+  - note.purpose
+  - note.status
+  - note.availability
+  - note.last_verified
+  - note.url
+  - note.sources

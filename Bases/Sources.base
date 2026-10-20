@@ -1,0 +1,67 @@
+filters:
+  and:
+  - file.ext == "md"
+  - note.collection == "fde"
+  - note.type == "article"
+views:
+- type: table
+  name: All sources
+  order:
+  - file.name
+  - note.author
+  - note.publication_date
+  - note.source_kind
+  - note.evidence_basis
+  - note.evidence_family
+  - note.contribution
+  - note.status
+  - note.themes
+  - note.people
+  - note.attachments
+  - note.text_indexes
+  - note.source_format
+  - note.approaches
+- type: table
+  name: By source family
+  groupBy:
+    property: note.evidence_family
+    direction: ASC
+  order:
+  - file.name
+  - note.evidence_basis
+  - note.contribution
+  - note.author
+- type: table
+  name: Missing metadata or partial access
+  filters:
+    or:
+    - note.status == "partial"
+    - note.publication_date == null
+    - note.canonical_url == null
+    - note.author.length == 0
+  order:
+  - file.name
+  - note.status
+  - note.publication_date
+  - note.canonical_url
+  - note.author
+- type: table
+  name: Downloaded documents
+  filters: note.source_format == "pdf"
+  order:
+  - file.name
+  - note.publication_month
+  - note.attachments
+  - note.text_indexes
+  - note.status
+- type: table
+  name: Research papers
+  filters: note.source_kind == "research-paper"
+  order:
+  - file.name
+  - note.arxiv_id
+  - note.arxiv_version
+  - note.research_status
+  - note.evidence_basis
+  - note.approaches
+  - note.playbooks

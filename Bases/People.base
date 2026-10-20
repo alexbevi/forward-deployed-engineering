@@ -1,0 +1,13 @@
+filters:
+  and:
+  - file.ext == "md"
+  - note.collection == "fde"
+  - note.type == "person"
+views:
+- type: table
+  name: All people
+  order:
+  - file.name
+  - note.relevance
+  - note.public_url
+  - note.sources

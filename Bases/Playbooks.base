@@ -1,0 +1,14 @@
+filters:
+  and:
+  - file.ext == "md"
+  - note.collection == "fde"
+  - note.type == "playbook"
+views:
+- type: table
+  name: All playbooks
+  order:
+  - file.name
+  - note.purpose
+  - note.practice_status
+  - note.status
+  - note.sources
