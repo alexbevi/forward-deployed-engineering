@@ -35,11 +35,18 @@ def install_local(root: Path) -> None:
     discovery.mkdir(parents=True, exist_ok=True)
     for skill in sorted((root / "Skills").glob("*/SKILL.md")):
         link = discovery / skill.parent.name
-        if link.is_symlink() and link.resolve() == skill.parent.resolve():
+        if (link.is_symlink() or getattr(link, "is_junction", lambda: False)()) and link.resolve() == skill.parent.resolve():
             continue
         if link.exists() or link.is_symlink():
             raise FileExistsError(f"Preserved existing discovery entry: {link}")
-        link.symlink_to(Path("../..") / "Skills" / skill.parent.name, target_is_directory=True)
+        try:
+            link.symlink_to(Path("../..") / "Skills" / skill.parent.name, target_is_directory=True)
+        except OSError as exc:
+            if os.name != "nt" or exc.winerror != 1314:
+                raise
+            # Directory junctions do not require Windows symlink privileges.
+            subprocess.run(["cmd", "/c", "mklink", "/J", str(link), str(skill.parent.resolve())],
+                           check=True, capture_output=True, text=True)
 
     config_dir = root / ".codex"
     config_dir.mkdir(exist_ok=True)
@@ -48,10 +55,13 @@ def install_local(root: Path) -> None:
     hooks = json.loads(original) if original else {}
     hooks.setdefault("description", "FDE vault session prerequisites: verify catalogue skills and Obsidian Sync once per session.")
     groups = hooks.setdefault("hooks", {}).setdefault("SessionStart", [])
-    command = shlex.join(["python3", str(root / "Skills" / "check_session.py"), "--hook"])
-    matching = [h for g in groups for h in g.get("hooks", []) if h.get("command") == command]
+    command_args = [sys.executable if os.name == "nt" else "python3", str(root / "Skills" / "check_session.py"), "--hook"]
+    command = subprocess.list2cmdline(command_args) if os.name == "nt" else shlex.join(command_args)
+    legacy_command = shlex.join(["python3", str(root / "Skills" / "check_session.py"), "--hook"])
+    matching = [h for g in groups for h in g.get("hooks", []) if h.get("command") in {command, legacy_command}]
     if matching:
         for handler in matching:
+            handler["command"] = command
             handler["statusMessage"] = HOOK_LABEL
     else:
         groups.append({

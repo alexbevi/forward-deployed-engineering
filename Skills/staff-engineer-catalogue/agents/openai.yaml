@@ -1,0 +1,4 @@
+interface:
+  display_name: "Staff Engineer Catalogue"
+  short_description: "Catalogue Staff+ sources with clear FDE boundaries"
+  default_prompt: "Use $staff-engineer-catalogue to catalogue this Staff+ source and reconcile any evidenced FDE overlap."

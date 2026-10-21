@@ -9,6 +9,8 @@ Work in the folder containing `FDE.md` and `AGENTS.md`. Help the user understand
 
 For general agentic development without a concrete FDE application, use `Skills/agentic-development-catalogue/SKILL.md` and its independent collection. Technical overlap alone does not justify adding a source to FDE or Staff guidance. Reuse a source already catalogued in another collection and qualify the application rather than duplicating it.
 
+For material primarily about Staff, Principal or senior individual-contributor practice, use [../staff-engineer-catalogue/SKILL.md](../staff-engineer-catalogue/SKILL.md). It shares this workflow's metadata and validation tools while maintaining `Staff Engineer.md` separately; reconcile concrete FDE overlap through one source record.
+
 ## Read and identify
 
 Read the local instructions, `FDE.md`, and relevant catalogues and practical notes. Fetch the supplied source itself; snippets are not sufficient. Verify title, author, site, and dates using visible content and metadata. Preserve the supplied URL and any declared canonical URL. Distinguish publication, republication, modification, retrieval, and note-creation dates; label uncertain date bases.

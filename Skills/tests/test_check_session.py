@@ -138,6 +138,26 @@ class SessionCheckTests(unittest.TestCase):
             CHECK.install_local(self.root)
         self.assertEqual(marker.read_text(), "preserved")
 
+    def test_install_migrates_legacy_hook_and_links_staff_source(self):
+        staff = self.root / "Skills/staff-engineer-catalogue"
+        staff.mkdir()
+        (staff / "SKILL.md").write_text("Staff workflow")
+        CHECK.install_local(self.root)
+        self.assertEqual((self.root / ".agents/skills/staff-engineer-catalogue").resolve(), staff)
+        path = self.root / ".codex/hooks.json"
+        hooks = json.loads(path.read_text())
+        handler = hooks["hooks"]["SessionStart"][0]["hooks"][0]
+        handler["command"] = CHECK.shlex.join(["python3", str(self.root / "Skills/check_session.py"), "--hook"])
+        handler["timeout"] = 30
+        path.write_text(json.dumps(hooks))
+        CHECK.install_local(self.root)
+        updated = json.loads(path.read_text())["hooks"]["SessionStart"]
+        self.assertEqual(len(updated), 1)
+        self.assertEqual(updated[0]["hooks"][0]["timeout"], 30)
+        if CHECK.os.name == "nt":
+            self.assertEqual(updated[0]["hooks"][0]["command"], CHECK.subprocess.list2cmdline(
+                [CHECK.sys.executable, str(self.root / "Skills/check_session.py"), "--hook"]))
+
     def test_agentic_skill_is_discovered_and_missing_files_are_reported(self):
         CHECK.install_local(self.root)
         self.assertEqual((self.root / ".agents/skills/agentic-development-catalogue").resolve(),

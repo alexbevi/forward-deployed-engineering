@@ -33,7 +33,7 @@ Maintain `Agentic Development.md` around reusable mechanisms, tradeoffs, evidenc
 
 Assess FDE and Staff relevance separately. A shared keyword, an author's seniority, or the fact that an FDE uses coding agents does not establish a role-specific conclusion. Cross-reference an existing role note only when the material informs a concrete task or decision. Explain the proposed application, assumptions and evidence limits near that link. Keep the domain source as the single evidence record; a role-specific adaptation does not become independent corroboration.
 
-Edit `FDE.md` or `Staff Engineer.md` only when that application changes or qualifies their existing guidance. Leave them unchanged when the contribution is general agentic development. Material primarily about FDE or Staff practice uses its own catalogue workflow; a missing Staff skill is not permission to substitute this one. Navigation between entry points is distinct from claiming evidential support.
+Edit `FDE.md` or `Staff Engineer.md` only when that application changes or qualifies their existing guidance. Leave them unchanged when the contribution is general agentic development. Material primarily about FDE or Staff practice uses [../fde-catalogue/SKILL.md](../fde-catalogue/SKILL.md) or [../staff-engineer-catalogue/SKILL.md](../staff-engineer-catalogue/SKILL.md), respectively; a missing Staff skill is not permission to substitute this one. Navigation between entry points is distinct from claiming evidential support.
 
 ## Validate and publish
 
