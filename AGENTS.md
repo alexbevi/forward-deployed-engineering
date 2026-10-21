@@ -1,6 +1,6 @@
 ---
 created: 2026-10-05T19:38
-updated: 2026-10-21T10:40
+updated: 2026-10-21T10:42
 ---
 
 # Working in this FDE vault
@@ -29,7 +29,7 @@ The skill owns the ingestion workflow and metadata schema. Keep those instructio
 
 ## Git synchronization
 
-The canonical Git repository is [alexbevi/forward-deployed-engineering](https://github.com/alexbevi/forward-deployed-engineering.git), with remote `origin` and branch `main`. Keep the repository URL in this entry rather than duplicating it in skills. If a deployment lacks Git metadata, use this URL to restore the checkout and remote while preserving local files.
+The canonical Git remote is `git@github.com:alexbevi/forward-deployed-engineering.git`, with remote `origin` and branch `main`. Keep the repository URL in this entry rather than duplicating it in skills. If a deployment lacks Git metadata, use this URL to restore the checkout and remote while preserving local files.
 
 After each invocation of `fde-catalogue`, `staff-engineer-catalogue` or `agentic-development-catalogue`, finish the relevant validation, review the changes, commit the changes made by that invocation when any, and run `git push origin main` before reporting completion. Routine commits and pushes are authorised; do not ask for confirmation again. Work on `main`, stage the invocation's content and related maintenance changes explicitly, and preserve unrelated work. Do not create empty commits or force-push. If a commit or push cannot complete, report the blocker and any changes still awaiting synchronization.
 
