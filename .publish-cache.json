@@ -1,12 +1,12 @@
 {
   "fingerprint": "4cb01aa2cb6742c5a97a4919d5ab595143e009f9a5c40e578a2f737c60273d2b",
-  "source_commit": "4f1ed432e47b70e85e196c10a951ed2d9ac273e6",
+  "source_commit": "8fe6b8b770b65215fefa3c81349bc5e16ca46de0",
   "records": {
     "AGENTS.md": {
       "path": "AGENTS.md",
       "meta": {
         "created": "2026-10-05T19:38",
-        "updated": "2026-10-21"
+        "updated": "2026-10-21T10:42"
       },
       "headings": {
         "Working in this FDE vault": "working-in-this-fde-vault",
@@ -3083,10 +3083,11 @@
     "AGENTS.md": {
       "dependencies": {
         "markdown:Skills/fde-catalogue/SKILL.md": "https://github.com/alexbevi/forward-deployed-engineering/blob/main/Skills/fde-catalogue/SKILL.md",
-        "markdown:Skills/agentic-development-catalogue/SKILL.md": "https://github.com/alexbevi/forward-deployed-engineering/blob/main/Skills/agentic-development-catalogue/SKILL.md"
+        "markdown:Skills/agentic-development-catalogue/SKILL.md": "https://github.com/alexbevi/forward-deployed-engineering/blob/main/Skills/agentic-development-catalogue/SKILL.md",
+        "markdown:Skills/staff-engineer-catalogue/SKILL.md": "https://github.com/alexbevi/forward-deployed-engineering/blob/main/Skills/staff-engineer-catalogue/SKILL.md"
       },
-      "source_blob": "7137c691e00e523ab6d89b80a86abd88044b2df3",
-      "sha256": "574d11ab7a903d853e28aa53944c9b17a955de1ed7ea501ca255e2518725129f"
+      "source_blob": "18fbedf1cb9033f75d65dab47a9aaf8824c45c19",
+      "sha256": "97f3a7d40a061e1a1a5096295ee4baff846db3b6b13b1971ac731bfe7601bb0e"
     },
     "Agentic Development.md": {
       "dependencies": {
