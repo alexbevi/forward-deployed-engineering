@@ -3,7 +3,7 @@ type: theme
 collection: fde
 status: evolving
 created: 2026-10-06
-updated: 2026-10-09T11:58
+updated: 2026-10-21T10:51
 tags:
   - fde
   - fde/staff-engineering
@@ -20,6 +20,10 @@ How do senior individual contributors shape technical systems, decisions, collab
 - [[Articles/2020-09-04 - Will Larson - Work on what matters|Larson, 2020]]. Work-selection failure modes and a conditional prioritisation lens based on consequence, room, attention, completion, and distinctive capability.
 - [[Articles/2026-08-26 - Anna Selway - Staff engineers shift from solving problems to shaping systems|Selway, 2026]]. Problem selection, system-level intervention, alignment, and impact that persists without the originating engineer.
 - [[Articles/2026-08-18 - James Socol - Staff engineers must rebuild team culture|Socol, 2026]]. Deliberate cultural reinforcement when AI enables more independent work.
+
+## Qualified domain connection
+
+[[Articles/2026-10-12 - Robert Kimani - Your engineering strategy has a new failure mode|Kimani]] is catalogued in [[Agentic Development]], with a proposed application under [[Staff Engineer#Carry engineering context across boundaries]]. This connection does not add an independent Staff evidence source.
 
 ## Questions for future sources
 

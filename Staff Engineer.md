@@ -3,7 +3,7 @@ type: synthesis
 collection: fde
 status: evolving
 created: 2026-10-06
-updated: 2026-10-09T11:58
+updated: 2026-10-21T10:51
 tags:
   - fde
   - fde/staff-engineering
@@ -40,6 +40,8 @@ Finite capacity makes opportunity cost visible. Before taking on work, ask what 
 Larson describes technical direction as pragmatic advocacy for the organisation's technology, grounded in real organisational needs rather than an engineer's preferred tools. Staff engineers may also enter infrequent, consequential decisions before the usual routines have assembled the right perspectives. Their contribution is to make engineering constraints, options, and long-term consequences legible while representing engineering broadly rather than promoting a personal position.
 
 Exploration is a related but distinct responsibility when incremental improvement cannot reach an ambiguous, important opportunity or risk. It needs a bounded question, resources, decision points, and enough organisational trust to learn from failure. The source describes this work but does not supply an evaluation method.
+
+A qualified application of [[Articles/2026-10-12 - Robert Kimani - Your engineering strategy has a new failure mode|Kimani]]'s domain argument is to carry cross-team delivery signals to decision owners. This assumes access and an escalation route; it neither grants investment authority nor establishes measured Staff outcomes. The source remains in [[Agentic Development]].
 
 ### Shape the problem before scaling the solution
 
