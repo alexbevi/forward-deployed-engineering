@@ -1,12 +1,12 @@
 {
   "fingerprint": "4cb01aa2cb6742c5a97a4919d5ab595143e009f9a5c40e578a2f737c60273d2b",
-  "source_commit": "c099ab68fecc3f8fe1dd315ead206b82ceab9c7b",
+  "source_commit": "4f1ed432e47b70e85e196c10a951ed2d9ac273e6",
   "records": {
     "AGENTS.md": {
       "path": "AGENTS.md",
       "meta": {
         "created": "2026-10-05T19:38",
-        "updated": "2026-10-20"
+        "updated": "2026-10-21"
       },
       "headings": {
         "Working in this FDE vault": "working-in-this-fde-vault",
@@ -15,6 +15,25 @@
         "Git synchronization": "git-synchronization",
         "Structure": "structure",
         "Editorial rules": "editorial-rules"
+      }
+    },
+    "Agentic Development.md": {
+      "path": "Agentic Development.md",
+      "meta": {
+        "type": "synthesis",
+        "collection": "agentic-development",
+        "status": "evolving",
+        "created": "2026-10-21",
+        "updated": "2026-10-21",
+        "tags": [
+          "agentic-development"
+        ]
+      },
+      "headings": {
+        "Agentic development": "agentic-development",
+        "Initial working position": "initial-working-position",
+        "Reading and evidence": "reading-and-evidence",
+        "Questions to investigate": "questions-to-investigate"
       }
     },
     "Approaches.md": {
@@ -1196,6 +1215,54 @@
         "Verification": "verification"
       }
     },
+    "Articles/2026-10-13 - Naresh Jain - Are Harnesses Worth the Cost.md": {
+      "path": "Articles/2026-10-13 - Naresh Jain - Are Harnesses Worth the Cost.md",
+      "meta": {
+        "type": "article",
+        "collection": "agentic-development",
+        "title": "Are Harnesses Worth the Cost?",
+        "author": [
+          "Naresh Jain"
+        ],
+        "site": "martinfowler.com",
+        "url": "https://www.martinfowler.com/articles/are-harnesses-worth-the-cost.html",
+        "canonical_url": null,
+        "publication_date": "2026-10-13",
+        "publication_date_basis": "Visible date and Significant Revisions first-publication entry",
+        "source_updated": "2026-10-13",
+        "source_updated_basis": "HTML og:article:modified_time",
+        "accessed": "2026-10-21",
+        "created": "2026-10-21",
+        "updated": "2026-10-21",
+        "status": "reviewed",
+        "source_kind": "practitioner-experiment",
+        "evidence_family": "naresh-jain-harness-cost-2026",
+        "evidence_basis": [
+          "reported-experiment",
+          "practitioner-argument"
+        ],
+        "contribution": "Separates development feedback from acceptance and questions harness economics",
+        "tags": [
+          "agentic-development",
+          "agentic-development/harnesses",
+          "agentic-development/verification",
+          "agentic-development/economics"
+        ],
+        "themes": [
+          "[[Themes/Agent harnesses and verification]]"
+        ],
+        "models": [],
+        "approaches": [],
+        "playbooks": [],
+        "people": [],
+        "resources": [],
+        "role_applications": []
+      },
+      "headings": {
+        "Are Harnesses Worth the Cost?": "are-harnesses-worth-the-cost",
+        "Placement and verification": "placement-and-verification"
+      }
+    },
     "Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works.md": {
       "path": "Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works.md",
       "meta": {
@@ -1590,7 +1657,7 @@
         "collection": "fde",
         "status": "evolving",
         "created": "2026-10-05",
-        "updated": "2026-10-06T10:44",
+        "updated": "2026-10-21",
         "tags": [
           "fde"
         ]
@@ -2617,6 +2684,26 @@
         "Reading map": "reading-map"
       }
     },
+    "Themes/Agent harnesses and verification.md": {
+      "path": "Themes/Agent harnesses and verification.md",
+      "meta": {
+        "type": "theme",
+        "collection": "agentic-development",
+        "status": "evolving",
+        "created": "2026-10-21",
+        "updated": "2026-10-21",
+        "tags": [
+          "agentic-development",
+          "agentic-development/verification",
+          "agentic-development/harnesses"
+        ]
+      },
+      "headings": {
+        "Agent harnesses and verification": "agent-harnesses-and-verification",
+        "Catalogue": "catalogue",
+        "Questions to investigate": "questions-to-investigate"
+      }
+    },
     "Themes/Field discovery and execution.md": {
       "path": "Themes/Field discovery and execution.md",
       "meta": {
@@ -2722,6 +2809,48 @@
     }
   },
   "specs": {
+    "Bases/Agentic sources.base": {
+      "filters": {
+        "and": [
+          "file.ext == \"md\"",
+          "note.collection == \"agentic-development\"",
+          "note.type == \"article\""
+        ]
+      },
+      "views": [
+        {
+          "type": "table",
+          "name": "Agentic sources",
+          "order": [
+            "file.name",
+            "note.author",
+            "note.publication_date",
+            "note.evidence_basis",
+            "note.evidence_family",
+            "note.contribution",
+            "note.status",
+            "note.themes"
+          ]
+        },
+        {
+          "type": "table",
+          "name": "Verification gaps",
+          "filters": {
+            "or": [
+              "note.status == \"partial\"",
+              "note.publication_date == null",
+              "note.canonical_url == null"
+            ]
+          },
+          "order": [
+            "file.name",
+            "note.status",
+            "note.publication_date",
+            "note.canonical_url"
+          ]
+        }
+      ]
+    },
     "Bases/Approaches.base": {
       "filters": {
         "and": [
@@ -2953,10 +3082,41 @@
   "outputs": {
     "AGENTS.md": {
       "dependencies": {
-        "markdown:Skills/fde-catalogue/SKILL.md": "https://github.com/alexbevi/forward-deployed-engineering/blob/main/Skills/fde-catalogue/SKILL.md"
+        "markdown:Skills/fde-catalogue/SKILL.md": "https://github.com/alexbevi/forward-deployed-engineering/blob/main/Skills/fde-catalogue/SKILL.md",
+        "markdown:Skills/agentic-development-catalogue/SKILL.md": "https://github.com/alexbevi/forward-deployed-engineering/blob/main/Skills/agentic-development-catalogue/SKILL.md"
       },
-      "source_blob": "a029d5055f5f2cc3ba5ed1401fd884537b03caab",
-      "sha256": "d6c60e855722687fed397ec2da78095de158edae9f4cb742f35da660e3116c00"
+      "source_blob": "7137c691e00e523ab6d89b80a86abd88044b2df3",
+      "sha256": "574d11ab7a903d853e28aa53944c9b17a955de1ed7ea501ca255e2518725129f"
+    },
+    "Agentic Development.md": {
+      "dependencies": {
+        "FDE": [
+          "FDE.md",
+          ""
+        ],
+        "Staff Engineer": [
+          "Staff Engineer.md",
+          ""
+        ],
+        "Articles/2026-10-13 - Naresh Jain - Are Harnesses Worth the Cost": [
+          "Articles/2026-10-13 - Naresh Jain - Are Harnesses Worth the Cost.md",
+          ""
+        ],
+        "Themes/Agent harnesses and verification": [
+          "Themes/Agent harnesses and verification.md",
+          ""
+        ],
+        "Bases/Agentic sources.base": [
+          "Bases/Agentic sources.md",
+          ""
+        ],
+        "Catalogue": [
+          "Catalogue.md",
+          ""
+        ]
+      },
+      "source_blob": "19565318e887e6d2618dc201cecfdbaebca0d45b",
+      "sha256": "8b08c746deaf4ab6a1e9960b9b8b186c9667f0ce0fea13610cbbcb34e819dbaf"
     },
     "Approaches.md": {
       "dependencies": {
@@ -3846,6 +4006,20 @@
       "source_blob": "6530a22f0bbe808c11e910f45d522e24d78b93b1",
       "sha256": "b31f268bd03cf95735685903c2761d80aeca6166bc5e1c102ed446dc510f77e7"
     },
+    "Articles/2026-10-13 - Naresh Jain - Are Harnesses Worth the Cost.md": {
+      "dependencies": {
+        "Agentic Development": [
+          "Agentic Development.md",
+          ""
+        ],
+        "Themes/Agent harnesses and verification": [
+          "Themes/Agent harnesses and verification.md",
+          ""
+        ]
+      },
+      "source_blob": "85c7acaf53b256e5756ea88f7cbb03caf362317e",
+      "sha256": "77392db45869229e0704bd9e7806d43203ed8ea9e33aed3418b75e914f7b7c60"
+    },
     "Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works.md": {
       "dependencies": {
         "Operating models/Customer-owned delivery": [
@@ -4160,6 +4334,21 @@
       "dependencies": {},
       "sha256": "c9cd5956a217d41867f1ec276ad112d577fa29874f64b678fb6452d110a94023",
       "source_blob": "88e0732fe8ba6ea7de0177e4dade8c8a49f0a4d8"
+    },
+    "Bases/Agentic sources.md": {
+      "dependencies": {
+        "base:Bases/Agentic sources.base": "275c3eacd4327eb13e3c52c77b4c511e680b98e3aefb06e40babbe8a0b0e5049",
+        "Articles/2026-10-13 - Naresh Jain - Are Harnesses Worth the Cost.md": [
+          "Articles/2026-10-13 - Naresh Jain - Are Harnesses Worth the Cost.md",
+          ""
+        ],
+        "Themes/Agent harnesses and verification": [
+          "Themes/Agent harnesses and verification.md",
+          ""
+        ]
+      },
+      "source_blob": "b3f4258665d082ff63547b2867ca16fab98a4bf0",
+      "sha256": "3769213a259f95025e1d8b5751b4c356a23455ccee667737d75e5929308ee8a5"
     },
     "Bases/Approaches.md": {
       "dependencies": {
@@ -4797,8 +4986,16 @@
           "Themes/Staff engineering and influence.md",
           ""
         ],
+        "Agentic Development": [
+          "Agentic Development.md",
+          ""
+        ],
         "Bases/Sources.base": [
           "Bases/Sources.md",
+          ""
+        ],
+        "Bases/Agentic sources.base": [
+          "Bases/Agentic sources.md",
           ""
         ],
         "Operating models": [
@@ -4822,8 +5019,8 @@
           ""
         ]
       },
-      "source_blob": "cf823108f102cfe5b85c576f4cfafb6f4c30cf7e",
-      "sha256": "2d18ca5c0c0a5b171287b087b1d86293aed25505fc8c54284a47513e07c25816"
+      "source_blob": "c5903b2a3a951b433e467121550d25fe5407efd7",
+      "sha256": "dbc43c1dcfced581fd03de966b8b88442c8a56ae04a9f7348a68462638c863d8"
     },
     "FDE.md": {
       "dependencies": {
@@ -5717,6 +5914,7 @@
       "dependencies": {
         "markdown:FDE.md": "FDE.md",
         "markdown:Staff%20Engineer.md": "Staff%20Engineer.md",
+        "markdown:Agentic%20Development.md": "Agentic%20Development.md",
         "markdown:Catalogue.md": "Catalogue.md",
         "markdown:Operating%20models.md": "Operating%20models.md",
         "markdown:Approaches.md": "Approaches.md",
@@ -5725,8 +5923,8 @@
         "markdown:Resources.md": "Resources.md",
         "markdown:AGENTS.md": "AGENTS.md"
       },
-      "source_blob": "69fe41136953e9f7480d9bc3fed17f1ce75e0ed4",
-      "sha256": "9560e54cf0a1ced893d6116a9a8156ea9ebc121688228a859cc4ae60a43d6d31"
+      "source_blob": "f80e4db9067c1709c7e8b32b987940425ad5f124",
+      "sha256": "745ed99023bcbe999aa5cae3e3550bc09aebc10d9a18d9ce25e5c856c208e148"
     },
     "Resources.md": {
       "dependencies": {
@@ -5949,6 +6147,20 @@
       },
       "source_blob": "3e46f2b22a4cfc30cab1bb9bf27142b42b9a2449",
       "sha256": "e89673448d6e148137eac9368ba30ceaaedc360c00822dfad22e946ec92a4670"
+    },
+    "Themes/Agent harnesses and verification.md": {
+      "dependencies": {
+        "Articles/2026-10-13 - Naresh Jain - Are Harnesses Worth the Cost": [
+          "Articles/2026-10-13 - Naresh Jain - Are Harnesses Worth the Cost.md",
+          ""
+        ],
+        "Agentic Development": [
+          "Agentic Development.md",
+          ""
+        ]
+      },
+      "source_blob": "cfcbcab72bb337be18d421666a234781491f8ea8",
+      "sha256": "a67f1dbc2cfd7c4c912f0b6ff37e8447363eec3447252ec6fb945e33344927bf"
     },
     "Themes/Field discovery and execution.md": {
       "dependencies": {

@@ -2,7 +2,11 @@
 
 Browse source notes and provenance. The field-engineering argument lives in [FDE](FDE.md) and the parallel senior-IC synthesis in [Staff Engineer](Staff%20Engineer.md). [Role and product feedback](Themes/Role%20and%20product%20feedback.md), [Staff engineering and influence](Themes/Staff%20engineering%20and%20influence.md), and the other themes provide curated reading paths.
 
+[Agentic Development](Agentic%20Development.md) maintains an independent technical collection with its own source inventory. The views below keep its records separate from the existing FDE/Staff sources.
+
 [Sources](Bases/Sources.md)
+
+[Agentic sources](Bases/Agentic%20sources.md)
 
 The source-family view groups overlapping material. Families are editorial provenance labels, not quality scores. A single family can contain disagreement or several evidence types. Use the missing-metadata view to find retrieval and verification gaps.
 
@@ -20,5 +24,5 @@ The research-papers view exposes reviewed versions and derived approaches. Paper
 | collection | fde |
 | status | evolving |
 | created | 2026-10-05 |
-| updated | 2026-10-06T10:44 |
+| updated | 2026-10-21 |
 | tags | fde |
