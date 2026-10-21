@@ -30,6 +30,8 @@ Larson describes technical direction as pragmatic advocacy for the organisation'
 
 Exploration is a related but distinct responsibility when incremental improvement cannot reach an ambiguous, important opportunity or risk. It needs a bounded question, resources, decision points, and enough organisational trust to learn from failure. The source describes this work but does not supply an evaluation method.
 
+A qualified application of [Kimani](Articles/2026-10-12%20-%20Robert%20Kimani%20-%20Your%20engineering%20strategy%20has%20a%20new%20failure%20mode.md)'s domain argument is to carry cross-team delivery signals to decision owners. This assumes access and an escalation route; it neither grants investment authority nor establishes measured Staff outcomes. The source remains in [Agentic Development](Agentic%20Development.md).
+
 ### Shape the problem before scaling the solution
 
 Ask what is directly observed, what is inferred through proxies, and which assumption has escaped review. A Staff contribution may be a better question or system boundary rather than the implementation itself. Conviction should follow evidence: Selway's example supports generating important information at source, but it does not justify redesign whenever an imperfect metric exists.
@@ -91,5 +93,5 @@ Use [Staff engineering and influence](Themes/Staff%20engineering%20and%20influen
 | collection | fde |
 | status | evolving |
 | created | 2026-10-06 |
-| updated | 2026-10-09T11:58 |
+| updated | 2026-10-21T10:51 |
 | tags | fde; fde/staff-engineering |

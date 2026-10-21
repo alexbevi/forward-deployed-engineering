@@ -9,6 +9,10 @@ How do senior individual contributors shape technical systems, decisions, collab
 - [Selway, 2026](../Articles/2026-08-26%20-%20Anna%20Selway%20-%20Staff%20engineers%20shift%20from%20solving%20problems%20to%20shaping%20systems.md). Problem selection, system-level intervention, alignment, and impact that persists without the originating engineer.
 - [Socol, 2026](../Articles/2026-08-18%20-%20James%20Socol%20-%20Staff%20engineers%20must%20rebuild%20team%20culture.md). Deliberate cultural reinforcement when AI enables more independent work.
 
+## Qualified domain connection
+
+[Kimani](../Articles/2026-10-12%20-%20Robert%20Kimani%20-%20Your%20engineering%20strategy%20has%20a%20new%20failure%20mode.md) is catalogued in [Agentic Development](../Agentic%20Development.md), with a proposed application under [Staff Engineer](../Staff%20Engineer.md#carry-engineering-context-across-boundaries). This connection does not add an independent Staff evidence source.
+
 ## Questions for future sources
 
 - How do organisations distinguish Staff scope from strong senior-engineer execution?
@@ -27,5 +31,5 @@ This theme covers technical leadership by individual contributors, not people-ma
 | collection | fde |
 | status | evolving |
 | created | 2026-10-06 |
-| updated | 2026-10-09T11:58 |
+| updated | 2026-10-21T10:51 |
 | tags | fde; fde/staff-engineering; fde/development |

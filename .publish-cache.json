@@ -1,6 +1,6 @@
 {
   "fingerprint": "4cb01aa2cb6742c5a97a4919d5ab595143e009f9a5c40e578a2f737c60273d2b",
-  "source_commit": "8fe6b8b770b65215fefa3c81349bc5e16ca46de0",
+  "source_commit": "8d59dc14c840a09dac68fd3839b9d188489f284a",
   "records": {
     "AGENTS.md": {
       "path": "AGENTS.md",
@@ -24,7 +24,7 @@
         "collection": "agentic-development",
         "status": "evolving",
         "created": "2026-10-21",
-        "updated": "2026-10-21",
+        "updated": "2026-10-21T10:51",
         "tags": [
           "agentic-development"
         ]
@@ -1161,6 +1161,57 @@
         "Selection and development signals": "selection-and-development-signals",
         "Perspective and limits": "perspective-and-limits",
         "Connections": "connections"
+      }
+    },
+    "Articles/2026-10-12 - Robert Kimani - Your engineering strategy has a new failure mode.md": {
+      "path": "Articles/2026-10-12 - Robert Kimani - Your engineering strategy has a new failure mode.md",
+      "meta": {
+        "type": "article",
+        "collection": "agentic-development",
+        "title": "Your engineering strategy has a new failure mode",
+        "author": [
+          "Robert Kimani"
+        ],
+        "site": "LeadDev",
+        "url": "https://leaddev.com/leadership/your-engineering-strategy-has-a-new-failure-mode",
+        "canonical_url": null,
+        "publication_date": "2026-10-12",
+        "publication_date_basis": "Visible publisher date beside the byline",
+        "source_updated": null,
+        "source_updated_basis": null,
+        "accessed": "2026-10-21",
+        "created": "2026-10-21",
+        "updated": "2026-10-21",
+        "status": "reviewed",
+        "source_kind": "practitioner-article",
+        "evidence_family": "robert-kimani-engineering-strategy-failure-mode-2026",
+        "evidence_basis": [
+          "practitioner-argument",
+          "hypothetical-example"
+        ],
+        "contribution": "Connects AI delivery constraints to reviewable investment assumptions",
+        "tags": [
+          "agentic-development",
+          "agentic-development/verification",
+          "agentic-development/economics"
+        ],
+        "themes": [
+          "[[Themes/Agent harnesses and verification]]"
+        ],
+        "models": [],
+        "approaches": [],
+        "playbooks": [],
+        "people": [],
+        "resources": [],
+        "role_applications": [
+          "[[Staff Engineer]]"
+        ]
+      },
+      "headings": {
+        "Your engineering strategy has a new failure mode": "your-engineering-strategy-has-a-new-failure-mode",
+        "Contribution and evidence": "contribution-and-evidence",
+        "Placement and qualified application": "placement-and-qualified-application",
+        "Verification": "verification"
       }
     },
     "Articles/2026-10-13 - Dominik Metzger - Industry AI and measurable value.md": {
@@ -2662,7 +2713,7 @@
         "collection": "fde",
         "status": "evolving",
         "created": "2026-10-06",
-        "updated": "2026-10-09T11:58",
+        "updated": "2026-10-21T10:51",
         "tags": [
           "fde",
           "fde/staff-engineering"
@@ -2691,7 +2742,7 @@
         "collection": "agentic-development",
         "status": "evolving",
         "created": "2026-10-21",
-        "updated": "2026-10-21",
+        "updated": "2026-10-21T10:51",
         "tags": [
           "agentic-development",
           "agentic-development/verification",
@@ -2701,6 +2752,7 @@
       "headings": {
         "Agent harnesses and verification": "agent-harnesses-and-verification",
         "Catalogue": "catalogue",
+        "Connections": "connections",
         "Questions to investigate": "questions-to-investigate"
       }
     },
@@ -2774,7 +2826,7 @@
         "collection": "fde",
         "status": "evolving",
         "created": "2026-10-06",
-        "updated": "2026-10-09T11:58",
+        "updated": "2026-10-21T10:51",
         "tags": [
           "fde",
           "fde/staff-engineering",
@@ -2784,6 +2836,7 @@
       "headings": {
         "Staff engineering and influence": "staff-engineering-and-influence",
         "Catalogue": "catalogue",
+        "Qualified domain connection": "qualified-domain-connection",
         "Questions for future sources": "questions-for-future-sources"
       }
     },
@@ -3103,6 +3156,10 @@
           "Articles/2026-10-13 - Naresh Jain - Are Harnesses Worth the Cost.md",
           ""
         ],
+        "Articles/2026-10-12 - Robert Kimani - Your engineering strategy has a new failure mode": [
+          "Articles/2026-10-12 - Robert Kimani - Your engineering strategy has a new failure mode.md",
+          ""
+        ],
         "Themes/Agent harnesses and verification": [
           "Themes/Agent harnesses and verification.md",
           ""
@@ -3116,8 +3173,8 @@
           ""
         ]
       },
-      "source_blob": "19565318e887e6d2618dc201cecfdbaebca0d45b",
-      "sha256": "8b08c746deaf4ab6a1e9960b9b8b186c9667f0ce0fea13610cbbcb34e819dbaf"
+      "source_blob": "e2d6557bf8028dcf9d32cbef05a5ab43729e21b1",
+      "sha256": "076b1244e03a1b56992508e511710fc9b7c30ffa1f90bcdb7d9b8aef7464bff0"
     },
     "Approaches.md": {
       "dependencies": {
@@ -3981,6 +4038,28 @@
       "source_blob": "1fb4bf3eb746eece0d6685760e188a34f92f293d",
       "sha256": "7ad12ac607c86c8d428e184290d1296de3895868250eacb505345f4a7936f5e6"
     },
+    "Articles/2026-10-12 - Robert Kimani - Your engineering strategy has a new failure mode.md": {
+      "dependencies": {
+        "Agentic Development": [
+          "Agentic Development.md",
+          ""
+        ],
+        "Themes/Agent harnesses and verification": [
+          "Themes/Agent harnesses and verification.md",
+          ""
+        ],
+        "Staff Engineer#Carry engineering context across boundaries": [
+          "Staff Engineer.md",
+          "carry-engineering-context-across-boundaries"
+        ],
+        "Staff Engineer": [
+          "Staff Engineer.md",
+          ""
+        ]
+      },
+      "source_blob": "d8914525a7351a614c1313858bb5f1aeadfccd71",
+      "sha256": "17f4b264124854b2e661bbf6c1f1180d08ffa5b2de93e9eb83c5185e2e9ddde9"
+    },
     "Articles/2026-10-13 - Dominik Metzger - Industry AI and measurable value.md": {
       "dependencies": {
         "Operating models/Product-oriented FDE": [
@@ -4338,18 +4417,22 @@
     },
     "Bases/Agentic sources.md": {
       "dependencies": {
-        "base:Bases/Agentic sources.base": "275c3eacd4327eb13e3c52c77b4c511e680b98e3aefb06e40babbe8a0b0e5049",
-        "Articles/2026-10-13 - Naresh Jain - Are Harnesses Worth the Cost.md": [
-          "Articles/2026-10-13 - Naresh Jain - Are Harnesses Worth the Cost.md",
+        "base:Bases/Agentic sources.base": "ab375f7a0b718e804a8df5234cb1f99f7a5443c5549d1bb58ee1511fcb5e29bf",
+        "Articles/2026-10-12 - Robert Kimani - Your engineering strategy has a new failure mode.md": [
+          "Articles/2026-10-12 - Robert Kimani - Your engineering strategy has a new failure mode.md",
           ""
         ],
         "Themes/Agent harnesses and verification": [
           "Themes/Agent harnesses and verification.md",
           ""
+        ],
+        "Articles/2026-10-13 - Naresh Jain - Are Harnesses Worth the Cost.md": [
+          "Articles/2026-10-13 - Naresh Jain - Are Harnesses Worth the Cost.md",
+          ""
         ]
       },
       "source_blob": "b3f4258665d082ff63547b2867ca16fab98a4bf0",
-      "sha256": "3769213a259f95025e1d8b5751b4c356a23455ccee667737d75e5929308ee8a5"
+      "sha256": "b8f2be25bac1563844e2b3304f5ed51e21ee2212f1d426a4f3f9adad3932b133"
     },
     "Bases/Approaches.md": {
       "dependencies": {
@@ -6121,6 +6204,14 @@
           "Articles/2026-08-18 - James Socol - Staff engineers must rebuild team culture.md",
           ""
         ],
+        "Articles/2026-10-12 - Robert Kimani - Your engineering strategy has a new failure mode": [
+          "Articles/2026-10-12 - Robert Kimani - Your engineering strategy has a new failure mode.md",
+          ""
+        ],
+        "Agentic Development": [
+          "Agentic Development.md",
+          ""
+        ],
         "FDE#Developing strong FDE peers": [
           "FDE.md",
           "developing-strong-fde-peers"
@@ -6146,8 +6237,8 @@
           ""
         ]
       },
-      "source_blob": "3e46f2b22a4cfc30cab1bb9bf27142b42b9a2449",
-      "sha256": "e89673448d6e148137eac9368ba30ceaaedc360c00822dfad22e946ec92a4670"
+      "source_blob": "a68b827187970c6ad240b7025331dba2a51934e2",
+      "sha256": "2c0d7abb0560201c4c335753c289ecbe9611fa3e1d40a6692c1ce028e028d0ac"
     },
     "Themes/Agent harnesses and verification.md": {
       "dependencies": {
@@ -6155,13 +6246,21 @@
           "Articles/2026-10-13 - Naresh Jain - Are Harnesses Worth the Cost.md",
           ""
         ],
+        "Articles/2026-10-12 - Robert Kimani - Your engineering strategy has a new failure mode": [
+          "Articles/2026-10-12 - Robert Kimani - Your engineering strategy has a new failure mode.md",
+          ""
+        ],
+        "Staff Engineer#Carry engineering context across boundaries": [
+          "Staff Engineer.md",
+          "carry-engineering-context-across-boundaries"
+        ],
         "Agentic Development": [
           "Agentic Development.md",
           ""
         ]
       },
-      "source_blob": "cfcbcab72bb337be18d421666a234781491f8ea8",
-      "sha256": "a67f1dbc2cfd7c4c912f0b6ff37e8447363eec3447252ec6fb945e33344927bf"
+      "source_blob": "ef96b855cdb8ba094128748f478f017fe727a4e6",
+      "sha256": "4ab9fa0927a78e3aec03eb77c7765f40798ae01e2bee424067486bde6618afdf"
     },
     "Themes/Field discovery and execution.md": {
       "dependencies": {
@@ -6475,6 +6574,18 @@
           "Articles/2026-08-18 - James Socol - Staff engineers must rebuild team culture.md",
           ""
         ],
+        "Articles/2026-10-12 - Robert Kimani - Your engineering strategy has a new failure mode": [
+          "Articles/2026-10-12 - Robert Kimani - Your engineering strategy has a new failure mode.md",
+          ""
+        ],
+        "Agentic Development": [
+          "Agentic Development.md",
+          ""
+        ],
+        "Staff Engineer#Carry engineering context across boundaries": [
+          "Staff Engineer.md",
+          "carry-engineering-context-across-boundaries"
+        ],
         "Staff Engineer": [
           "Staff Engineer.md",
           ""
@@ -6488,8 +6599,8 @@
           ""
         ]
       },
-      "source_blob": "0d32df02d94e120f8321287819aaff33e9aefff5",
-      "sha256": "0a8021361578c6eb4e81ba824df6ee79cdf164ce274e8a93866f55b8a00e1033"
+      "source_blob": "c17128055958668488d8742400d771661d44e471",
+      "sha256": "016ca5b108f3ac5d9a1be1eefe554d3e33bf798e2a06a86daea5f6da6b8bf43f"
     },
     "Themes/Technical and professional development.md": {
       "dependencies": {
