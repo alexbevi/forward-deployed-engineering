@@ -1,0 +1,29 @@
+filters:
+  and:
+    - file.ext == "md"
+    - note.collection == "agentic-development"
+    - note.type == "article"
+views:
+  - type: table
+    name: Agentic sources
+    order:
+      - file.name
+      - note.author
+      - note.publication_date
+      - note.evidence_basis
+      - note.evidence_family
+      - note.contribution
+      - note.status
+      - note.themes
+  - type: table
+    name: Verification gaps
+    filters:
+      or:
+        - note.status == "partial"
+        - note.publication_date == null
+        - note.canonical_url == null
+    order:
+      - file.name
+      - note.status
+      - note.publication_date
+      - note.canonical_url

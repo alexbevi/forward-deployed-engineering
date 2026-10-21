@@ -134,6 +134,27 @@ views:
         self.assertEqual(result["rendered"], ["Articles/One.md"])
         self.assert_matches_fresh()
 
+    def test_agentic_sources_publish_in_their_own_inventory(self):
+        self.write("Articles/Agentic.md", "---\ncollection: agentic-development\ntype: article\n---\n# Agentic\n")
+        self.write("Bases/Agentic sources.base", '''filters:
+  and:
+    - file.ext == "md"
+    - note.collection == "agentic-development"
+    - note.type == "article"
+views:
+  - type: table
+    name: Agentic sources
+    order: [file.name]
+''')
+        self.commit()
+        self.export()
+        agentic = (self.output / "Bases/Agentic sources.md").read_text()
+        role = (self.output / "Bases/Sources.md").read_text()
+        self.assertIn("[Agentic](../Articles/Agentic.md)", agentic)
+        self.assertNotIn("Articles/One.md", agentic)
+        self.assertIn("[One](../Articles/One.md)", role)
+        self.assertNotIn("Articles/Agentic.md", role)
+
     def test_metadata_edit_rebuilds_base_and_reuses_linking_page(self):
         self.export()
         path = self.root / "Articles/One.md"

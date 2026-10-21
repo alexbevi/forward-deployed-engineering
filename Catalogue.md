@@ -3,7 +3,7 @@ type: index
 collection: fde
 status: evolving
 created: 2026-10-05
-updated: 2026-10-06T10:44
+updated: 2026-10-21
 tags:
   - fde
 ---
@@ -12,7 +12,11 @@ tags:
 
 Browse source notes and provenance. The field-engineering argument lives in [[FDE]] and the parallel senior-IC synthesis in [[Staff Engineer]]. [[Themes/Role and product feedback]], [[Themes/Staff engineering and influence]], and the other themes provide curated reading paths.
 
+[[Agentic Development]] maintains an independent technical collection with its own source inventory. The views below keep its records separate from the existing FDE/Staff sources.
+
 ![[Bases/Sources.base]]
+
+![[Bases/Agentic sources.base]]
 
 The source-family view groups overlapping material. Families are editorial provenance labels, not quality scores. A single family can contain disagreement or several evidence types. Use the missing-metadata view to find retrieval and verification gaps.
 

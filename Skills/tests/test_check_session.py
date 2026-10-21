@@ -27,6 +27,10 @@ class SessionCheckTests(unittest.TestCase):
             path = self.root / "Skills" / "fde-catalogue" / name
             path.parent.mkdir(parents=True, exist_ok=True)
             path.touch()
+        for name in CHECK.AGENTIC_REQUIRED:
+            path = self.root / "Skills" / "agentic-development-catalogue" / name
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.touch()
         self.cache = self.base / "cache"
 
     def test_concurrent_calls_probe_once_and_new_session_probes_again(self):
@@ -133,6 +137,15 @@ class SessionCheckTests(unittest.TestCase):
         with self.assertRaises(FileExistsError):
             CHECK.install_local(self.root)
         self.assertEqual(marker.read_text(), "preserved")
+
+    def test_agentic_skill_is_discovered_and_missing_files_are_reported(self):
+        CHECK.install_local(self.root)
+        self.assertEqual((self.root / ".agents/skills/agentic-development-catalogue").resolve(),
+                         self.root / "Skills/agentic-development-catalogue")
+        (self.root / "Skills/agentic-development-catalogue/references/schema.md").unlink()
+        with patch.object(CHECK, "check_sync", return_value={"status": "enabled"}):
+            report = CHECK.check_workspace(self.root)
+        self.assertEqual(report["missing_files"], ["Skills/agentic-development-catalogue/references/schema.md"])
 
 
 if __name__ == "__main__":

@@ -1,4 +1,4 @@
-"""Validate local FDE records and Base coverage; does not run Obsidian."""
+"""Validate knowledge-base records and collection-scoped Base coverage."""
 from __future__ import annotations
 
 import argparse
@@ -9,6 +9,33 @@ from pathlib import Path
 import re
 
 import yaml
+
+
+COLLECTIONS = {"fde", "agentic-development"}
+
+
+def validate_bases(root: Path, records: dict, errors: list[str]) -> None:
+    counts = Counter((meta.get("collection"), meta.get("type")) for meta, _ in records.values())
+    for path in sorted((root / "Bases").glob("*.base")):
+        try:
+            base = yaml.safe_load(path.read_text())
+            filters = base["filters"]["and"]
+            collections = [match[1] for item in filters if isinstance(item, str)
+                           if (match := re.fullmatch(r'note.collection == "([a-z-]+)"', item))]
+            kinds = [match[1] for item in filters if isinstance(item, str)
+                     if (match := re.fullmatch(r'note.type == "([a-z-]+)"', item))]
+            scoped = (len(collections) == 1 and collections[0] in COLLECTIONS
+                      and 'file.ext == "md"' in filters)
+            if not scoped:
+                errors.append(f"{path.name}: unscoped Base")
+            count = counts[(collections[0], kinds[0])] if scoped and len(kinds) == 1 else 0
+            if not count:
+                errors.append(f"{path.name}: selector must cover a populated collection and record type")
+            if not base.get("views") or any(v.get("type") != "table" or not v.get("name") or not v.get("order") for v in base["views"]):
+                errors.append(f"{path.name}: invalid table view structure")
+            print(f"{path.name}: {count} records selected")
+        except (yaml.YAMLError, KeyError, TypeError) as exc:
+            errors.append(f"{path.name}: invalid Base structure: {exc}")
 
 
 def validate(root: Path) -> int:
@@ -30,8 +57,8 @@ def validate(root: Path) -> int:
         except yaml.YAMLError as exc:
             errors.append(f"{rel}: invalid YAML: {exc}")
             continue
-        if not isinstance(meta, dict) or meta.get("collection") != "fde":
-            errors.append(f"{rel}: missing collection: fde")
+        if not isinstance(meta, dict) or meta.get("collection") not in COLLECTIONS:
+            errors.append(f"{rel}: missing or unsupported collection")
             continue
         records[rel.with_suffix("").as_posix()] = (meta, text)
 
@@ -124,10 +151,15 @@ def validate(root: Path) -> int:
                 identities[url] = name
             if not meta.get("themes"):
                 errors.append(f"{name}: missing theme membership")
+            own_theme = False
             for target in meta.get("themes", []):
                 linked = resolve(target[2:-2], name)
                 if linked and name not in records[linked][1]:
                     errors.append(f"{name}: absent from theme catalogue {linked}")
+                if linked and records[linked][0].get("collection") == meta["collection"]:
+                    own_theme = True
+            if not own_theme:
+                errors.append(f"{name}: needs a theme in its own collection")
         if kind in {"operating-model", "playbook", "person", "attachment-text", "approach"} and not meta.get("sources"):
             errors.append(f"{name}: needs source evidence")
         if "attachments" in meta:
@@ -202,25 +234,10 @@ def validate(root: Path) -> int:
             if meta.get("status") == "used" and not meta.get("local_observations"):
                 errors.append(f"{name}: used needs actual observations")
 
-    counts = Counter(meta.get("type") for meta, _ in records.values())
     for name in ["Sources", "Operating models", "Approaches", "Playbooks", "People", "Resources"]:
         if not (root / "Bases" / f"{name}.base").is_file():
             errors.append(f"Missing Base: {name}")
-    for path in sorted((root / "Bases").glob("*.base")):
-        try:
-            base = yaml.safe_load(path.read_text())
-            filters = base["filters"]["and"]
-            if 'file.ext == "md"' not in filters or 'note.collection == "fde"' not in filters:
-                errors.append(f"{path.name}: unscoped Base")
-            kinds = [re.fullmatch(r'note.type == "([a-z-]+)"', f) for f in filters if isinstance(f, str)]
-            selected = [m[1] for m in kinds if m]
-            if len(selected) != 1 or not counts[selected[0]]:
-                errors.append(f"{path.name}: selector must cover a populated record type")
-            if not base.get("views") or any(v.get("type") != "table" or not v.get("name") or not v.get("order") for v in base["views"]):
-                errors.append(f"{path.name}: invalid table view structure")
-            print(f"{path.name}: {counts[selected[0]] if len(selected) == 1 else 0} records selected")
-        except (yaml.YAMLError, KeyError, TypeError) as exc:
-            errors.append(f"{path.name}: invalid Base structure: {exc}")
+    validate_bases(root, records, errors)
     if errors:
         print("\n".join(sorted(set(errors))))
         return 1

@@ -26,6 +26,7 @@ REQUIRED = (
     "scripts/validate_vault.py",
     "scripts/index_pdf.py",
 )
+AGENTIC_REQUIRED = ("SKILL.md", "references/schema.md")
 
 
 def install_local(root: Path) -> None:
@@ -133,6 +134,8 @@ def check_sync(root: Path) -> dict:
 def check_workspace(root: Path) -> dict:
     missing = [f"Skills/fde-catalogue/{name}" for name in REQUIRED
                if not (root / "Skills" / "fde-catalogue" / name).is_file()]
+    missing.extend(f"Skills/agentic-development-catalogue/{name}" for name in AGENTIC_REQUIRED
+                   if not (root / "Skills" / "agentic-development-catalogue" / name).is_file())
     warnings = [f"Required skill file is missing: {name}" for name in missing]
     if not (root / "Skills" / "staff-engineer-catalogue" / "SKILL.md").is_file():
         warnings.append("Staff catalogue skill is missing; restore it before Staff-specific ingestion")
