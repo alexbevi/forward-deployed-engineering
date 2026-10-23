@@ -2,13 +2,14 @@
 type: playbook
 collection: fde
 created: &id001 2026-10-05
-updated: *id001
+updated: 2026-10-23
 tags:
 - fde
 status: draft
 practice_status: proposed
 purpose: Transition operational responsibility
 sources:
+- '[[Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff]]'
 - '[[Articles/2026-09-14 - Arun Prasath E G - How an FDE engagement works]]'
 - '[[Articles/2026-09-14 - Arun Prasath E G - FDE engagements for owners]]'
 - '[[Articles/2026-09-29 - Gartner - Vendor FDE abandonment forecast]]'
@@ -34,6 +35,8 @@ Name a receiving owner with the access, time, competence, and support arrangemen
 4. In a suitable environment, have that team diagnose a representative failure, recover, and make a small change using the provided materials. The original engineer observes rather than leads.
 5. Record what blocked the exercise. Repair missing access, documentation, skills, or ownership and repeat the affected part.
 6. Confirm remaining vendor dependencies and escalation arrangements, then record acceptance and unresolved responsibilities.
+
+For an implementation-to-adoption transfer, also name the adoption owner, agreed usage signals, first review date, incident-routing rules and a bounded support overlap with explicit closing criteria. This proposed extension adapts [[Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff|Quivly's guidance]]; it has no local results.
 
 ## Artifact to leave
 

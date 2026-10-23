@@ -2,7 +2,7 @@
 type: operating-model
 collection: fde
 created: 2026-10-05
-updated: 2026-10-20
+updated: 2026-10-23
 tags:
   - fde
 status: evolving
@@ -12,6 +12,7 @@ engagement_type: Embedded delivery with explicit transition
 ownership: Customer retains decision authority and receives operational ownership
 success_measure: Working system and demonstrated ability to sustain changes
 sources:
+  - "[[Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff]]"
   - "[[Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works]]"
   - "[[Articles/2026-09-14 - Arun Prasath E G - How an FDE engagement works]]"
   - "[[Articles/2026-09-14 - Arun Prasath E G - FDE engagements for owners]]"
@@ -39,6 +40,8 @@ Distinguish business choices, engineering choices, approval for live changes, an
 A candidate when the customer has an identified problem, practical access, a domain reviewer, and a capable receiving owner. A running prototype and a document alone do not establish independence. Unowned operations or inaccessible knowledge can make the engagement permanent by accident.
 
 ## Limits
+
+[[Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff|Quivly's adoption handoff]] transfers account stewardship to customer success. It complements operational handover, but does not demonstrate the customer's ability to operate or change the system.
 
 The APEG pages overlap and represent one commercial practice. Gartner's rates are forecasts, not measured outcomes. This model does not settle whether customer-specific delivery qualifies as FDE under a product-oriented definition.
 
