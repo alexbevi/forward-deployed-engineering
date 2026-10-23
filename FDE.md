@@ -3,7 +3,7 @@ type: synthesis
 collection: fde
 status: evolving
 created: 2026-10-05
-updated: 2026-10-19
+updated: 2026-10-23
 tags:
   - fde
 ---
@@ -17,6 +17,8 @@ This guide examines what good FDE work looks like, how to execute it, and how pe
 Customer proximity connects engineering decisions to the conditions in which software must work. The contested question is what the engagement must leave behind. A [[Operating models/Product-oriented FDE|product-oriented function]] aims for shared product improvement; [[Operating models/Customer-owned delivery|customer-owned delivery]] aims for a system the receiving team can operate and change. Those outcomes can coexist, but the sources do not agree that both define every FDE role. [[Operating models/Atlassian co-engineering]] explicitly combines them as stated engagement aims, without independently proving their attainment. [[Articles/2026-10-06 - Jove Zhong - Building a world-class FDE team|Cresta's account]] supplies one concrete product-oriented mechanism: place FDE in engineering, let field engineers contribute through the product code path, and deploy on a shared platform. That is an organisational choice, not a universal reporting-line requirement, and the account does not establish customer handover.
 
 Other accounts describe [[Operating models/Outcome-scoped missions|outcome-scoped missions]] or [[Operating models/Partner production delivery|partner delivery capabilities]]. These describe different aspects of the work, so they are comparison lenses rather than mutually exclusive job categories. A capability credential does not define an engagement's ownership or business success.
+
+[[Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI|OpenAI's account]] adds a separate feedback route from customer evaluations into model Research. This requires access and an agreed mandate; it is not an authority implied by the FDE title.
 
 The role can also be framed around an internal business function. [[Articles/2026-10-16 - Forte Group - FDEs in AI-shaped organizations|Forte's account]] compares internal, partner and hybrid staffing. Our synthesis treats staffing source as separate from engagement mandate and ownership. The title alone does not establish shared-product contribution or receiving-team independence, and the account's reported workflow gain does not isolate an effect of the role.
 
