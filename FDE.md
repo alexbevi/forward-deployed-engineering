@@ -8,6 +8,8 @@ Customer proximity connects engineering decisions to the conditions in which sof
 
 Other accounts describe [outcome-scoped missions](Operating%20models/Outcome-scoped%20missions.md) or [partner delivery capabilities](Operating%20models/Partner%20production%20delivery.md). These describe different aspects of the work, so they are comparison lenses rather than mutually exclusive job categories. A capability credential does not define an engagement's ownership or business success.
 
+[OpenAI's account](Articles/2026-10-22%20-%20Colin%20Jarvis%20-%20What%20FDE%20means%20at%20OpenAI.md) adds a separate feedback route from customer evaluations into model Research. This requires access and an agreed mandate; it is not an authority implied by the FDE title.
+
 The role can also be framed around an internal business function. [Forte's account](Articles/2026-10-16%20-%20Forte%20Group%20-%20FDEs%20in%20AI-shaped%20organizations.md) compares internal, partner and hybrid staffing. Our synthesis treats staffing source as separate from engagement mandate and ownership. The title alone does not establish shared-product contribution or receiving-team independence, and the account's reported workflow gain does not isolate an effect of the role.
 
 Before relying on a title, establish the mandate, decision authority, operational ownership, success measures, and relationship to the product team. Definitions can differ even within one firm, as [McKinsey's interviewees](Articles/2026-10-16%20-%20McKinsey%20-%20What%20is%20a%20forward-deployed%20engineer.md) illustrate. Treat outcome responsibility, decision authority, IP ownership, and billing as separate agreements. [GoodFirms' survey](Articles/undated%20-%20Kusum%20Motiani%20-%20What%20133%20companies%20reveal%20about%20FDE.md) reports varied structures and pricing, qualifying its own simplified FDE comparison. Responsibility should be bounded by the decisions an engineer can make and the dependencies others control. [Operating models](Operating%20models.md) makes those differences explicit.
@@ -106,5 +108,5 @@ The view below is generated from article frontmatter. Theme notes retain curated
 | collection | fde |
 | status | evolving |
 | created | 2026-10-05 |
-| updated | 2026-10-19 |
+| updated | 2026-10-23 |
 | tags | fde |

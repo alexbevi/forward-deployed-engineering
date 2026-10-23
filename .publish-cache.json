@@ -1,6 +1,6 @@
 {
   "fingerprint": "4cb01aa2cb6742c5a97a4919d5ab595143e009f9a5c40e578a2f737c60273d2b",
-  "source_commit": "8d59dc14c840a09dac68fd3839b9d188489f284a",
+  "source_commit": "e7066fe4cbd9c7678c181d6e68cf51c6595f4a90",
   "records": {
     "AGENTS.md": {
       "path": "AGENTS.md",
@@ -1523,6 +1523,54 @@
         "Verification": "verification"
       }
     },
+    "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI.md": {
+      "path": "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI.md",
+      "meta": {
+        "type": "article",
+        "collection": "fde",
+        "title": "What FDE means at OpenAI",
+        "author": [
+          "Colin Jarvis"
+        ],
+        "author_role": "Head of Forward Deployed Engineering at OpenAI, as identified in the article",
+        "site": "OpenAI",
+        "url": "https://openai.com/index/forward-deployed-engineering-means/",
+        "canonical_url": null,
+        "publication_date": "2026-10-22",
+        "publication_date_basis": "Visible article date; structured metadata not verified",
+        "accessed": "2026-10-23",
+        "created": "2026-10-23",
+        "updated": "2026-10-23",
+        "status": "reviewed",
+        "source_kind": "vendor-perspective",
+        "evidence_family": "openai-jarvis-fde-operating-account-2026",
+        "evidence_basis": [
+          "reported-experience",
+          "practitioner-argument"
+        ],
+        "contribution": "Separates product reuse from model-research feedback",
+        "tags": [
+          "fde",
+          "fde/role",
+          "fde/execution",
+          "fde/product-feedback"
+        ],
+        "themes": [
+          "[[Themes/Role and product feedback]]",
+          "[[Themes/Field discovery and execution]]"
+        ],
+        "models": [
+          "[[Operating models/Product-oriented FDE]]"
+        ],
+        "playbooks": [],
+        "people": [],
+        "resources": []
+      },
+      "headings": {
+        "What FDE means at OpenAI": "what-fde-means-at-openai",
+        "Connections and verification": "connections-and-verification"
+      }
+    },
     "Articles/undated - Atlassian - Forward deployed engineering playbook.md": {
       "path": "Articles/undated - Atlassian - Forward deployed engineering playbook.md",
       "meta": {
@@ -1724,7 +1772,7 @@
         "collection": "fde",
         "status": "evolving",
         "created": "2026-10-05",
-        "updated": "2026-10-19",
+        "updated": "2026-10-23",
         "tags": [
           "fde"
         ]
@@ -1909,7 +1957,7 @@
         "type": "operating-model",
         "collection": "fde",
         "created": "2026-10-05",
-        "updated": "2026-10-20",
+        "updated": "2026-10-23",
         "tags": [
           "fde"
         ],
@@ -1920,6 +1968,7 @@
         "ownership": "Product stewardship with customer operational responsibilities to establish",
         "success_measure": "Customer results and accepted shared capabilities",
         "sources": [
+          "[[Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI]]",
           "[[Articles/2026-10-19 - Caroline Clark - What is a Forward Deployed Product Manager]]",
           "[[Articles/2026-10-13 - Dominik Metzger - Industry AI and measurable value]]",
           "[[Articles/2026-09-12 - Vinoo Ganesh - The rise of the forward deployed engineer]]",
@@ -2763,7 +2812,7 @@
         "collection": "fde",
         "status": "evolving",
         "created": "2026-10-05",
-        "updated": "2026-10-20",
+        "updated": "2026-10-23",
         "tags": [
           "fde",
           "fde/discovery",
@@ -2805,7 +2854,7 @@
         "collection": "fde",
         "status": "evolving",
         "created": "2026-10-05",
-        "updated": "2026-10-20",
+        "updated": "2026-10-23",
         "tags": [
           "fde",
           "fde/role",
@@ -4208,6 +4257,28 @@
       "source_blob": "ff751dcd70e53f62fbc94ab18074f84a7a935a90",
       "sha256": "6a957104147d64c1193409b310eea1254828a566b32d4c203894d369b24ba16a"
     },
+    "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI.md": {
+      "dependencies": {
+        "Operating models/Product-oriented FDE": [
+          "Operating models/Product-oriented FDE.md",
+          ""
+        ],
+        "FDE": [
+          "FDE.md",
+          ""
+        ],
+        "Themes/Role and product feedback": [
+          "Themes/Role and product feedback.md",
+          ""
+        ],
+        "Themes/Field discovery and execution": [
+          "Themes/Field discovery and execution.md",
+          ""
+        ]
+      },
+      "source_blob": "b0549f111d9808974e336b5992a18badb7ca56e0",
+      "sha256": "9fdb45e5af1e6c621fd4cea9fa4a411ff4bce7ac4fe4f254abf3a675c49612a2"
+    },
     "Articles/undated - Atlassian - Forward deployed engineering playbook.md": {
       "dependencies": {
         "Attachments/atlassian-fde-playbook-c9cd5956a217.pdf": [
@@ -4471,7 +4542,7 @@
     },
     "Bases/Operating models.md": {
       "dependencies": {
-        "base:Bases/Operating models.base": "5ac5bbfc8163dedd53233eb935475b4e4771c174ccf048445c4d97f0beac1913",
+        "base:Bases/Operating models.base": "c8ef6a3862ac6c1f16aaabff26f538d06f56f2c50175f28a2d2f3a22eca6bbea",
         "Operating models/Atlassian co-engineering.md": [
           "Operating models/Atlassian co-engineering.md",
           ""
@@ -4532,6 +4603,10 @@
           "Operating models/Product-oriented FDE.md",
           ""
         ],
+        "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI": [
+          "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI.md",
+          ""
+        ],
         "Articles/2026-10-19 - Caroline Clark - What is a Forward Deployed Product Manager": [
           "Articles/2026-10-19 - Caroline Clark - What is a Forward Deployed Product Manager.md",
           ""
@@ -4554,7 +4629,7 @@
         ]
       },
       "source_blob": "cbaf2207d36514483d6477bcd762aac50083ef5b",
-      "sha256": "f6855f80c9a4d22b0f29b005e3554e07c30ae63753634c12a0365640f42ebec2"
+      "sha256": "8cb07ddc0f869b5e08c2f8b715178de0b8220b4dc32903b278e520bdf8767a11"
     },
     "Bases/People.md": {
       "dependencies": {
@@ -4843,7 +4918,7 @@
     },
     "Bases/Sources.md": {
       "dependencies": {
-        "base:Bases/Sources.base": "7a7f11d2bade30450685569e0c99b1d025e72bf60994714197a60684cda7cf9f",
+        "base:Bases/Sources.base": "bb327ab1d5bcee45ca251a2df1a46d236544a3d4598f634bb728b71154243bca",
         "Articles/2020-09-04 - Will Larson - Work on what matters.md": [
           "Articles/2020-09-04 - Will Larson - Work on what matters.md",
           ""
@@ -5020,6 +5095,10 @@
           "Articles/2026-10-19 - Caroline Clark - What is a Forward Deployed Product Manager.md",
           ""
         ],
+        "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI.md": [
+          "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI.md",
+          ""
+        ],
         "Articles/undated - Atlassian - Forward deployed engineering playbook.md": [
           "Articles/undated - Atlassian - Forward deployed engineering playbook.md",
           ""
@@ -5050,7 +5129,7 @@
         ]
       },
       "source_blob": "fe01b99ce28b7a1e9dee85cdd07bf1a05aeae470",
-      "sha256": "6c02c6b977d90882a4e3d0c9e98623bb249178ce25a0dd92a25afa1f1e9cbc76"
+      "sha256": "218edd461714f02607baf164bba2cdce651fb85b1efe9e1cc98450888b1713ab"
     },
     "Catalogue.md": {
       "dependencies": {
@@ -5130,6 +5209,10 @@
         ],
         "Operating models/Partner production delivery": [
           "Operating models/Partner production delivery.md",
+          ""
+        ],
+        "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI": [
+          "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI.md",
           ""
         ],
         "Articles/2026-10-16 - Forte Group - FDEs in AI-shaped organizations": [
@@ -5289,8 +5372,8 @@
           ""
         ]
       },
-      "source_blob": "a668eaa992e09a2b440d85c526f9da1954fe3ddc",
-      "sha256": "8161638a0cc12cbbc75b56a3f3b617a6b0f110e29f3713528fb8df46167df9ea"
+      "source_blob": "9144d53dca488a0ec48666e33c0c10e4c67560a5",
+      "sha256": "c35183b9c5ad6c97b93ba22c50c3a8733af93ef4c98181e720e84f84aa8938d4"
     },
     "Operating models.md": {
       "dependencies": {
@@ -5506,6 +5589,10 @@
           "Articles/2026-09-21 - Pablo Bermejo - Turning intelligence into lasting value.md",
           ""
         ],
+        "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI": [
+          "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI.md",
+          ""
+        ],
         "Articles/2026-10-19 - Caroline Clark - What is a Forward Deployed Product Manager": [
           "Articles/2026-10-19 - Caroline Clark - What is a Forward Deployed Product Manager.md",
           ""
@@ -5527,8 +5614,8 @@
           ""
         ]
       },
-      "source_blob": "d3fe7e377c24b9ddca07bcf495bcc378682accff",
-      "sha256": "b2b3a3c210b6cdb12c9d47547ee7496520a2d7bdfb92b907f640af2d2fe41918"
+      "source_blob": "31b499e0c69658baf2cb9f28308d52690e31e182",
+      "sha256": "f12218ba5bdb46c47771f589aa986c0f0a6eead7e1a9a03b38179d04450f61dd"
     },
     "People.md": {
       "dependencies": {
@@ -6264,6 +6351,10 @@
     },
     "Themes/Field discovery and execution.md": {
       "dependencies": {
+        "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI": [
+          "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI.md",
+          ""
+        ],
         "Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works": [
           "Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works.md",
           ""
@@ -6373,8 +6464,8 @@
           ""
         ]
       },
-      "source_blob": "4dc78a69458fa5e2a2c0da0bf0da5de7573d3b7c",
-      "sha256": "600f7a65b828827cf34458871a2b5248a4e8c1a33f67dc0929bfdb6f2421ce93"
+      "source_blob": "fb2d1a132a65b19ca3d7f9f4e1d3e5d81b5e0e2e",
+      "sha256": "4e314e04b53213847a6921b41ad9e4d1541071e7f5fe6598a21f1ab59125b4cd"
     },
     "Themes/Ownership and sustainable delivery.md": {
       "dependencies": {
@@ -6456,6 +6547,10 @@
     },
     "Themes/Role and product feedback.md": {
       "dependencies": {
+        "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI": [
+          "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI.md",
+          ""
+        ],
         "Articles/2026-10-19 - Caroline Clark - What is a Forward Deployed Product Manager": [
           "Articles/2026-10-19 - Caroline Clark - What is a Forward Deployed Product Manager.md",
           ""
@@ -6553,8 +6648,8 @@
           ""
         ]
       },
-      "source_blob": "d5005a03355f463bad7d93fbd4ea4dbfa7d66492",
-      "sha256": "f083dab5dfe8e2c420e5279d12a87f9b106b3c285111c935d92d51408dd1eb7f"
+      "source_blob": "73f21cad5356fddd2f710b63e22af92c989bd456",
+      "sha256": "7ebce86809eddb41675f79fb5a38cb7eaef642c31b130d2089bb107a02fe41c6"
     },
     "Themes/Staff engineering and influence.md": {
       "dependencies": {

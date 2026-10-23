@@ -4,6 +4,7 @@ How do FDEs understand a customer's problem and deliver a solution that works in
 
 ## Catalogue
 
+- [Jarvis, 2026](../Articles/2026-10-22%20-%20Colin%20Jarvis%20-%20What%20FDE%20means%20at%20OpenAI.md). Customer evaluations and reported consolidation of custom deployments.
 - [OrNsoft, 2026](../Articles/2026-10-13%20-%20OrNsoft%20team%20-%20How%20a%20forward-deployed%20engagement%20works.md). Written acceptance gates and diagnosis no-go.
 - [McKinsey, 2026](../Articles/2026-10-16%20-%20McKinsey%20-%20What%20is%20a%20forward-deployed%20engineer.md). Workflow observation and iterative delivery.
 - [Metzger, 2026](../Articles/2026-10-13%20-%20Dominik%20Metzger%20-%20Industry%20AI%20and%20measurable%20value.md). Reported outcome versus planned capability.
@@ -46,5 +47,5 @@ Use [Scope an engagement](../Playbooks/Scope%20an%20engagement.md), [Build and r
 | collection | fde |
 | status | evolving |
 | created | 2026-10-05 |
-| updated | 2026-10-20 |
+| updated | 2026-10-23 |
 | tags | fde; fde/discovery; fde/execution |
