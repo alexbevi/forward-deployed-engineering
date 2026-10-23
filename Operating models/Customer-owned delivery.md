@@ -18,6 +18,8 @@ A candidate when the customer has an identified problem, practical access, a dom
 
 ## Limits
 
+[Quivly's adoption handoff](../Articles/2026-10-20%20-%20Arushi%20Jain%20-%20Implementation%20to%20adoption%20handoff.md) transfers account stewardship to customer success. It complements operational handover, but does not demonstrate the customer's ability to operate or change the system.
+
 The APEG pages overlap and represent one commercial practice. Gartner's rates are forecasts, not measured outcomes. This model does not settle whether customer-specific delivery qualifies as FDE under a product-oriented definition.
 
 See [Scope an engagement](../Playbooks/Scope%20an%20engagement.md) and [Prove a handover](../Playbooks/Prove%20a%20handover.md). Return to [Operating models](../Operating%20models.md).
@@ -29,7 +31,7 @@ See [Scope an engagement](../Playbooks/Scope%20an%20engagement.md) and [Prove a 
 | type | operating-model |
 | collection | fde |
 | created | 2026-10-05 |
-| updated | 2026-10-20 |
+| updated | 2026-10-23 |
 | tags | fde |
 | status | evolving |
 | evidence_status | source-reported |
@@ -37,4 +39,4 @@ See [Scope an engagement](../Playbooks/Scope%20an%20engagement.md) and [Prove a 
 | engagement_type | Embedded delivery with explicit transition |
 | ownership | Customer retains decision authority and receives operational ownership |
 | success_measure | Working system and demonstrated ability to sustain changes |
-| sources | [2026-10-13 - OrNsoft team - How a forward-deployed engagement works](../Articles/2026-10-13%20-%20OrNsoft%20team%20-%20How%20a%20forward-deployed%20engagement%20works.md); [2026-09-14 - Arun Prasath E G - How an FDE engagement works](../Articles/2026-09-14%20-%20Arun%20Prasath%20E%20G%20-%20How%20an%20FDE%20engagement%20works.md); [2026-09-14 - Arun Prasath E G - FDE engagements for owners](../Articles/2026-09-14%20-%20Arun%20Prasath%20E%20G%20-%20FDE%20engagements%20for%20owners.md); [2026-09-29 - Gartner - Vendor FDE abandonment forecast](../Articles/2026-09-29%20-%20Gartner%20-%20Vendor%20FDE%20abandonment%20forecast.md); [2026-09-21 - Pablo Bermejo - Turning intelligence into lasting value](../Articles/2026-09-21%20-%20Pablo%20Bermejo%20-%20Turning%20intelligence%20into%20lasting%20value.md); [2026-10-06 - CTERA - Forward deployed engineering for enterprise AI](../Articles/2026-10-06%20-%20CTERA%20-%20Forward%20deployed%20engineering%20for%20enterprise%20AI.md) |
+| sources | [2026-10-20 - Arushi Jain - Implementation to adoption handoff](../Articles/2026-10-20%20-%20Arushi%20Jain%20-%20Implementation%20to%20adoption%20handoff.md); [2026-10-13 - OrNsoft team - How a forward-deployed engagement works](../Articles/2026-10-13%20-%20OrNsoft%20team%20-%20How%20a%20forward-deployed%20engagement%20works.md); [2026-09-14 - Arun Prasath E G - How an FDE engagement works](../Articles/2026-09-14%20-%20Arun%20Prasath%20E%20G%20-%20How%20an%20FDE%20engagement%20works.md); [2026-09-14 - Arun Prasath E G - FDE engagements for owners](../Articles/2026-09-14%20-%20Arun%20Prasath%20E%20G%20-%20FDE%20engagements%20for%20owners.md); [2026-09-29 - Gartner - Vendor FDE abandonment forecast](../Articles/2026-09-29%20-%20Gartner%20-%20Vendor%20FDE%20abandonment%20forecast.md); [2026-09-21 - Pablo Bermejo - Turning intelligence into lasting value](../Articles/2026-09-21%20-%20Pablo%20Bermejo%20-%20Turning%20intelligence%20into%20lasting%20value.md); [2026-10-06 - CTERA - Forward deployed engineering for enterprise AI](../Articles/2026-10-06%20-%20CTERA%20-%20Forward%20deployed%20engineering%20for%20enterprise%20AI.md) |

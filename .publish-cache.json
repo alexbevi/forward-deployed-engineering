@@ -1,6 +1,6 @@
 {
   "fingerprint": "4cb01aa2cb6742c5a97a4919d5ab595143e009f9a5c40e578a2f737c60273d2b",
-  "source_commit": "e7066fe4cbd9c7678c181d6e68cf51c6595f4a90",
+  "source_commit": "f5e6d40b046cf9555aae4efe915ed328e677afc3",
   "records": {
     "AGENTS.md": {
       "path": "AGENTS.md",
@@ -1523,6 +1523,53 @@
         "Verification": "verification"
       }
     },
+    "Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff.md": {
+      "path": "Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff.md",
+      "meta": {
+        "type": "article",
+        "collection": "fde",
+        "title": "Implementation to Adoption: A Handoff Playbook for Forward-Deployed Engineers",
+        "author": [
+          "Arushi Jain"
+        ],
+        "site": "Quivly",
+        "url": "https://www.quivly.ai/blog/fde-implementation-to-adoption-handoff",
+        "canonical_url": "https://www.quivly.ai/blog/fde-implementation-to-adoption-handoff",
+        "publication_date": "2026-10-20",
+        "publication_date_basis": "Visible date, article:published_time and JSON-LD datePublished agree",
+        "accessed": "2026-10-23",
+        "created": "2026-10-23",
+        "updated": "2026-10-23",
+        "status": "reviewed",
+        "source_kind": "vendor-playbook",
+        "evidence_family": "quivly-fde-post-sales-handoff-2026",
+        "evidence_basis": [
+          "vendor-argument",
+          "hypothetical-example"
+        ],
+        "contribution": "Adds adoption ownership and bounded post-cutover support",
+        "tags": [
+          "fde",
+          "fde/ownership",
+          "fde/execution"
+        ],
+        "themes": [
+          "[[Themes/Ownership and sustainable delivery]]"
+        ],
+        "models": [
+          "[[Operating models/Customer-owned delivery]]"
+        ],
+        "playbooks": [
+          "[[Playbooks/Prove a handover]]"
+        ],
+        "people": [],
+        "resources": []
+      },
+      "headings": {
+        "Implementation to adoption handoff": "implementation-to-adoption-handoff",
+        "Verification": "verification"
+      }
+    },
     "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI.md": {
       "path": "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI.md",
       "meta": {
@@ -1838,7 +1885,7 @@
         "type": "operating-model",
         "collection": "fde",
         "created": "2026-10-05",
-        "updated": "2026-10-20",
+        "updated": "2026-10-23",
         "tags": [
           "fde"
         ],
@@ -1849,6 +1896,7 @@
         "ownership": "Customer retains decision authority and receives operational ownership",
         "success_measure": "Working system and demonstrated ability to sustain changes",
         "sources": [
+          "[[Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff]]",
           "[[Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works]]",
           "[[Articles/2026-09-14 - Arun Prasath E G - How an FDE engagement works]]",
           "[[Articles/2026-09-14 - Arun Prasath E G - FDE engagements for owners]]",
@@ -2414,7 +2462,7 @@
         "type": "playbook",
         "collection": "fde",
         "created": "2026-10-05",
-        "updated": "2026-10-05",
+        "updated": "2026-10-23",
         "tags": [
           "fde"
         ],
@@ -2422,6 +2470,7 @@
         "practice_status": "proposed",
         "purpose": "Transition operational responsibility",
         "sources": [
+          "[[Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff]]",
           "[[Articles/2026-09-14 - Arun Prasath E G - How an FDE engagement works]]",
           "[[Articles/2026-09-14 - Arun Prasath E G - FDE engagements for owners]]",
           "[[Articles/2026-09-29 - Gartner - Vendor FDE abandonment forecast]]",
@@ -2833,7 +2882,7 @@
         "collection": "fde",
         "status": "evolving",
         "created": "2026-10-05",
-        "updated": "2026-10-20",
+        "updated": "2026-10-23",
         "tags": [
           "fde",
           "fde/ownership",
@@ -4257,6 +4306,24 @@
       "source_blob": "ff751dcd70e53f62fbc94ab18074f84a7a935a90",
       "sha256": "6a957104147d64c1193409b310eea1254828a566b32d4c203894d369b24ba16a"
     },
+    "Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff.md": {
+      "dependencies": {
+        "Playbooks/Prove a handover": [
+          "Playbooks/Prove a handover.md",
+          ""
+        ],
+        "Operating models/Customer-owned delivery": [
+          "Operating models/Customer-owned delivery.md",
+          ""
+        ],
+        "Themes/Ownership and sustainable delivery": [
+          "Themes/Ownership and sustainable delivery.md",
+          ""
+        ]
+      },
+      "source_blob": "7b662c3908e3e3106469a595a28d8995bf97c42c",
+      "sha256": "5e58c8c5958b59057a8b3b61e4bd42d4e2f4b35de747a6a67f4a102b3df2f63d"
+    },
     "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI.md": {
       "dependencies": {
         "Operating models/Product-oriented FDE": [
@@ -4542,7 +4609,7 @@
     },
     "Bases/Operating models.md": {
       "dependencies": {
-        "base:Bases/Operating models.base": "c8ef6a3862ac6c1f16aaabff26f538d06f56f2c50175f28a2d2f3a22eca6bbea",
+        "base:Bases/Operating models.base": "1e1ee6b2a80a6a5daf177afda3787864e624d98ebe35eb23a82def85e8f68dea",
         "Operating models/Atlassian co-engineering.md": [
           "Operating models/Atlassian co-engineering.md",
           ""
@@ -4553,6 +4620,10 @@
         ],
         "Operating models/Customer-owned delivery.md": [
           "Operating models/Customer-owned delivery.md",
+          ""
+        ],
+        "Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff": [
+          "Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff.md",
           ""
         ],
         "Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works": [
@@ -4629,7 +4700,7 @@
         ]
       },
       "source_blob": "cbaf2207d36514483d6477bcd762aac50083ef5b",
-      "sha256": "8cb07ddc0f869b5e08c2f8b715178de0b8220b4dc32903b278e520bdf8767a11"
+      "sha256": "1807fd85bd4d7b6cf743f0d5291bdb151c87723f1e95f737a1b27a3ca1e26ad3"
     },
     "Bases/People.md": {
       "dependencies": {
@@ -4760,7 +4831,7 @@
     },
     "Bases/Playbooks.md": {
       "dependencies": {
-        "base:Bases/Playbooks.base": "7e1740afe1140b5ee6445b562315cd035fc57b5c7ea9289f6bcb742ba0f61dbc",
+        "base:Bases/Playbooks.base": "3c2142aed6a2a62326e60375c30af2f2ccd3b0571b9932719e5b95cf82e427e7",
         "Playbooks/Build and review safely.md": [
           "Playbooks/Build and review safely.md",
           ""
@@ -4809,6 +4880,10 @@
           "Playbooks/Prove a handover.md",
           ""
         ],
+        "Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff": [
+          "Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff.md",
+          ""
+        ],
         "Articles/2026-09-14 - Arun Prasath E G - FDE engagements for owners": [
           "Articles/2026-09-14 - Arun Prasath E G - FDE engagements for owners.md",
           ""
@@ -4851,7 +4926,7 @@
         ]
       },
       "source_blob": "68cc8706522ff3e1ad8660172d56d7053ee8b215",
-      "sha256": "e2d3351ebbda76d972018c445eebdcf42717db1e1e84572a50509b98edb95c6a"
+      "sha256": "5a0433e9b28c22e120595104dff3053b7970b40af3fb0fd729f947546ed1851d"
     },
     "Bases/Resources.md": {
       "dependencies": {
@@ -4918,7 +4993,7 @@
     },
     "Bases/Sources.md": {
       "dependencies": {
-        "base:Bases/Sources.base": "bb327ab1d5bcee45ca251a2df1a46d236544a3d4598f634bb728b71154243bca",
+        "base:Bases/Sources.base": "058352e5e4fd8250f498815365c88e138778ce58bd9d96eb01e94379e5396d6f",
         "Articles/2020-09-04 - Will Larson - Work on what matters.md": [
           "Articles/2020-09-04 - Will Larson - Work on what matters.md",
           ""
@@ -5095,6 +5170,10 @@
           "Articles/2026-10-19 - Caroline Clark - What is a Forward Deployed Product Manager.md",
           ""
         ],
+        "Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff.md": [
+          "Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff.md",
+          ""
+        ],
         "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI.md": [
           "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI.md",
           ""
@@ -5129,7 +5208,7 @@
         ]
       },
       "source_blob": "fe01b99ce28b7a1e9dee85cdd07bf1a05aeae470",
-      "sha256": "218edd461714f02607baf164bba2cdce651fb85b1efe9e1cc98450888b1713ab"
+      "sha256": "764b9effd9cc0db7adfb93c26971d6868953b4178894d0b72f79a761d37f27ed"
     },
     "Catalogue.md": {
       "dependencies": {
@@ -5469,6 +5548,10 @@
           "Articles/2026-10-06 - CTERA - Forward deployed engineering for enterprise AI.md",
           ""
         ],
+        "Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff": [
+          "Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff.md",
+          ""
+        ],
         "Playbooks/Scope an engagement": [
           "Playbooks/Scope an engagement.md",
           ""
@@ -5482,8 +5565,8 @@
           ""
         ]
       },
-      "source_blob": "7fc17e5cd42bd6ccca0535110616e97a98214a29",
-      "sha256": "c0eeedc15a957323c6b084772a00e6fc8f57bfb31ecb27dde7c1be684bb4f263"
+      "source_blob": "8485a83f5c2742f06ae20f508d27e194dd99b01e",
+      "sha256": "fd11d31c00fabbc81a2df7a31ef19f72708ecc14a3568da79ad2cd82916f1336"
     },
     "Operating models/Ground-prove-expand-transfer delivery.md": {
       "dependencies": {
@@ -5955,6 +6038,10 @@
     },
     "Playbooks/Prove a handover.md": {
       "dependencies": {
+        "Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff": [
+          "Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff.md",
+          ""
+        ],
         "FDE#Executing more effectively": [
           "FDE.md",
           "executing-more-effectively"
@@ -5980,8 +6067,8 @@
           ""
         ]
       },
-      "source_blob": "6001fbab9df5cd16e9a41902348fa77c1a86f160",
-      "sha256": "19e265fbbd16d48122062b97e000de4cc9ee83e21de3a8419ec69ab6d622299d"
+      "source_blob": "e2776480ed631f97a1a1579bb6208a8e9b2b5e02",
+      "sha256": "b7702e10f00d1507afa073e2956345f220733dc13be4a56b3ab5984bee7ecfaa"
     },
     "Playbooks/Rehearse a deployment from delivered artifacts.md": {
       "dependencies": {
@@ -6469,6 +6556,10 @@
     },
     "Themes/Ownership and sustainable delivery.md": {
       "dependencies": {
+        "Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff": [
+          "Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff.md",
+          ""
+        ],
         "Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works": [
           "Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works.md",
           ""
@@ -6542,8 +6633,8 @@
           ""
         ]
       },
-      "source_blob": "4c310181b5089a86c985fa0bd43715f25d9be58f",
-      "sha256": "4fa7f48aeba6aad8056332aec8064b4a620d814aa04ac9e45b2ccd7cf50cae6d"
+      "source_blob": "a9f5e4f678c0737b85a94728ffc4260a8b57a9a1",
+      "sha256": "f2d5606b470b7b3d6c1893bb3d6f5bfce03ed82a789e876e15b895f7f75de4d7"
     },
     "Themes/Role and product feedback.md": {
       "dependencies": {

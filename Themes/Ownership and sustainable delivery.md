@@ -4,6 +4,7 @@ What should remain usable and maintainable after an FDE engagement ends?
 
 ## Catalogue
 
+- [Arushi Jain, Quivly, 2026](../Articles/2026-10-20%20-%20Arushi%20Jain%20-%20Implementation%20to%20adoption%20handoff.md). Adoption ownership and bounded support after cutover.
 - [OrNsoft, 2026](../Articles/2026-10-13%20-%20OrNsoft%20team%20-%20How%20a%20forward-deployed%20engagement%20works.md). Customer operation as the final gate.
 - [Forte Group, 2026](../Articles/2026-10-16%20-%20Forte%20Group%20-%20FDEs%20in%20AI-shaped%20organizations.md). Small-team continuity concerns; maintenance and handover need explicit agreements.
 - [Motiani, updated October 2026](../Articles/undated%20-%20Kusum%20Motiani%20-%20What%20133%20companies%20reveal%20about%20FDE.md). Accountability claims and contractual boundaries.
@@ -38,5 +39,5 @@ Compare [Customer-owned delivery](../Operating%20models/Customer-owned%20deliver
 | collection | fde |
 | status | evolving |
 | created | 2026-10-05 |
-| updated | 2026-10-20 |
+| updated | 2026-10-23 |
 | tags | fde; fde/ownership; fde/execution |

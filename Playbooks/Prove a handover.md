@@ -17,6 +17,8 @@ Name a receiving owner with the access, time, competence, and support arrangemen
 5. Record what blocked the exercise. Repair missing access, documentation, skills, or ownership and repeat the affected part.
 6. Confirm remaining vendor dependencies and escalation arrangements, then record acceptance and unresolved responsibilities.
 
+For an implementation-to-adoption transfer, also name the adoption owner, agreed usage signals, first review date, incident-routing rules and a bounded support overlap with explicit closing criteria. This proposed extension adapts [Quivly's guidance](../Articles/2026-10-20%20-%20Arushi%20Jain%20-%20Implementation%20to%20adoption%20handoff.md); it has no local results.
+
 ## Artifact to leave
 
 A handover record containing versions, activation owners, acceptance results, rehearsal findings, outstanding actions, support contacts, and known dependencies.
@@ -38,10 +40,10 @@ Return to [FDE](../FDE.md#executing-more-effectively) and [Ownership and sustain
 | type | playbook |
 | collection | fde |
 | created | 2026-10-05 |
-| updated | 2026-10-05 |
+| updated | 2026-10-23 |
 | tags | fde |
 | status | draft |
 | practice_status | proposed |
 | purpose | Transition operational responsibility |
-| sources | [2026-09-14 - Arun Prasath E G - How an FDE engagement works](../Articles/2026-09-14%20-%20Arun%20Prasath%20E%20G%20-%20How%20an%20FDE%20engagement%20works.md); [2026-09-14 - Arun Prasath E G - FDE engagements for owners](../Articles/2026-09-14%20-%20Arun%20Prasath%20E%20G%20-%20FDE%20engagements%20for%20owners.md); [2026-09-29 - Gartner - Vendor FDE abandonment forecast](../Articles/2026-09-29%20-%20Gartner%20-%20Vendor%20FDE%20abandonment%20forecast.md); [2026-09-21 - Pablo Bermejo - Turning intelligence into lasting value](../Articles/2026-09-21%20-%20Pablo%20Bermejo%20-%20Turning%20intelligence%20into%20lasting%20value.md) |
+| sources | [2026-10-20 - Arushi Jain - Implementation to adoption handoff](../Articles/2026-10-20%20-%20Arushi%20Jain%20-%20Implementation%20to%20adoption%20handoff.md); [2026-09-14 - Arun Prasath E G - How an FDE engagement works](../Articles/2026-09-14%20-%20Arun%20Prasath%20E%20G%20-%20How%20an%20FDE%20engagement%20works.md); [2026-09-14 - Arun Prasath E G - FDE engagements for owners](../Articles/2026-09-14%20-%20Arun%20Prasath%20E%20G%20-%20FDE%20engagements%20for%20owners.md); [2026-09-29 - Gartner - Vendor FDE abandonment forecast](../Articles/2026-09-29%20-%20Gartner%20-%20Vendor%20FDE%20abandonment%20forecast.md); [2026-09-21 - Pablo Bermejo - Turning intelligence into lasting value](../Articles/2026-09-21%20-%20Pablo%20Bermejo%20-%20Turning%20intelligence%20into%20lasting%20value.md) |
 | local_observations |  |
