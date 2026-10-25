@@ -12,9 +12,11 @@ Before adopting a workflow, ask which requirements the checks cover, which failu
 
 [Kimani](Articles/2026-10-12%20-%20Robert%20Kimani%20-%20Your%20engineering%20strategy%20has%20a%20new%20failure%20mode.md) adds a system-level question: does faster implementation increase accepted delivery, or move the constraint downstream? His assumption register is practitioner guidance, not a validated intervention.
 
+For agent-assisted optimisation, [Goedecke](Articles/2026-10-23%20-%20Sean%20Goedecke%20-%20Performance%20design%20before%20language%20rewrites.md) suggests measuring the workload before choosing a language rewrite. Treat this as a candidate workflow; benefits and correctness remain untested here.
+
 ## Reading and evidence
 
-Start with [Agent harnesses and verification](Themes/Agent%20harnesses%20and%20verification.md). Browse the independent source inventory below; additional themes should follow the material rather than a predetermined taxonomy.
+Start with [Agent harnesses and verification](Themes/Agent%20harnesses%20and%20verification.md) and [Agent-assisted performance engineering](Themes/Agent-assisted%20performance%20engineering.md). Browse the independent source inventory below; additional themes should follow the material rather than a predetermined taxonomy.
 
 [Agentic sources](Bases/Agentic%20sources.md)
 
@@ -36,5 +38,5 @@ No local experiments have been recorded for this collection yet. [Catalogue](Cat
 | collection | agentic-development |
 | status | evolving |
 | created | 2026-10-21 |
-| updated | 2026-10-21T10:51 |
+| updated | 2026-10-25 |
 | tags | agentic-development |

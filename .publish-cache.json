@@ -1,6 +1,6 @@
 {
   "fingerprint": "4cb01aa2cb6742c5a97a4919d5ab595143e009f9a5c40e578a2f737c60273d2b",
-  "source_commit": "f5e6d40b046cf9555aae4efe915ed328e677afc3",
+  "source_commit": "4622257ec9a635e2362d9e95b4c0b274fe76af6f",
   "records": {
     "AGENTS.md": {
       "path": "AGENTS.md",
@@ -24,7 +24,7 @@
         "collection": "agentic-development",
         "status": "evolving",
         "created": "2026-10-21",
-        "updated": "2026-10-21T10:51",
+        "updated": "2026-10-25",
         "tags": [
           "agentic-development"
         ]
@@ -1618,6 +1618,54 @@
         "Connections and verification": "connections-and-verification"
       }
     },
+    "Articles/2026-10-23 - Sean Goedecke - Performance design before language rewrites.md": {
+      "path": "Articles/2026-10-23 - Sean Goedecke - Performance design before language rewrites.md",
+      "meta": {
+        "type": "article",
+        "collection": "agentic-development",
+        "title": "Software is slow because of bad design, not slow languages",
+        "author": [
+          "Sean Goedecke"
+        ],
+        "site": "seangoedecke.com",
+        "url": "https://www.seangoedecke.com/software-is-slow-because-of-bad-design-not-slow-languages/",
+        "canonical_url": null,
+        "publication_date": "2026-10-23",
+        "publication_date_basis": "Visible date in the article header",
+        "source_updated": null,
+        "source_updated_basis": "No modification date declared in the inspected HTML",
+        "accessed": "2026-10-25",
+        "created": "2026-10-25",
+        "updated": "2026-10-25",
+        "status": "reviewed",
+        "source_kind": "practitioner-article",
+        "evidence_family": "sean-goedecke-performance-design-2026",
+        "evidence_basis": [
+          "practitioner-argument",
+          "reported-experience",
+          "hypothetical-example"
+        ],
+        "contribution": "Directs agent-assisted optimisation toward measured workload constraints",
+        "tags": [
+          "agentic-development",
+          "agentic-development/performance"
+        ],
+        "themes": [
+          "[[Themes/Agent-assisted performance engineering]]"
+        ],
+        "models": [],
+        "approaches": [],
+        "playbooks": [],
+        "people": [],
+        "resources": [],
+        "role_applications": []
+      },
+      "headings": {
+        "Performance design before language rewrites": "performance-design-before-language-rewrites",
+        "Contribution and limits": "contribution-and-limits",
+        "Placement and verification": "placement-and-verification"
+      }
+    },
     "Articles/undated - Atlassian - Forward deployed engineering playbook.md": {
       "path": "Articles/undated - Atlassian - Forward deployed engineering playbook.md",
       "meta": {
@@ -2854,6 +2902,26 @@
         "Questions to investigate": "questions-to-investigate"
       }
     },
+    "Themes/Agent-assisted performance engineering.md": {
+      "path": "Themes/Agent-assisted performance engineering.md",
+      "meta": {
+        "type": "theme",
+        "collection": "agentic-development",
+        "status": "evolving",
+        "created": "2026-10-25",
+        "updated": "2026-10-25",
+        "tags": [
+          "agentic-development",
+          "agentic-development/performance"
+        ]
+      },
+      "headings": {
+        "Agent-assisted performance engineering": "agent-assisted-performance-engineering",
+        "Catalogue": "catalogue",
+        "Connections": "connections",
+        "Questions to investigate": "questions-to-investigate"
+      }
+    },
     "Themes/Field discovery and execution.md": {
       "path": "Themes/Field discovery and execution.md",
       "meta": {
@@ -3258,8 +3326,16 @@
           "Articles/2026-10-12 - Robert Kimani - Your engineering strategy has a new failure mode.md",
           ""
         ],
+        "Articles/2026-10-23 - Sean Goedecke - Performance design before language rewrites": [
+          "Articles/2026-10-23 - Sean Goedecke - Performance design before language rewrites.md",
+          ""
+        ],
         "Themes/Agent harnesses and verification": [
           "Themes/Agent harnesses and verification.md",
+          ""
+        ],
+        "Themes/Agent-assisted performance engineering": [
+          "Themes/Agent-assisted performance engineering.md",
           ""
         ],
         "Bases/Agentic sources.base": [
@@ -3271,8 +3347,8 @@
           ""
         ]
       },
-      "source_blob": "e2d6557bf8028dcf9d32cbef05a5ab43729e21b1",
-      "sha256": "076b1244e03a1b56992508e511710fc9b7c30ffa1f90bcdb7d9b8aef7464bff0"
+      "source_blob": "ae5af8d251b8f67ba0170a5e598d20ed30f4c8d2",
+      "sha256": "4e42a049d3ff400bfb5725178a8c08aefa4817585c2db6cd294e7d44a0cbf473"
     },
     "Approaches.md": {
       "dependencies": {
@@ -4346,6 +4422,20 @@
       "source_blob": "b0549f111d9808974e336b5992a18badb7ca56e0",
       "sha256": "9fdb45e5af1e6c621fd4cea9fa4a411ff4bce7ac4fe4f254abf3a675c49612a2"
     },
+    "Articles/2026-10-23 - Sean Goedecke - Performance design before language rewrites.md": {
+      "dependencies": {
+        "Agentic Development": [
+          "Agentic Development.md",
+          ""
+        ],
+        "Themes/Agent-assisted performance engineering": [
+          "Themes/Agent-assisted performance engineering.md",
+          ""
+        ]
+      },
+      "source_blob": "ca70a88f204200c0206d8e07ac56cc56e9913069",
+      "sha256": "129f3055f85c21cee0b65537b7c8e1f5d2e1be403a8adb2308c76d74700841ca"
+    },
     "Articles/undated - Atlassian - Forward deployed engineering playbook.md": {
       "dependencies": {
         "Attachments/atlassian-fde-playbook-c9cd5956a217.pdf": [
@@ -4555,7 +4645,7 @@
     },
     "Bases/Agentic sources.md": {
       "dependencies": {
-        "base:Bases/Agentic sources.base": "ab375f7a0b718e804a8df5234cb1f99f7a5443c5549d1bb58ee1511fcb5e29bf",
+        "base:Bases/Agentic sources.base": "8759a12337c7be345e5444d044d119e0c4d07f0e308646eaf67d2ad02bc6e070",
         "Articles/2026-10-12 - Robert Kimani - Your engineering strategy has a new failure mode.md": [
           "Articles/2026-10-12 - Robert Kimani - Your engineering strategy has a new failure mode.md",
           ""
@@ -4567,10 +4657,18 @@
         "Articles/2026-10-13 - Naresh Jain - Are Harnesses Worth the Cost.md": [
           "Articles/2026-10-13 - Naresh Jain - Are Harnesses Worth the Cost.md",
           ""
+        ],
+        "Articles/2026-10-23 - Sean Goedecke - Performance design before language rewrites.md": [
+          "Articles/2026-10-23 - Sean Goedecke - Performance design before language rewrites.md",
+          ""
+        ],
+        "Themes/Agent-assisted performance engineering": [
+          "Themes/Agent-assisted performance engineering.md",
+          ""
         ]
       },
       "source_blob": "b3f4258665d082ff63547b2867ca16fab98a4bf0",
-      "sha256": "b8f2be25bac1563844e2b3304f5ed51e21ee2212f1d426a4f3f9adad3932b133"
+      "sha256": "a02898f57add2bf3f34db730fea44de19e7a6c51ceb0beba98e280854679a842"
     },
     "Bases/Approaches.md": {
       "dependencies": {
@@ -6435,6 +6533,24 @@
       },
       "source_blob": "ef96b855cdb8ba094128748f478f017fe727a4e6",
       "sha256": "4ab9fa0927a78e3aec03eb77c7765f40798ae01e2bee424067486bde6618afdf"
+    },
+    "Themes/Agent-assisted performance engineering.md": {
+      "dependencies": {
+        "Articles/2026-10-23 - Sean Goedecke - Performance design before language rewrites": [
+          "Articles/2026-10-23 - Sean Goedecke - Performance design before language rewrites.md",
+          ""
+        ],
+        "Themes/Agent harnesses and verification": [
+          "Themes/Agent harnesses and verification.md",
+          ""
+        ],
+        "Agentic Development": [
+          "Agentic Development.md",
+          ""
+        ]
+      },
+      "source_blob": "a240132a2bcea6fe0bc3e2381884035b9c381098",
+      "sha256": "4f5df7f16a2cc5153677a2a26ae37a56b2e86e2b91ada6a9e6fc63fef57ba561"
     },
     "Themes/Field discovery and execution.md": {
       "dependencies": {

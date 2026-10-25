@@ -6,6 +6,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [2026-10-12 - Robert Kimani - Your engineering strategy has a new failure mode](../Articles/2026-10-12%20-%20Robert%20Kimani%20-%20Your%20engineering%20strategy%20has%20a%20new%20failure%20mode.md) | Robert Kimani | 2026-10-12 | practitioner-argument; hypothetical-example | robert-kimani-engineering-strategy-failure-mode-2026 | Connects AI delivery constraints to reviewable investment assumptions | reviewed | [Agent harnesses and verification](../Themes/Agent%20harnesses%20and%20verification.md) |
 | [2026-10-13 - Naresh Jain - Are Harnesses Worth the Cost](../Articles/2026-10-13%20-%20Naresh%20Jain%20-%20Are%20Harnesses%20Worth%20the%20Cost.md) | Naresh Jain | 2026-10-13 | reported-experiment; practitioner-argument | naresh-jain-harness-cost-2026 | Separates development feedback from acceptance and questions harness economics | reviewed | [Agent harnesses and verification](../Themes/Agent%20harnesses%20and%20verification.md) |
+| [2026-10-23 - Sean Goedecke - Performance design before language rewrites](../Articles/2026-10-23%20-%20Sean%20Goedecke%20-%20Performance%20design%20before%20language%20rewrites.md) | Sean Goedecke | 2026-10-23 | practitioner-argument; reported-experience; hypothetical-example | sean-goedecke-performance-design-2026 | Directs agent-assisted optimisation toward measured workload constraints | reviewed | [Agent-assisted performance engineering](../Themes/Agent-assisted%20performance%20engineering.md) |
 
 ## Verification gaps
 
@@ -13,3 +14,4 @@
 | --- | --- | --- | --- |
 | [2026-10-12 - Robert Kimani - Your engineering strategy has a new failure mode](../Articles/2026-10-12%20-%20Robert%20Kimani%20-%20Your%20engineering%20strategy%20has%20a%20new%20failure%20mode.md) | reviewed | 2026-10-12 |  |
 | [2026-10-13 - Naresh Jain - Are Harnesses Worth the Cost](../Articles/2026-10-13%20-%20Naresh%20Jain%20-%20Are%20Harnesses%20Worth%20the%20Cost.md) | reviewed | 2026-10-13 |  |
+| [2026-10-23 - Sean Goedecke - Performance design before language rewrites](../Articles/2026-10-23%20-%20Sean%20Goedecke%20-%20Performance%20design%20before%20language%20rewrites.md) | reviewed | 2026-10-23 |  |
