@@ -3,7 +3,7 @@ type: synthesis
 collection: agentic-development
 status: evolving
 created: 2026-10-21
-updated: 2026-10-21T10:51
+updated: 2026-10-25
 tags:
   - agentic-development
 ---
@@ -22,9 +22,11 @@ Before adopting a workflow, ask which requirements the checks cover, which failu
 
 [[Articles/2026-10-12 - Robert Kimani - Your engineering strategy has a new failure mode|Kimani]] adds a system-level question: does faster implementation increase accepted delivery, or move the constraint downstream? His assumption register is practitioner guidance, not a validated intervention.
 
+For agent-assisted optimisation, [[Articles/2026-10-23 - Sean Goedecke - Performance design before language rewrites|Goedecke]] suggests measuring the workload before choosing a language rewrite. Treat this as a candidate workflow; benefits and correctness remain untested here.
+
 ## Reading and evidence
 
-Start with [[Themes/Agent harnesses and verification]]. Browse the independent source inventory below; additional themes should follow the material rather than a predetermined taxonomy.
+Start with [[Themes/Agent harnesses and verification]] and [[Themes/Agent-assisted performance engineering]]. Browse the independent source inventory below; additional themes should follow the material rather than a predetermined taxonomy.
 
 ![[Bases/Agentic sources.base]]
 
