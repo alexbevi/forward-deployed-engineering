@@ -1,0 +1,17 @@
+filters:
+  and:
+    - file.ext == "md"
+    - note.collection == "agentic-development"
+    - note.type == "resource"
+views:
+  - type: table
+    name: Agentic resources
+    order:
+      - file.name
+      - note.purpose
+      - note.status
+      - note.last_verified
+      - note.reviewed_revision
+      - note.license
+      - note.url
+      - note.sources

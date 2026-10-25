@@ -1,0 +1,15 @@
+filters:
+  and:
+    - file.ext == "md"
+    - note.collection == "agentic-development"
+    - note.type == "approach"
+views:
+  - type: table
+    name: Agentic approaches
+    order:
+      - file.name
+      - note.purpose
+      - note.application_scope
+      - note.evidence_status
+      - note.application_status
+      - note.sources
