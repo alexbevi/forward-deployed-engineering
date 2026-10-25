@@ -14,11 +14,21 @@ Before adopting a workflow, ask which requirements the checks cover, which failu
 
 For agent-assisted optimisation, [Goedecke](Articles/2026-10-23%20-%20Sean%20Goedecke%20-%20Performance%20design%20before%20language%20rewrites.md) suggests measuring the workload before choosing a language rewrite. Treat this as a candidate workflow; benefits and correctness remain untested here.
 
+[EGM](Approaches/Elephant-Goldfish%20design%20and%20review.md) adds a proposed boundary between context-rich design and fresh-context review. Conversation isolation can expose unstated assumptions, but it does not establish independent correctness or replace acceptance evidence. Its essay and plugin share provenance.
+
 ## Reading and evidence
 
 Start with [Agent harnesses and verification](Themes/Agent%20harnesses%20and%20verification.md) and [Agent-assisted performance engineering](Themes/Agent-assisted%20performance%20engineering.md). Browse the independent source inventory below; additional themes should follow the material rather than a predetermined taxonomy.
 
 [Agentic sources](Bases/Agentic%20sources.md)
+
+## Methods and tools
+
+The first extracted method is [Elephant-Goldfish design and review](Approaches/Elephant-Goldfish%20design%20and%20review.md), with a reviewed implementation in [Elephant-Goldfish Model](Resources/Elephant-Goldfish%20Model.md). These inventories remain separate from FDE/Staff methods and resources.
+
+[Agentic approaches](Bases/Agentic%20approaches.md)
+
+[Agentic resources](Bases/Agentic%20resources.md)
 
 ## Questions to investigate
 

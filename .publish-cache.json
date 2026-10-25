@@ -1,6 +1,6 @@
 {
   "fingerprint": "4cb01aa2cb6742c5a97a4919d5ab595143e009f9a5c40e578a2f737c60273d2b",
-  "source_commit": "4622257ec9a635e2362d9e95b4c0b274fe76af6f",
+  "source_commit": "f4e8dc3116cd8cbb0447dde669a505732c038e34",
   "records": {
     "AGENTS.md": {
       "path": "AGENTS.md",
@@ -33,6 +33,7 @@
         "Agentic development": "agentic-development",
         "Initial working position": "initial-working-position",
         "Reading and evidence": "reading-and-evidence",
+        "Methods and tools": "methods-and-tools",
         "Questions to investigate": "questions-to-investigate"
       }
     },
@@ -128,6 +129,41 @@
         "Proposed use in FDE work": "proposed-use-in-fde-work",
         "Fit and failure modes": "fit-and-failure-modes",
         "Evidence to collect": "evidence-to-collect"
+      }
+    },
+    "Approaches/Elephant-Goldfish design and review.md": {
+      "path": "Approaches/Elephant-Goldfish design and review.md",
+      "meta": {
+        "type": "approach",
+        "collection": "agentic-development",
+        "status": "evolving",
+        "created": "2026-10-25",
+        "updated": "2026-10-25",
+        "tags": [
+          "agentic-development",
+          "agentic-development/context",
+          "agentic-development/verification"
+        ],
+        "purpose": "Expose assumptions that a design authoring conversation leaves unstated",
+        "mechanism": "Retain context during drafting and assess the resulting specification in fresh review contexts",
+        "application_scope": "Agent-assisted feature design with accessible source evidence and human review ownership",
+        "evidence_status": "source-reported",
+        "application_status": "proposed",
+        "evidence_family": "elephant-goldfish-model",
+        "sources": [
+          "[[Articles/2026-04-27 - Dave Rensin - Elephants Goldfish and software engineering]]"
+        ],
+        "resources": [
+          "[[Resources/Elephant-Goldfish Model]]"
+        ],
+        "playbooks": [],
+        "local_observations": []
+      },
+      "headings": {
+        "Elephant-Goldfish design and review": "elephant-goldfish-design-and-review",
+        "Source-reported mechanism": "source-reported-mechanism",
+        "Conditions and limits": "conditions-and-limits",
+        "Proposed evaluation": "proposed-evaluation"
       }
     },
     "Articles/2020-09-04 - Will Larson - Work on what matters.md": {
@@ -347,6 +383,59 @@
         "Summary": "summary",
         "Perspective and limits": "perspective-and-limits",
         "Connections": "connections"
+      }
+    },
+    "Articles/2026-04-27 - Dave Rensin - Elephants Goldfish and software engineering.md": {
+      "path": "Articles/2026-04-27 - Dave Rensin - Elephants Goldfish and software engineering.md",
+      "meta": {
+        "type": "article",
+        "collection": "agentic-development",
+        "title": "Elephants, Goldfish and the New Golden Age of Software Engineering",
+        "author": [
+          "Dave Rensin"
+        ],
+        "site": "Medium",
+        "url": "https://drensin.medium.com/elephants-goldfish-and-the-new-golden-age-of-software-engineering-c33641a48874",
+        "canonical_url": null,
+        "publication_date": "2026-04-27",
+        "publication_date_basis": "Visible publisher date beside the byline",
+        "source_updated": "2026-10-21",
+        "source_updated_basis": "Author's dated opening update announcing the open-source plugin, not verified last-modified metadata",
+        "accessed": "2026-10-25",
+        "created": "2026-10-25",
+        "updated": "2026-10-25",
+        "status": "reviewed",
+        "source_kind": "practitioner-article",
+        "evidence_family": "elephant-goldfish-model",
+        "evidence_basis": [
+          "practitioner-argument",
+          "reported-experience",
+          "forecast"
+        ],
+        "contribution": "Separates context-rich design from fresh-context review and retains design reasoning in durable documents",
+        "tags": [
+          "agentic-development",
+          "agentic-development/context",
+          "agentic-development/verification"
+        ],
+        "themes": [
+          "[[Themes/Agent harnesses and verification]]"
+        ],
+        "models": [],
+        "approaches": [
+          "[[Approaches/Elephant-Goldfish design and review]]"
+        ],
+        "playbooks": [],
+        "people": [],
+        "resources": [
+          "[[Resources/Elephant-Goldfish Model]]"
+        ],
+        "role_applications": []
+      },
+      "headings": {
+        "Elephants, Goldfish and software engineering": "elephants-goldfish-and-software-engineering",
+        "Contribution and evidence": "contribution-and-evidence",
+        "Placement and verification": "placement-and-verification"
       }
     },
     "Articles/2026-08-18 - James Socol - Staff engineers must rebuild team culture.md": {
@@ -2735,6 +2824,48 @@
         "DGF-Bench repository": "dgf-bench-repository"
       }
     },
+    "Resources/Elephant-Goldfish Model.md": {
+      "path": "Resources/Elephant-Goldfish Model.md",
+      "meta": {
+        "type": "resource",
+        "collection": "agentic-development",
+        "status": "reviewed",
+        "created": "2026-10-25",
+        "updated": "2026-10-25",
+        "tags": [
+          "agentic-development",
+          "agentic-development/context",
+          "agentic-development/verification"
+        ],
+        "resource_kind": "agent-plugin",
+        "purpose": "Candidate tooling for specification drafting, isolated review and documentation maintenance",
+        "url": "https://github.com/google/elephant-goldfish-model",
+        "homepage": "https://egm.dev/",
+        "maintainer": "Google LLC",
+        "evidence_family": "elephant-goldfish-model",
+        "sources": [
+          "[[Articles/2026-04-27 - Dave Rensin - Elephants Goldfish and software engineering]]"
+        ],
+        "themes": [
+          "[[Themes/Agent harnesses and verification]]"
+        ],
+        "approaches": [
+          "[[Approaches/Elephant-Goldfish design and review]]"
+        ],
+        "availability": "Public project site and repository accessible on the verification date",
+        "last_verified": "2026-10-25",
+        "reviewed_revision": "3d0b34821ce88ad328b0c9bf0e06d7eb5f1cd669",
+        "reviewed_version": "0.1.0",
+        "license": "Apache-2.0",
+        "review_scope": "Project site, README, license, plugin manifest, architecture, harness and Codex documentation, review skill and dispatch excerpts, comprehension persona and testing record; no installation or execution",
+        "local_observations": []
+      },
+      "headings": {
+        "Elephant-Goldfish Model": "elephant-goldfish-model",
+        "Capabilities and prerequisites": "capabilities-and-prerequisites",
+        "Evidence limits and proposed trial": "evidence-limits-and-proposed-trial"
+      }
+    },
     "Resources/FDE-Bench development repository.md": {
       "path": "Resources/FDE-Bench development repository.md",
       "meta": {
@@ -2888,7 +3019,7 @@
         "collection": "agentic-development",
         "status": "evolving",
         "created": "2026-10-21",
-        "updated": "2026-10-21T10:51",
+        "updated": "2026-10-25",
         "tags": [
           "agentic-development",
           "agentic-development/verification",
@@ -3028,6 +3159,54 @@
     }
   },
   "specs": {
+    "Bases/Agentic approaches.base": {
+      "filters": {
+        "and": [
+          "file.ext == \"md\"",
+          "note.collection == \"agentic-development\"",
+          "note.type == \"approach\""
+        ]
+      },
+      "views": [
+        {
+          "type": "table",
+          "name": "Agentic approaches",
+          "order": [
+            "file.name",
+            "note.purpose",
+            "note.application_scope",
+            "note.evidence_status",
+            "note.application_status",
+            "note.sources"
+          ]
+        }
+      ]
+    },
+    "Bases/Agentic resources.base": {
+      "filters": {
+        "and": [
+          "file.ext == \"md\"",
+          "note.collection == \"agentic-development\"",
+          "note.type == \"resource\""
+        ]
+      },
+      "views": [
+        {
+          "type": "table",
+          "name": "Agentic resources",
+          "order": [
+            "file.name",
+            "note.purpose",
+            "note.status",
+            "note.last_verified",
+            "note.reviewed_revision",
+            "note.license",
+            "note.url",
+            "note.sources"
+          ]
+        }
+      ]
+    },
     "Bases/Agentic sources.base": {
       "filters": {
         "and": [
@@ -3330,6 +3509,10 @@
           "Articles/2026-10-23 - Sean Goedecke - Performance design before language rewrites.md",
           ""
         ],
+        "Approaches/Elephant-Goldfish design and review": [
+          "Approaches/Elephant-Goldfish design and review.md",
+          ""
+        ],
         "Themes/Agent harnesses and verification": [
           "Themes/Agent harnesses and verification.md",
           ""
@@ -3342,13 +3525,25 @@
           "Bases/Agentic sources.md",
           ""
         ],
+        "Resources/Elephant-Goldfish Model": [
+          "Resources/Elephant-Goldfish Model.md",
+          ""
+        ],
+        "Bases/Agentic approaches.base": [
+          "Bases/Agentic approaches.md",
+          ""
+        ],
+        "Bases/Agentic resources.base": [
+          "Bases/Agentic resources.md",
+          ""
+        ],
         "Catalogue": [
           "Catalogue.md",
           ""
         ]
       },
-      "source_blob": "ae5af8d251b8f67ba0170a5e598d20ed30f4c8d2",
-      "sha256": "4e42a049d3ff400bfb5725178a8c08aefa4817585c2db6cd294e7d44a0cbf473"
+      "source_blob": "e403b9be82790e0af63c687bf71335644c98b4a0",
+      "sha256": "507c84e39bd8c9e1d31005099030dcd6ba672f562db5a1e5d6e4a108e67bc8f9"
     },
     "Approaches.md": {
       "dependencies": {
@@ -3439,6 +3634,28 @@
       },
       "source_blob": "c106de687a924a401f748b6d3808fdc6ec4b5ca9",
       "sha256": "4fc70eb6e4e2d5a9252dac56df3dc09eafebb5a1b9985d09c34ae51eb81d6020"
+    },
+    "Approaches/Elephant-Goldfish design and review.md": {
+      "dependencies": {
+        "Articles/2026-04-27 - Dave Rensin - Elephants Goldfish and software engineering": [
+          "Articles/2026-04-27 - Dave Rensin - Elephants Goldfish and software engineering.md",
+          ""
+        ],
+        "Resources/Elephant-Goldfish Model": [
+          "Resources/Elephant-Goldfish Model.md",
+          ""
+        ],
+        "Themes/Agent harnesses and verification": [
+          "Themes/Agent harnesses and verification.md",
+          ""
+        ],
+        "Agentic Development": [
+          "Agentic Development.md",
+          ""
+        ]
+      },
+      "source_blob": "bd154583522f5c86d0e79f893825697ede066710",
+      "sha256": "33238a34cd1f85bf5c94dcfdfba2a5c29ba440a0c6d135970da33f61f7097c04"
     },
     "Articles/2020-09-04 - Will Larson - Work on what matters.md": {
       "dependencies": {
@@ -3595,6 +3812,28 @@
       },
       "source_blob": "5e2940196402a405956bec6117329c1960889637",
       "sha256": "e48ce711f3f2b835ec3a8c12cd62a6a3040c7185b9a35cb3be43f7efe584d1e7"
+    },
+    "Articles/2026-04-27 - Dave Rensin - Elephants Goldfish and software engineering.md": {
+      "dependencies": {
+        "Resources/Elephant-Goldfish Model": [
+          "Resources/Elephant-Goldfish Model.md",
+          ""
+        ],
+        "Approaches/Elephant-Goldfish design and review": [
+          "Approaches/Elephant-Goldfish design and review.md",
+          ""
+        ],
+        "Agentic Development": [
+          "Agentic Development.md",
+          ""
+        ],
+        "Themes/Agent harnesses and verification": [
+          "Themes/Agent harnesses and verification.md",
+          ""
+        ]
+      },
+      "source_blob": "3b5b1663f4fa9a9ca5f60766bfd6410c291e672a",
+      "sha256": "588500d8b97b52c2476ee553df658a177929dbfb25c6a708d4632569216af76f"
     },
     "Articles/2026-08-18 - James Socol - Staff engineers must rebuild team culture.md": {
       "dependencies": {
@@ -4643,15 +4882,49 @@
       "sha256": "c9cd5956a217d41867f1ec276ad112d577fa29874f64b678fb6452d110a94023",
       "source_blob": "88e0732fe8ba6ea7de0177e4dade8c8a49f0a4d8"
     },
+    "Bases/Agentic approaches.md": {
+      "dependencies": {
+        "base:Bases/Agentic approaches.base": "f960731eb8c57735e619badf0e6e39cda9a6ffb86089d3555a7deb4efeafcd27",
+        "Approaches/Elephant-Goldfish design and review.md": [
+          "Approaches/Elephant-Goldfish design and review.md",
+          ""
+        ],
+        "Articles/2026-04-27 - Dave Rensin - Elephants Goldfish and software engineering": [
+          "Articles/2026-04-27 - Dave Rensin - Elephants Goldfish and software engineering.md",
+          ""
+        ]
+      },
+      "source_blob": "9e917ae4d2d8ff0871f1d19f199d35ba519fb998",
+      "sha256": "4a54ccc385292b0ae1bd9a8eb976a0b8a6387c6ac7e1d3ee9bee3dcf730ffc85"
+    },
+    "Bases/Agentic resources.md": {
+      "dependencies": {
+        "base:Bases/Agentic resources.base": "4e8d72e5243bf5c64fc8e97048b8df2ac29c8c6caacd74f9218e544e185502b8",
+        "Resources/Elephant-Goldfish Model.md": [
+          "Resources/Elephant-Goldfish Model.md",
+          ""
+        ],
+        "Articles/2026-04-27 - Dave Rensin - Elephants Goldfish and software engineering": [
+          "Articles/2026-04-27 - Dave Rensin - Elephants Goldfish and software engineering.md",
+          ""
+        ]
+      },
+      "source_blob": "f510689944f2084785b68713242127709b711612",
+      "sha256": "3db7c3b26b33044e3680889019d6916324f00e12b92cef5c2e5dc1a32f74b9e4"
+    },
     "Bases/Agentic sources.md": {
       "dependencies": {
-        "base:Bases/Agentic sources.base": "8759a12337c7be345e5444d044d119e0c4d07f0e308646eaf67d2ad02bc6e070",
-        "Articles/2026-10-12 - Robert Kimani - Your engineering strategy has a new failure mode.md": [
-          "Articles/2026-10-12 - Robert Kimani - Your engineering strategy has a new failure mode.md",
+        "base:Bases/Agentic sources.base": "171021709e2bfc474b62d9957cbee74cc6e7a70dfe9be4abe371e7432ef0c08c",
+        "Articles/2026-04-27 - Dave Rensin - Elephants Goldfish and software engineering.md": [
+          "Articles/2026-04-27 - Dave Rensin - Elephants Goldfish and software engineering.md",
           ""
         ],
         "Themes/Agent harnesses and verification": [
           "Themes/Agent harnesses and verification.md",
+          ""
+        ],
+        "Articles/2026-10-12 - Robert Kimani - Your engineering strategy has a new failure mode.md": [
+          "Articles/2026-10-12 - Robert Kimani - Your engineering strategy has a new failure mode.md",
           ""
         ],
         "Articles/2026-10-13 - Naresh Jain - Are Harnesses Worth the Cost.md": [
@@ -4668,7 +4941,7 @@
         ]
       },
       "source_blob": "b3f4258665d082ff63547b2867ca16fab98a4bf0",
-      "sha256": "a02898f57add2bf3f34db730fea44de19e7a6c51ceb0beba98e280854679a842"
+      "sha256": "a4125d2493c037788e1f1e61ce2f416330ccc06b20247d921f912709e90f1ebc"
     },
     "Bases/Approaches.md": {
       "dependencies": {
@@ -6374,6 +6647,28 @@
       "source_blob": "ad8d1b5294af30562b0bc788f79b91eda1d7a834",
       "sha256": "ce39a424044b65a51dbb8f9307cb9bdd529a5d7e19e4a722c26c4883dae71704"
     },
+    "Resources/Elephant-Goldfish Model.md": {
+      "dependencies": {
+        "Approaches/Elephant-Goldfish design and review": [
+          "Approaches/Elephant-Goldfish design and review.md",
+          ""
+        ],
+        "Agentic Development": [
+          "Agentic Development.md",
+          ""
+        ],
+        "Articles/2026-04-27 - Dave Rensin - Elephants Goldfish and software engineering": [
+          "Articles/2026-04-27 - Dave Rensin - Elephants Goldfish and software engineering.md",
+          ""
+        ],
+        "Themes/Agent harnesses and verification": [
+          "Themes/Agent harnesses and verification.md",
+          ""
+        ]
+      },
+      "source_blob": "497e830b9cf7830a7c66edf4253f81c55f6c261a",
+      "sha256": "1f912ac317dc3830b95aa0b12a0233b32f10eb4e23db5465598c7b645b823963"
+    },
     "Resources/FDE-Bench development repository.md": {
       "dependencies": {
         "Articles/2026-09-23 - Weihang Ding et al - FDE-Bench": [
@@ -6522,17 +6817,29 @@
           "Articles/2026-10-12 - Robert Kimani - Your engineering strategy has a new failure mode.md",
           ""
         ],
+        "Articles/2026-04-27 - Dave Rensin - Elephants Goldfish and software engineering": [
+          "Articles/2026-04-27 - Dave Rensin - Elephants Goldfish and software engineering.md",
+          ""
+        ],
+        "Resources/Elephant-Goldfish Model": [
+          "Resources/Elephant-Goldfish Model.md",
+          ""
+        ],
         "Staff Engineer#Carry engineering context across boundaries": [
           "Staff Engineer.md",
           "carry-engineering-context-across-boundaries"
+        ],
+        "Approaches/Elephant-Goldfish design and review": [
+          "Approaches/Elephant-Goldfish design and review.md",
+          ""
         ],
         "Agentic Development": [
           "Agentic Development.md",
           ""
         ]
       },
-      "source_blob": "ef96b855cdb8ba094128748f478f017fe727a4e6",
-      "sha256": "4ab9fa0927a78e3aec03eb77c7765f40798ae01e2bee424067486bde6618afdf"
+      "source_blob": "0245bb4d41df689b3d315ab5bb52b022d58cc95b",
+      "sha256": "47f1776fc922b741316c02f530cf9f2c264d5c4c6f075a5993d198ccb0794562"
     },
     "Themes/Agent-assisted performance engineering.md": {
       "dependencies": {

@@ -8,9 +8,11 @@ Which feedback and acceptance mechanisms improve agent-produced software, under 
 
 - [Kimani](../Articles/2026-10-12%20-%20Robert%20Kimani%20-%20Your%20engineering%20strategy%20has%20a%20new%20failure%20mode.md). Practitioner argument connecting verification capacity to investment reassessment.
 
+- [Rensin, 2026](../Articles/2026-04-27%20-%20Dave%20Rensin%20-%20Elephants%20Goldfish%20and%20software%20engineering.md). Context-rich drafting and fresh-context review; [companion tooling](../Resources/Elephant-Goldfish%20Model.md) shares the same provenance.
+
 ## Connections
 
-This source also has a qualified application in [Staff Engineer](../Staff%20Engineer.md#carry-engineering-context-across-boundaries); it remains a single domain evidence record.
+[Kimani's article](../Articles/2026-10-12%20-%20Robert%20Kimani%20-%20Your%20engineering%20strategy%20has%20a%20new%20failure%20mode.md) also has a qualified application in [Staff Engineer](../Staff%20Engineer.md#carry-engineering-context-across-boundaries); it remains a single domain evidence record.
 
 ## Questions to investigate
 
@@ -18,6 +20,8 @@ This source also has a qualified application in [Staff Engineer](../Staff%20Engi
 - When does increasing implementation capacity expose review or integration as the limiting constraint?
 - What does a comparison need to include before it supports an economic claim?
 - Which results depend on the task specification, agent settings or environment rather than the harness alone?
+
+[Elephant-Goldfish design and review](../Approaches/Elephant-Goldfish%20design%20and%20review.md) records EGM's mechanism, prerequisites and a proposed evaluation. Its review isolation remains distinct from independent acceptance checks.
 
 Return to [Agentic Development](../Agentic%20Development.md).
 
@@ -29,5 +33,5 @@ Return to [Agentic Development](../Agentic%20Development.md).
 | collection | agentic-development |
 | status | evolving |
 | created | 2026-10-21 |
-| updated | 2026-10-21T10:51 |
+| updated | 2026-10-25 |
 | tags | agentic-development; agentic-development/verification; agentic-development/harnesses |
