@@ -1,6 +1,6 @@
 {
   "fingerprint": "4cb01aa2cb6742c5a97a4919d5ab595143e009f9a5c40e578a2f737c60273d2b",
-  "source_commit": "f4e8dc3116cd8cbb0447dde669a505732c038e34",
+  "source_commit": "d8ad06f7b3ed14047d0924a886c2edb5f5a75c66",
   "records": {
     "AGENTS.md": {
       "path": "AGENTS.md",
@@ -1755,6 +1755,56 @@
         "Placement and verification": "placement-and-verification"
       }
     },
+    "Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering.md": {
+      "path": "Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering.md",
+      "meta": {
+        "type": "article",
+        "collection": "fde",
+        "title": "Thinking about the evolution of forward-deployed engineers over the last 24 months",
+        "author": [
+          "Kevin Shatzkamer"
+        ],
+        "author_role": "CVP, Forward Deployed Engineering, Microsoft, as identified in the article",
+        "site": "Command Line, a Microsoft publication",
+        "url": "https://commandline.microsoft.com/thinking-about-the-evolution-of-forward-deployed-engineers-over-the-last-24-months/",
+        "canonical_url": null,
+        "publication_date": "2026-10-28",
+        "publication_date_basis": "Visible article date, 2026.10.28; structured metadata not verified",
+        "accessed": "2026-10-31",
+        "created": "2026-10-31",
+        "updated": "2026-10-31",
+        "status": "reviewed",
+        "source_kind": "vendor-perspective",
+        "evidence_family": "microsoft-shatzkamer-fde-evolution-2026",
+        "evidence_basis": [
+          "reported-experience",
+          "practitioner-argument"
+        ],
+        "contribution": "Frames FDE as a multidisciplinary delivery capability",
+        "tags": [
+          "fde",
+          "fde/role",
+          "fde/ownership",
+          "fde/product-feedback"
+        ],
+        "themes": [
+          "[[Themes/Role and product feedback]]",
+          "[[Themes/Ownership and sustainable delivery]]"
+        ],
+        "models": [
+          "[[Operating models/Customer-owned delivery]]"
+        ],
+        "playbooks": [
+          "[[Playbooks/Prove a handover]]"
+        ],
+        "people": [],
+        "resources": []
+      },
+      "headings": {
+        "FDE as a delivery capability": "fde-as-a-delivery-capability",
+        "Connections and verification": "connections-and-verification"
+      }
+    },
     "Articles/undated - Atlassian - Forward deployed engineering playbook.md": {
       "path": "Articles/undated - Atlassian - Forward deployed engineering playbook.md",
       "meta": {
@@ -1956,7 +2006,7 @@
         "collection": "fde",
         "status": "evolving",
         "created": "2026-10-05",
-        "updated": "2026-10-23",
+        "updated": "2026-10-31",
         "tags": [
           "fde"
         ]
@@ -2022,7 +2072,7 @@
         "type": "operating-model",
         "collection": "fde",
         "created": "2026-10-05",
-        "updated": "2026-10-23",
+        "updated": "2026-10-31",
         "tags": [
           "fde"
         ],
@@ -2033,6 +2083,7 @@
         "ownership": "Customer retains decision authority and receives operational ownership",
         "success_measure": "Working system and demonstrated ability to sustain changes",
         "sources": [
+          "[[Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering]]",
           "[[Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff]]",
           "[[Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works]]",
           "[[Articles/2026-09-14 - Arun Prasath E G - How an FDE engagement works]]",
@@ -2599,7 +2650,7 @@
         "type": "playbook",
         "collection": "fde",
         "created": "2026-10-05",
-        "updated": "2026-10-23",
+        "updated": "2026-10-31",
         "tags": [
           "fde"
         ],
@@ -2607,6 +2658,7 @@
         "practice_status": "proposed",
         "purpose": "Transition operational responsibility",
         "sources": [
+          "[[Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering]]",
           "[[Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff]]",
           "[[Articles/2026-09-14 - Arun Prasath E G - How an FDE engagement works]]",
           "[[Articles/2026-09-14 - Arun Prasath E G - FDE engagements for owners]]",
@@ -3081,7 +3133,7 @@
         "collection": "fde",
         "status": "evolving",
         "created": "2026-10-05",
-        "updated": "2026-10-23",
+        "updated": "2026-10-31",
         "tags": [
           "fde",
           "fde/ownership",
@@ -3102,7 +3154,7 @@
         "collection": "fde",
         "status": "evolving",
         "created": "2026-10-05",
-        "updated": "2026-10-23",
+        "updated": "2026-10-31",
         "tags": [
           "fde",
           "fde/role",
@@ -4675,6 +4727,32 @@
       "source_blob": "ca70a88f204200c0206d8e07ac56cc56e9913069",
       "sha256": "129f3055f85c21cee0b65537b7c8e1f5d2e1be403a8adb2308c76d74700841ca"
     },
+    "Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering.md": {
+      "dependencies": {
+        "FDE#How the function evolves": [
+          "FDE.md",
+          "how-the-function-evolves"
+        ],
+        "Operating models/Customer-owned delivery": [
+          "Operating models/Customer-owned delivery.md",
+          ""
+        ],
+        "Playbooks/Prove a handover": [
+          "Playbooks/Prove a handover.md",
+          ""
+        ],
+        "Themes/Role and product feedback": [
+          "Themes/Role and product feedback.md",
+          ""
+        ],
+        "Themes/Ownership and sustainable delivery": [
+          "Themes/Ownership and sustainable delivery.md",
+          ""
+        ]
+      },
+      "source_blob": "63a00d86c8857a20d7e66cb1afd2352e99ce53e3",
+      "sha256": "7e250373b28ac40f06d8b63b605e179f308142ea660f8dd130528cd9a18a32ae"
+    },
     "Articles/undated - Atlassian - Forward deployed engineering playbook.md": {
       "dependencies": {
         "Attachments/atlassian-fde-playbook-c9cd5956a217.pdf": [
@@ -4980,7 +5058,7 @@
     },
     "Bases/Operating models.md": {
       "dependencies": {
-        "base:Bases/Operating models.base": "1e1ee6b2a80a6a5daf177afda3787864e624d98ebe35eb23a82def85e8f68dea",
+        "base:Bases/Operating models.base": "f2991354d74eee2c35eac97b7df4b4aa01e5807551af43c3fa4deb0fe3e00553",
         "Operating models/Atlassian co-engineering.md": [
           "Operating models/Atlassian co-engineering.md",
           ""
@@ -4991,6 +5069,10 @@
         ],
         "Operating models/Customer-owned delivery.md": [
           "Operating models/Customer-owned delivery.md",
+          ""
+        ],
+        "Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering": [
+          "Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering.md",
           ""
         ],
         "Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff": [
@@ -5071,7 +5153,7 @@
         ]
       },
       "source_blob": "cbaf2207d36514483d6477bcd762aac50083ef5b",
-      "sha256": "1807fd85bd4d7b6cf743f0d5291bdb151c87723f1e95f737a1b27a3ca1e26ad3"
+      "sha256": "32d1c98e8ccec663b2d4685478e3d021a73ea581a599ba734ca252e62430fbe3"
     },
     "Bases/People.md": {
       "dependencies": {
@@ -5202,7 +5284,7 @@
     },
     "Bases/Playbooks.md": {
       "dependencies": {
-        "base:Bases/Playbooks.base": "3c2142aed6a2a62326e60375c30af2f2ccd3b0571b9932719e5b95cf82e427e7",
+        "base:Bases/Playbooks.base": "b91a0709cb52eab470bdc18bbeaddb784eb345e2805080e508a81d4f691743f8",
         "Playbooks/Build and review safely.md": [
           "Playbooks/Build and review safely.md",
           ""
@@ -5251,6 +5333,10 @@
           "Playbooks/Prove a handover.md",
           ""
         ],
+        "Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering": [
+          "Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering.md",
+          ""
+        ],
         "Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff": [
           "Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff.md",
           ""
@@ -5297,7 +5383,7 @@
         ]
       },
       "source_blob": "68cc8706522ff3e1ad8660172d56d7053ee8b215",
-      "sha256": "5a0433e9b28c22e120595104dff3053b7970b40af3fb0fd729f947546ed1851d"
+      "sha256": "3dcf920f686b3c7e5f25bcf215994b84507c266283e347d706f9f77523fdbf3d"
     },
     "Bases/Resources.md": {
       "dependencies": {
@@ -5364,7 +5450,7 @@
     },
     "Bases/Sources.md": {
       "dependencies": {
-        "base:Bases/Sources.base": "058352e5e4fd8250f498815365c88e138778ce58bd9d96eb01e94379e5396d6f",
+        "base:Bases/Sources.base": "7d15202ccf209b926e0c629f8246d550c40be6f3cafb75f1853b2fe7778aceba",
         "Articles/2020-09-04 - Will Larson - Work on what matters.md": [
           "Articles/2020-09-04 - Will Larson - Work on what matters.md",
           ""
@@ -5549,6 +5635,10 @@
           "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI.md",
           ""
         ],
+        "Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering.md": [
+          "Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering.md",
+          ""
+        ],
         "Articles/undated - Atlassian - Forward deployed engineering playbook.md": [
           "Articles/undated - Atlassian - Forward deployed engineering playbook.md",
           ""
@@ -5579,7 +5669,7 @@
         ]
       },
       "source_blob": "fe01b99ce28b7a1e9dee85cdd07bf1a05aeae470",
-      "sha256": "764b9effd9cc0db7adfb93c26971d6868953b4178894d0b72f79a761d37f27ed"
+      "sha256": "66e1c7e3f1691a2f524b5c011374c85fe2475b0b08527672c6949fd85d4ad2f4"
     },
     "Catalogue.md": {
       "dependencies": {
@@ -5785,6 +5875,10 @@
           "Themes/Technical and professional development.md",
           ""
         ],
+        "Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering": [
+          "Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering.md",
+          ""
+        ],
         "Catalogue": [
           "Catalogue.md",
           ""
@@ -5822,8 +5916,8 @@
           ""
         ]
       },
-      "source_blob": "9144d53dca488a0ec48666e33c0c10e4c67560a5",
-      "sha256": "c35183b9c5ad6c97b93ba22c50c3a8733af93ef4c98181e720e84f84aa8938d4"
+      "source_blob": "d74805101638fe72e6d86a19392a001fc0194d17",
+      "sha256": "5bfb328a750ad83de826beade467d8d46420e66c24b197783cba96ba43792b62"
     },
     "Operating models.md": {
       "dependencies": {
@@ -5934,10 +6028,14 @@
         "Operating models": [
           "Operating models.md",
           ""
+        ],
+        "Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering": [
+          "Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering.md",
+          ""
         ]
       },
-      "source_blob": "8485a83f5c2742f06ae20f508d27e194dd99b01e",
-      "sha256": "fd11d31c00fabbc81a2df7a31ef19f72708ecc14a3568da79ad2cd82916f1336"
+      "source_blob": "1ff10725b43005b33384d180bfa559d146ee2f85",
+      "sha256": "8a87ede724bc432427cb853a19e07443a09ac71380c1f6131b2e04ad630854e0"
     },
     "Operating models/Ground-prove-expand-transfer delivery.md": {
       "dependencies": {
@@ -6409,6 +6507,10 @@
     },
     "Playbooks/Prove a handover.md": {
       "dependencies": {
+        "Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering": [
+          "Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering.md",
+          ""
+        ],
         "Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff": [
           "Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff.md",
           ""
@@ -6438,8 +6540,8 @@
           ""
         ]
       },
-      "source_blob": "e2776480ed631f97a1a1579bb6208a8e9b2b5e02",
-      "sha256": "b7702e10f00d1507afa073e2956345f220733dc13be4a56b3ab5984bee7ecfaa"
+      "source_blob": "de1abc2611137abeb6f8eff5b1286b3985398be9",
+      "sha256": "00bdb45ee68b3d384c6ed655091d466454880ad3941862676e3e9ead73dc6a8b"
     },
     "Playbooks/Rehearse a deployment from delivered artifacts.md": {
       "dependencies": {
@@ -6979,6 +7081,10 @@
     },
     "Themes/Ownership and sustainable delivery.md": {
       "dependencies": {
+        "Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering": [
+          "Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering.md",
+          ""
+        ],
         "Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff": [
           "Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff.md",
           ""
@@ -7056,11 +7162,15 @@
           ""
         ]
       },
-      "source_blob": "a9f5e4f678c0737b85a94728ffc4260a8b57a9a1",
-      "sha256": "f2d5606b470b7b3d6c1893bb3d6f5bfce03ed82a789e876e15b895f7f75de4d7"
+      "source_blob": "da7735eb160b6e33ef842b2bc281f6e19751e197",
+      "sha256": "50e5bef03cbfbab663f8b579b1bc6f107d618ea11992ca01789706605ce894d8"
     },
     "Themes/Role and product feedback.md": {
       "dependencies": {
+        "Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering": [
+          "Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering.md",
+          ""
+        ],
         "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI": [
           "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI.md",
           ""
@@ -7162,8 +7272,8 @@
           ""
         ]
       },
-      "source_blob": "73f21cad5356fddd2f710b63e22af92c989bd456",
-      "sha256": "7ebce86809eddb41675f79fb5a38cb7eaef642c31b130d2089bb107a02fe41c6"
+      "source_blob": "ab1ed3436bcebbdaf6df32df059049b474156ba5",
+      "sha256": "c64318fff94537bed58007585a3259150a39161dec1eda9d559a732d34845542"
     },
     "Themes/Staff engineering and influence.md": {
       "dependencies": {
