@@ -3,7 +3,7 @@ type: synthesis
 collection: fde
 status: evolving
 created: 2026-10-05
-updated: 2026-10-23
+updated: 2026-10-31
 tags:
   - fde
 ---
@@ -86,7 +86,7 @@ A proposed exercise is to use a real engagement artifact for peer review, select
 
 ## How the function evolves
 
-Two company accounts illuminate different changes. [[Articles/2026-03-24 - Doug McClure - How FDE was born at PagerDuty|PagerDuty]] describes moving bespoke services toward product contributions and engineering alignment. [[Articles/2026-03-18 - Carlos Becker - FDE evolution at HappyRobot|HappyRobot]] describes embedded missions and expects better tooling to enable deeper domain and product work. Neither establishes a universal sequence or proves that faster execution produces strategic value.
+Company accounts describe different changes. [[Articles/2026-03-24 - Doug McClure - How FDE was born at PagerDuty|PagerDuty]] describes moving bespoke services toward product contributions and engineering alignment. [[Articles/2026-03-18 - Carlos Becker - FDE evolution at HappyRobot|HappyRobot]] describes embedded missions and expects better tooling to enable deeper domain and product work. [[Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering|Microsoft's Shatzkamer]] argues for multidisciplinary delivery teams that retain product feedback and transfer customer operating capability. These accounts do not establish a universal sequence or prove that faster execution produces strategic value.
 
 Compare changes in responsibilities and capabilities rather than publication dates alone. The catalogue contains practitioner arguments, overlapping engagement accounts, announcements, and forecasts. Four APEG pages share an author and examples; they are one related body of evidence, not four independent confirmations. [[Catalogue]] exposes provenance for further reading.
 

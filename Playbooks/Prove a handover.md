@@ -2,13 +2,14 @@
 type: playbook
 collection: fde
 created: &id001 2026-10-05
-updated: 2026-10-23
+updated: 2026-10-31
 tags:
 - fde
 status: draft
 practice_status: proposed
 purpose: Transition operational responsibility
 sources:
+- "[[Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering]]"
 - '[[Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff]]'
 - '[[Articles/2026-09-14 - Arun Prasath E G - How an FDE engagement works]]'
 - '[[Articles/2026-09-14 - Arun Prasath E G - FDE engagements for owners]]'
@@ -25,7 +26,7 @@ Before a customer or peer takes responsibility for an existing system. This is a
 
 ## Preconditions
 
-Name a receiving owner with the access, time, competence, and support arrangements needed to operate the system. Agree how to conduct a rehearsal without unnecessary production impact.
+Name a receiving owner with the access, time, competence, and support arrangements needed to operate the system. Agree how to conduct a rehearsal without unnecessary production impact. Begin transfer sessions alongside the final engineering sprints, adapting [[Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering|Shatzkamer's guidance]].
 
 ## Procedure
 
