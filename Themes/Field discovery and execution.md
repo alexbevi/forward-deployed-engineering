@@ -3,7 +3,7 @@ type: theme
 collection: fde
 status: evolving
 created: 2026-10-05
-updated: 2026-10-23
+updated: 2026-11-04
 tags:
   - fde
   - fde/discovery
@@ -16,6 +16,7 @@ How do FDEs understand a customer's problem and deliver a solution that works in
 
 ## Catalogue
 
+- [[Articles/2026-11-02 - Marianne Menglin Liu et al - FDE agent requirement discovery and delivery|Liu et al., 2026]]. Simulated discovery and delivery.
 - [[Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI|Jarvis, 2026]]. Customer evaluations and reported consolidation of custom deployments.
 - [[Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works|OrNsoft, 2026]]. Written acceptance gates and diagnosis no-go.
 - [[Articles/2026-10-16 - McKinsey - What is a forward-deployed engineer|McKinsey, 2026]]. Workflow observation and iterative delivery.

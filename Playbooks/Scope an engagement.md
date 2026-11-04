@@ -2,13 +2,14 @@
 type: playbook
 collection: fde
 created: 2026-10-05
-updated: 2026-10-20
+updated: 2026-11-04
 tags:
   - fde
 status: draft
 practice_status: proposed
 purpose: Start or reset an engagement
 sources:
+  - "[[Articles/2026-11-02 - Marianne Menglin Liu et al - FDE agent requirement discovery and delivery]]"
   - "[[Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works]]"
   - "[[Articles/2026-10-16 - McKinsey - What is a forward-deployed engineer]]"
   - "[[Articles/undated - Kusum Motiani - What 133 companies reveal about FDE]]"
@@ -41,6 +42,8 @@ Have a business decision-maker and someone who understands the actual workflow. 
 6. Review whether an existing product or a smaller advisory task would meet the need before building.
 
 The [[Articles/undated - Atlassian - Forward deployed engineering playbook|Atlassian PDF, pages 10 and 12]], adds a problem-selection lens and early permission design. Record the intended agent action boundary before implementation.
+
+Reconcile discovered facts with the delivery brief. Preserve unresolved customer decisions separately from proposed defaults. This adapts [[Articles/2026-11-02 - Marianne Menglin Liu et al - FDE agent requirement discovery and delivery|Liu et al.]] and remains proposed.
 
 ## Artifact to leave
 

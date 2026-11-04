@@ -3,7 +3,7 @@ type: synthesis
 collection: fde
 status: evolving
 created: 2026-10-05
-updated: 2026-10-31
+updated: 2026-11-04
 tags:
   - fde
 ---
@@ -38,6 +38,8 @@ Our proposed rubric asks for observable evidence. It is not a validated scoring 
 | Peer contribution | Reviewable artifacts and reasoning another engineer can apply. |
 
 Keep agent correctness, workflow improvement, and reuse evidence separate. A system can pass evaluations without improving work, and a useful customer implementation can remain bespoke. [[Playbooks/Evaluate outcomes and reuse]] develops this distinction from [[Articles/2026-09-21 - Pablo Bermejo - Turning intelligence into lasting value|Bermejo's proposed feedback model]].
+
+Agent-assisted discovery needs review for omissions and unresolved decisions. [[Articles/2026-11-02 - Marianne Menglin Liu et al - FDE agent requirement discovery and delivery|One text-to-SQL case study]] motivates this proposed check.
 
 [[Articles/2026-10-13 - Dominik Metzger - Industry AI and measurable value|SAP's account]] illustrates why reported customer benefit, future capability, and claimed product reuse need separate evidence.
 
