@@ -19,6 +19,8 @@ Have a business decision-maker and someone who understands the actual workflow. 
 
 The [Atlassian PDF, pages 10 and 12](../Articles/undated%20-%20Atlassian%20-%20Forward%20deployed%20engineering%20playbook.md), adds a problem-selection lens and early permission design. Record the intended agent action boundary before implementation.
 
+Reconcile discovered facts with the delivery brief. Preserve unresolved customer decisions separately from proposed defaults. This adapts [Liu et al.](../Articles/2026-11-02%20-%20Marianne%20Menglin%20Liu%20et%20al%20-%20FDE%20agent%20requirement%20discovery%20and%20delivery.md) and remains proposed.
+
 ## Artifact to leave
 
 A short engagement brief with the problem, users, baseline, success checks, scope, owners, dependencies, exclusions, first increment, review date, and transition expectation.
@@ -46,10 +48,10 @@ Return to [FDE](../FDE.md#executing-more-effectively) and [Operating models](../
 | type | playbook |
 | collection | fde |
 | created | 2026-10-05 |
-| updated | 2026-10-20 |
+| updated | 2026-11-04 |
 | tags | fde |
 | status | draft |
 | practice_status | proposed |
 | purpose | Start or reset an engagement |
-| sources | [2026-10-13 - OrNsoft team - How a forward-deployed engagement works](../Articles/2026-10-13%20-%20OrNsoft%20team%20-%20How%20a%20forward-deployed%20engagement%20works.md); [2026-10-16 - McKinsey - What is a forward-deployed engineer](../Articles/2026-10-16%20-%20McKinsey%20-%20What%20is%20a%20forward-deployed%20engineer.md); [undated - Kusum Motiani - What 133 companies reveal about FDE](../Articles/undated%20-%20Kusum%20Motiani%20-%20What%20133%20companies%20reveal%20about%20FDE.md); [2026-09-14 - Arun Prasath E G - FDE engagements for owners](../Articles/2026-09-14%20-%20Arun%20Prasath%20E%20G%20-%20FDE%20engagements%20for%20owners.md); [2026-09-29 - Gartner - Vendor FDE abandonment forecast](../Articles/2026-09-29%20-%20Gartner%20-%20Vendor%20FDE%20abandonment%20forecast.md); [2026-09-14 - Arun Prasath E G - What is an FDE](../Articles/2026-09-14%20-%20Arun%20Prasath%20E%20G%20-%20What%20is%20an%20FDE.md); [2026-03-18 - Carlos Becker - FDE evolution at HappyRobot](../Articles/2026-03-18%20-%20Carlos%20Becker%20-%20FDE%20evolution%20at%20HappyRobot.md); [undated - Atlassian - Forward deployed engineering playbook](../Articles/undated%20-%20Atlassian%20-%20Forward%20deployed%20engineering%20playbook.md); [2026-10-06 - Jove Zhong - Building a world-class FDE team](../Articles/2026-10-06%20-%20Jove%20Zhong%20-%20Building%20a%20world-class%20FDE%20team.md) |
+| sources | [2026-11-02 - Marianne Menglin Liu et al - FDE agent requirement discovery and delivery](../Articles/2026-11-02%20-%20Marianne%20Menglin%20Liu%20et%20al%20-%20FDE%20agent%20requirement%20discovery%20and%20delivery.md); [2026-10-13 - OrNsoft team - How a forward-deployed engagement works](../Articles/2026-10-13%20-%20OrNsoft%20team%20-%20How%20a%20forward-deployed%20engagement%20works.md); [2026-10-16 - McKinsey - What is a forward-deployed engineer](../Articles/2026-10-16%20-%20McKinsey%20-%20What%20is%20a%20forward-deployed%20engineer.md); [undated - Kusum Motiani - What 133 companies reveal about FDE](../Articles/undated%20-%20Kusum%20Motiani%20-%20What%20133%20companies%20reveal%20about%20FDE.md); [2026-09-14 - Arun Prasath E G - FDE engagements for owners](../Articles/2026-09-14%20-%20Arun%20Prasath%20E%20G%20-%20FDE%20engagements%20for%20owners.md); [2026-09-29 - Gartner - Vendor FDE abandonment forecast](../Articles/2026-09-29%20-%20Gartner%20-%20Vendor%20FDE%20abandonment%20forecast.md); [2026-09-14 - Arun Prasath E G - What is an FDE](../Articles/2026-09-14%20-%20Arun%20Prasath%20E%20G%20-%20What%20is%20an%20FDE.md); [2026-03-18 - Carlos Becker - FDE evolution at HappyRobot](../Articles/2026-03-18%20-%20Carlos%20Becker%20-%20FDE%20evolution%20at%20HappyRobot.md); [undated - Atlassian - Forward deployed engineering playbook](../Articles/undated%20-%20Atlassian%20-%20Forward%20deployed%20engineering%20playbook.md); [2026-10-06 - Jove Zhong - Building a world-class FDE team](../Articles/2026-10-06%20-%20Jove%20Zhong%20-%20Building%20a%20world-class%20FDE%20team.md) |
 | local_observations |  |

@@ -4,6 +4,7 @@ How do FDEs understand a customer's problem and deliver a solution that works in
 
 ## Catalogue
 
+- [Liu et al., 2026](../Articles/2026-11-02%20-%20Marianne%20Menglin%20Liu%20et%20al%20-%20FDE%20agent%20requirement%20discovery%20and%20delivery.md). Simulated discovery and delivery.
 - [Jarvis, 2026](../Articles/2026-10-22%20-%20Colin%20Jarvis%20-%20What%20FDE%20means%20at%20OpenAI.md). Customer evaluations and reported consolidation of custom deployments.
 - [OrNsoft, 2026](../Articles/2026-10-13%20-%20OrNsoft%20team%20-%20How%20a%20forward-deployed%20engagement%20works.md). Written acceptance gates and diagnosis no-go.
 - [McKinsey, 2026](../Articles/2026-10-16%20-%20McKinsey%20-%20What%20is%20a%20forward-deployed%20engineer.md). Workflow observation and iterative delivery.
@@ -47,5 +48,5 @@ Use [Scope an engagement](../Playbooks/Scope%20an%20engagement.md), [Build and r
 | collection | fde |
 | status | evolving |
 | created | 2026-10-05 |
-| updated | 2026-10-23 |
+| updated | 2026-11-04 |
 | tags | fde; fde/discovery; fde/execution |

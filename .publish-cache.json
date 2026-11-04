@@ -1,6 +1,6 @@
 {
   "fingerprint": "4cb01aa2cb6742c5a97a4919d5ab595143e009f9a5c40e578a2f737c60273d2b",
-  "source_commit": "d8ad06f7b3ed14047d0924a886c2edb5f5a75c66",
+  "source_commit": "7923a38f16ab1b2abd21731d77e2360e25f8b20b",
   "records": {
     "AGENTS.md": {
       "path": "AGENTS.md",
@@ -1805,6 +1805,68 @@
         "Connections and verification": "connections-and-verification"
       }
     },
+    "Articles/2026-11-02 - Marianne Menglin Liu et al - FDE agent requirement discovery and delivery.md": {
+      "path": "Articles/2026-11-02 - Marianne Menglin Liu et al - FDE agent requirement discovery and delivery.md",
+      "meta": {
+        "type": "article",
+        "collection": "fde",
+        "title": "Can LLM Agents Be Forward-Deployed Engineers? Requirement Discovery and Delivery for Enterprise Text-to-SQL",
+        "author": [
+          "Marianne Menglin Liu",
+          "Rongguang Wang",
+          "Zheng Wang",
+          "Yewen Wang",
+          "Leonid Boytsov",
+          "Tao Sheng",
+          "Sujith Ravi",
+          "Dan Roth"
+        ],
+        "site": "arXiv",
+        "affiliation_as_displayed": "Oracle AI",
+        "url": "https://arxiv.org/html/2611.03551v1",
+        "canonical_url": "https://arxiv.org/abs/2611.03551v1",
+        "primary_source_url": "https://arxiv.org/html/2611.03551v1",
+        "source_format": "html",
+        "publication_date": "2026-11-02",
+        "publication_date_basis": "arXiv submission history; v1 submitted November 2, 2026, not a journal publication date",
+        "accessed": "2026-11-04",
+        "created": "2026-11-04",
+        "updated": "2026-11-04",
+        "status": "reviewed",
+        "source_kind": "research-paper",
+        "arxiv_id": "2611.03551",
+        "arxiv_version": "v1",
+        "research_status": "preprint",
+        "venue": null,
+        "review_status_basis": "arXiv record inspected; peer-reviewed venue not established",
+        "evidence_family": "arxiv-2611-03551",
+        "evidence_basis": [
+          "reported-experiment"
+        ],
+        "contribution": "Tests requirement discovery separately from delivery acceptance",
+        "tags": [
+          "fde",
+          "fde/research",
+          "fde/discovery",
+          "fde/execution"
+        ],
+        "themes": [
+          "[[Themes/Field discovery and execution]]"
+        ],
+        "playbooks": [
+          "[[Playbooks/Scope an engagement]]"
+        ],
+        "approaches": [],
+        "models": [],
+        "people": [],
+        "resources": [],
+        "attachments": [],
+        "text_indexes": []
+      },
+      "headings": {
+        "FDE agent requirement discovery and delivery": "fde-agent-requirement-discovery-and-delivery"
+      }
+    },
     "Articles/undated - Atlassian - Forward deployed engineering playbook.md": {
       "path": "Articles/undated - Atlassian - Forward deployed engineering playbook.md",
       "meta": {
@@ -2006,7 +2068,7 @@
         "collection": "fde",
         "status": "evolving",
         "created": "2026-10-05",
-        "updated": "2026-10-31",
+        "updated": "2026-11-04",
         "tags": [
           "fde"
         ]
@@ -2713,7 +2775,7 @@
         "type": "playbook",
         "collection": "fde",
         "created": "2026-10-05",
-        "updated": "2026-10-20",
+        "updated": "2026-11-04",
         "tags": [
           "fde"
         ],
@@ -2721,6 +2783,7 @@
         "practice_status": "proposed",
         "purpose": "Start or reset an engagement",
         "sources": [
+          "[[Articles/2026-11-02 - Marianne Menglin Liu et al - FDE agent requirement discovery and delivery]]",
           "[[Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works]]",
           "[[Articles/2026-10-16 - McKinsey - What is a forward-deployed engineer]]",
           "[[Articles/undated - Kusum Motiani - What 133 companies reveal about FDE]]",
@@ -3112,7 +3175,7 @@
         "collection": "fde",
         "status": "evolving",
         "created": "2026-10-05",
-        "updated": "2026-10-23",
+        "updated": "2026-11-04",
         "tags": [
           "fde",
           "fde/discovery",
@@ -4753,6 +4816,24 @@
       "source_blob": "63a00d86c8857a20d7e66cb1afd2352e99ce53e3",
       "sha256": "7e250373b28ac40f06d8b63b605e179f308142ea660f8dd130528cd9a18a32ae"
     },
+    "Articles/2026-11-02 - Marianne Menglin Liu et al - FDE agent requirement discovery and delivery.md": {
+      "dependencies": {
+        "Playbooks/Scope an engagement": [
+          "Playbooks/Scope an engagement.md",
+          ""
+        ],
+        "FDE#What good looks like": [
+          "FDE.md",
+          "what-good-looks-like"
+        ],
+        "Themes/Field discovery and execution": [
+          "Themes/Field discovery and execution.md",
+          ""
+        ]
+      },
+      "source_blob": "24ade6f452bf0aa3fd5b2bc4986174dd55dbbbe5",
+      "sha256": "9cfe182f2a5a11ce9e49f73a9d3070cb4933633f4fd6a8bbd1026aab6306078f"
+    },
     "Articles/undated - Atlassian - Forward deployed engineering playbook.md": {
       "dependencies": {
         "Attachments/atlassian-fde-playbook-c9cd5956a217.pdf": [
@@ -5284,7 +5365,7 @@
     },
     "Bases/Playbooks.md": {
       "dependencies": {
-        "base:Bases/Playbooks.base": "b91a0709cb52eab470bdc18bbeaddb784eb345e2805080e508a81d4f691743f8",
+        "base:Bases/Playbooks.base": "01cc53bab0596c6da9752ca1f9076be0c8d4e9febb4c1580b2f187fb1bd1045c",
         "Playbooks/Build and review safely.md": [
           "Playbooks/Build and review safely.md",
           ""
@@ -5361,6 +5442,10 @@
           "Playbooks/Scope an engagement.md",
           ""
         ],
+        "Articles/2026-11-02 - Marianne Menglin Liu et al - FDE agent requirement discovery and delivery": [
+          "Articles/2026-11-02 - Marianne Menglin Liu et al - FDE agent requirement discovery and delivery.md",
+          ""
+        ],
         "Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works": [
           "Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works.md",
           ""
@@ -5383,7 +5468,7 @@
         ]
       },
       "source_blob": "68cc8706522ff3e1ad8660172d56d7053ee8b215",
-      "sha256": "3dcf920f686b3c7e5f25bcf215994b84507c266283e347d706f9f77523fdbf3d"
+      "sha256": "e03edea1d083e8056c3779f51a25c9f998ebe317fac8263ecb2d9ed5c0e05560"
     },
     "Bases/Resources.md": {
       "dependencies": {
@@ -5450,7 +5535,7 @@
     },
     "Bases/Sources.md": {
       "dependencies": {
-        "base:Bases/Sources.base": "7d15202ccf209b926e0c629f8246d550c40be6f3cafb75f1853b2fe7778aceba",
+        "base:Bases/Sources.base": "a9fb51f0f659957f5b7acc8e9ee7e130b79077c1e5cdc7cedba8d4e3aa9db06a",
         "Articles/2020-09-04 - Will Larson - Work on what matters.md": [
           "Articles/2020-09-04 - Will Larson - Work on what matters.md",
           ""
@@ -5639,6 +5724,10 @@
           "Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering.md",
           ""
         ],
+        "Articles/2026-11-02 - Marianne Menglin Liu et al - FDE agent requirement discovery and delivery.md": [
+          "Articles/2026-11-02 - Marianne Menglin Liu et al - FDE agent requirement discovery and delivery.md",
+          ""
+        ],
         "Articles/undated - Atlassian - Forward deployed engineering playbook.md": [
           "Articles/undated - Atlassian - Forward deployed engineering playbook.md",
           ""
@@ -5666,10 +5755,14 @@
         "Playbooks/Evaluate outcomes and reuse": [
           "Playbooks/Evaluate outcomes and reuse.md",
           ""
+        ],
+        "Playbooks/Scope an engagement": [
+          "Playbooks/Scope an engagement.md",
+          ""
         ]
       },
       "source_blob": "fe01b99ce28b7a1e9dee85cdd07bf1a05aeae470",
-      "sha256": "66e1c7e3f1691a2f524b5c011374c85fe2475b0b08527672c6949fd85d4ad2f4"
+      "sha256": "f534e1f897bca9f3e73c8ebb7614d3b235ed150b0a148c5cc9f75a5adf10bbee"
     },
     "Catalogue.md": {
       "dependencies": {
@@ -5777,6 +5870,10 @@
         ],
         "Articles/2026-09-21 - Pablo Bermejo - Turning intelligence into lasting value": [
           "Articles/2026-09-21 - Pablo Bermejo - Turning intelligence into lasting value.md",
+          ""
+        ],
+        "Articles/2026-11-02 - Marianne Menglin Liu et al - FDE agent requirement discovery and delivery": [
+          "Articles/2026-11-02 - Marianne Menglin Liu et al - FDE agent requirement discovery and delivery.md",
           ""
         ],
         "Articles/2026-10-13 - Dominik Metzger - Industry AI and measurable value": [
@@ -5916,8 +6013,8 @@
           ""
         ]
       },
-      "source_blob": "d74805101638fe72e6d86a19392a001fc0194d17",
-      "sha256": "5bfb328a750ad83de826beade467d8d46420e66c24b197783cba96ba43792b62"
+      "source_blob": "33cbe60625eaed1b73db2ad542e05e5f3c134b21",
+      "sha256": "0ba28224f633c91fec6b19567f04197e5befb5fdfb4b053dd5382d4e3f75ad58"
     },
     "Operating models.md": {
       "dependencies": {
@@ -6571,6 +6668,10 @@
           "Articles/undated - Atlassian - Forward deployed engineering playbook.md",
           ""
         ],
+        "Articles/2026-11-02 - Marianne Menglin Liu et al - FDE agent requirement discovery and delivery": [
+          "Articles/2026-11-02 - Marianne Menglin Liu et al - FDE agent requirement discovery and delivery.md",
+          ""
+        ],
         "Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works": [
           "Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works.md",
           ""
@@ -6612,8 +6713,8 @@
           ""
         ]
       },
-      "source_blob": "20574c90040ae55a9927d95b7f097eaea2085eef",
-      "sha256": "31921df96d69339277d4460c6b7499078d0136c7248706fa6032e9fa51d9ac3b"
+      "source_blob": "3172ec224faabc8a83c256f02dbc68b611231ac3",
+      "sha256": "48d4f40f67dd9785a81e8d167a0f51b2af5fcc2f89914c41ea295a367ec11e27"
     },
     "Playbooks/Stage agent autonomy.md": {
       "dependencies": {
@@ -6963,6 +7064,10 @@
     },
     "Themes/Field discovery and execution.md": {
       "dependencies": {
+        "Articles/2026-11-02 - Marianne Menglin Liu et al - FDE agent requirement discovery and delivery": [
+          "Articles/2026-11-02 - Marianne Menglin Liu et al - FDE agent requirement discovery and delivery.md",
+          ""
+        ],
         "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI": [
           "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI.md",
           ""
@@ -7076,8 +7181,8 @@
           ""
         ]
       },
-      "source_blob": "fb2d1a132a65b19ca3d7f9f4e1d3e5d81b5e0e2e",
-      "sha256": "4e314e04b53213847a6921b41ad9e4d1541071e7f5fe6598a21f1ab59125b4cd"
+      "source_blob": "a74aa93607267c1cc1919ea31ba3a37e45920faf",
+      "sha256": "3209aa68c984798db925190e256eef5578c7db99f01a36ae9389c8ff8a41c1b3"
     },
     "Themes/Ownership and sustainable delivery.md": {
       "dependencies": {

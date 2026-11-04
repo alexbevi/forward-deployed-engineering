@@ -29,6 +29,8 @@ Our proposed rubric asks for observable evidence. It is not a validated scoring 
 
 Keep agent correctness, workflow improvement, and reuse evidence separate. A system can pass evaluations without improving work, and a useful customer implementation can remain bespoke. [Evaluate outcomes and reuse](Playbooks/Evaluate%20outcomes%20and%20reuse.md) develops this distinction from [Bermejo's proposed feedback model](Articles/2026-09-21%20-%20Pablo%20Bermejo%20-%20Turning%20intelligence%20into%20lasting%20value.md).
 
+Agent-assisted discovery needs review for omissions and unresolved decisions. [One text-to-SQL case study](Articles/2026-11-02%20-%20Marianne%20Menglin%20Liu%20et%20al%20-%20FDE%20agent%20requirement%20discovery%20and%20delivery.md) motivates this proposed check.
+
 [SAP's account](Articles/2026-10-13%20-%20Dominik%20Metzger%20-%20Industry%20AI%20and%20measurable%20value.md) illustrates why reported customer benefit, future capability, and claimed product reuse need separate evidence.
 
 [Canale's synthetic governance study](Articles/2026-09-24%20-%20Jeremy%20Canale%20-%20The%20Last%20Human%20Gate.md) adds another separation: acceptance of a bounded task, dependable execution of its whole route, and reduction in total human work are different claims. High automated coverage does not establish labor reduction when exceptions, verification, correction, and recurring support retain substantial effort.
@@ -108,5 +110,5 @@ The view below is generated from article frontmatter. Theme notes retain curated
 | collection | fde |
 | status | evolving |
 | created | 2026-10-05 |
-| updated | 2026-10-31 |
+| updated | 2026-11-04 |
 | tags | fde |
