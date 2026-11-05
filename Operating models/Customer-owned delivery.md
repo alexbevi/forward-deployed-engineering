@@ -2,7 +2,7 @@
 type: operating-model
 collection: fde
 created: 2026-10-05
-updated: 2026-10-31
+updated: 2026-11-05
 tags:
   - fde
 status: evolving
@@ -12,6 +12,7 @@ engagement_type: Embedded delivery with explicit transition
 ownership: Customer retains decision authority and receives operational ownership
 success_measure: Working system and demonstrated ability to sustain changes
 sources:
+  - "[[Articles/2026-10-20 - Milos Mandic - The Move-Out Clause]]"
   - "[[Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering]]"
   - "[[Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff]]"
   - "[[Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works]]"
@@ -35,6 +36,8 @@ sources:
 Distinguish business choices, engineering choices, approval for live changes, and continuing support. [[Articles/2026-09-21 - Pablo Bermejo - Turning intelligence into lasting value]] allows understood external dependencies; independence means the receiving organisation can make informed decisions and change the system without one person's memory.
 
 [[Articles/2026-10-06 - CTERA - Forward deployed engineering for enterprise AI|CTERA]] proposes co-building and documenting from discovery, with completion when customer engineers can add the next use case without the vendor. This is a useful candidate demonstration of transfer, but the press release reports an intended model rather than a completed handover.
+
+[[Articles/2026-10-20 - Milos Mandic - The Move-Out Clause|Mandic]] argues for process-owner control of business rules, with platform dependence evaluated separately from dependence on vendor engineers.
 
 ## Fit and failure modes
 

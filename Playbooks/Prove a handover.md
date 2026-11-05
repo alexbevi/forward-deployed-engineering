@@ -2,13 +2,14 @@
 type: playbook
 collection: fde
 created: &id001 2026-10-05
-updated: 2026-10-31
+updated: 2026-11-05
 tags:
 - fde
 status: draft
 practice_status: proposed
 purpose: Transition operational responsibility
 sources:
+- "[[Articles/2026-10-20 - Milos Mandic - The Move-Out Clause]]"
 - "[[Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering]]"
 - '[[Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff]]'
 - '[[Articles/2026-09-14 - Arun Prasath E G - How an FDE engagement works]]'
@@ -33,7 +34,7 @@ Name a receiving owner with the access, time, competence, and support arrangemen
 1. Identify the shipped version, intended behaviour, exclusions, known risks, and remaining decisions.
 2. List activation steps in order and name the actor for each. Check ownership of accounts, access, configuration, and recurring costs.
 3. Give the receiving team acceptance checks they can run and a concise troubleshooting path.
-4. In a suitable environment, have that team diagnose a representative failure, recover, and make a small change using the provided materials. The original engineer observes rather than leads.
+4. In a suitable environment, have that team diagnose a representative failure, recover, and make a small change using the provided materials. The original engineer observes rather than leads. Also have a process owner change an agreed business rule through the intended interface and verify the resulting behaviour.
 5. Record what blocked the exercise. Repair missing access, documentation, skills, or ownership and repeat the affected part.
 6. Confirm remaining vendor dependencies and escalation arrangements, then record acceptance and unresolved responsibilities.
 
@@ -48,6 +49,8 @@ A handover record containing versions, activation owners, acceptance results, re
 Documentation delivery is not demonstrated capability. Successful recovery does not prove every possible failure is covered. Ongoing support is reasonable when understood and supportable; dependence on the departing engineer's personal knowledge needs attention.
 
 ## Evidence and adaptation
+
+The process-owner exercise adapts [[Articles/2026-10-20 - Milos Mandic - The Move-Out Clause|Mandic's argument]] and remains proposed.
 
 APEG supplies handover practices. Gartner recommends independence. Bermejo explains operating and changing the system as a stronger test. The rehearsal is our proposed application. Capture the receiving team's actual experience before treating it as proven.
 
