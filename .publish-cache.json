@@ -1,6 +1,6 @@
 {
   "fingerprint": "4cb01aa2cb6742c5a97a4919d5ab595143e009f9a5c40e578a2f737c60273d2b",
-  "source_commit": "7923a38f16ab1b2abd21731d77e2360e25f8b20b",
+  "source_commit": "6b130f9a060d15b8943c76bdb075478e6a40ab1b",
   "records": {
     "AGENTS.md": {
       "path": "AGENTS.md",
@@ -1659,6 +1659,55 @@
         "Verification": "verification"
       }
     },
+    "Articles/2026-10-20 - Milos Mandic - The Move-Out Clause.md": {
+      "path": "Articles/2026-10-20 - Milos Mandic - The Move-Out Clause.md",
+      "meta": {
+        "type": "article",
+        "collection": "fde",
+        "title": "The Move-Out Clause",
+        "author": [
+          "Milos Mandic"
+        ],
+        "site": "FDE Hub",
+        "url": "https://www.fdehub.org/p/the-move-out-clause",
+        "canonical_url": "https://www.fdehub.org/p/the-move-out-clause",
+        "publication_date": "2026-10-20",
+        "publication_date_basis": "Visible article date and JSON-LD datePublished",
+        "source_updated": "2026-10-20",
+        "source_updated_basis": "article:modified_time is 2026-10-20T16:20:35.670Z; JSON-LD dateModified repeats the earlier publication timestamp",
+        "accessed": "2026-11-05",
+        "created": "2026-11-05",
+        "updated": "2026-11-05",
+        "status": "reviewed",
+        "source_kind": "practitioner-essay",
+        "evidence_family": "fdehub-mandic-move-out-2026",
+        "evidence_basis": [
+          "reported-experience",
+          "practitioner-argument"
+        ],
+        "contribution": "Makes process-owner rule editing a concrete handover test",
+        "tags": [
+          "fde",
+          "fde/ownership",
+          "fde/product-feedback"
+        ],
+        "themes": [
+          "[[Themes/Ownership and sustainable delivery]]"
+        ],
+        "models": [
+          "[[Operating models/Customer-owned delivery]]"
+        ],
+        "playbooks": [
+          "[[Playbooks/Prove a handover]]"
+        ],
+        "people": [],
+        "resources": []
+      },
+      "headings": {
+        "The move-out clause": "the-move-out-clause",
+        "Connections and verification": "connections-and-verification"
+      }
+    },
     "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI.md": {
       "path": "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI.md",
       "meta": {
@@ -2134,7 +2183,7 @@
         "type": "operating-model",
         "collection": "fde",
         "created": "2026-10-05",
-        "updated": "2026-10-31",
+        "updated": "2026-11-05",
         "tags": [
           "fde"
         ],
@@ -2145,6 +2194,7 @@
         "ownership": "Customer retains decision authority and receives operational ownership",
         "success_measure": "Working system and demonstrated ability to sustain changes",
         "sources": [
+          "[[Articles/2026-10-20 - Milos Mandic - The Move-Out Clause]]",
           "[[Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering]]",
           "[[Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff]]",
           "[[Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works]]",
@@ -2712,7 +2762,7 @@
         "type": "playbook",
         "collection": "fde",
         "created": "2026-10-05",
-        "updated": "2026-10-31",
+        "updated": "2026-11-05",
         "tags": [
           "fde"
         ],
@@ -2720,6 +2770,7 @@
         "practice_status": "proposed",
         "purpose": "Transition operational responsibility",
         "sources": [
+          "[[Articles/2026-10-20 - Milos Mandic - The Move-Out Clause]]",
           "[[Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering]]",
           "[[Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff]]",
           "[[Articles/2026-09-14 - Arun Prasath E G - How an FDE engagement works]]",
@@ -3196,7 +3247,7 @@
         "collection": "fde",
         "status": "evolving",
         "created": "2026-10-05",
-        "updated": "2026-10-31",
+        "updated": "2026-11-05",
         "tags": [
           "fde",
           "fde/ownership",
@@ -4754,6 +4805,32 @@
       "source_blob": "7b662c3908e3e3106469a595a28d8995bf97c42c",
       "sha256": "5e58c8c5958b59057a8b3b61e4bd42d4e2f4b35de747a6a67f4a102b3df2f63d"
     },
+    "Articles/2026-10-20 - Milos Mandic - The Move-Out Clause.md": {
+      "dependencies": {
+        "Articles/2026-09-29 - Gartner - Vendor FDE abandonment forecast": [
+          "Articles/2026-09-29 - Gartner - Vendor FDE abandonment forecast.md",
+          ""
+        ],
+        "Operating models/Customer-owned delivery": [
+          "Operating models/Customer-owned delivery.md",
+          ""
+        ],
+        "Playbooks/Prove a handover": [
+          "Playbooks/Prove a handover.md",
+          ""
+        ],
+        "FDE": [
+          "FDE.md",
+          ""
+        ],
+        "Themes/Ownership and sustainable delivery": [
+          "Themes/Ownership and sustainable delivery.md",
+          ""
+        ]
+      },
+      "source_blob": "4dca17717b4b25fa470563022d163e21c9c950bb",
+      "sha256": "77b59a74235b1a19963745f74903b36026af2e516189ccbffbda1a5e89098626"
+    },
     "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI.md": {
       "dependencies": {
         "Operating models/Product-oriented FDE": [
@@ -5139,7 +5216,7 @@
     },
     "Bases/Operating models.md": {
       "dependencies": {
-        "base:Bases/Operating models.base": "f2991354d74eee2c35eac97b7df4b4aa01e5807551af43c3fa4deb0fe3e00553",
+        "base:Bases/Operating models.base": "1b670a51c1f2de73b8ae1192339115333edb012d5acd8b629d2d8ad25b4e06cc",
         "Operating models/Atlassian co-engineering.md": [
           "Operating models/Atlassian co-engineering.md",
           ""
@@ -5150,6 +5227,10 @@
         ],
         "Operating models/Customer-owned delivery.md": [
           "Operating models/Customer-owned delivery.md",
+          ""
+        ],
+        "Articles/2026-10-20 - Milos Mandic - The Move-Out Clause": [
+          "Articles/2026-10-20 - Milos Mandic - The Move-Out Clause.md",
           ""
         ],
         "Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering": [
@@ -5234,7 +5315,7 @@
         ]
       },
       "source_blob": "cbaf2207d36514483d6477bcd762aac50083ef5b",
-      "sha256": "32d1c98e8ccec663b2d4685478e3d021a73ea581a599ba734ca252e62430fbe3"
+      "sha256": "1f74ad8b5d3d8adf7ffabb4a42264f5f138bf9cf3b52fd369abd87604d997f96"
     },
     "Bases/People.md": {
       "dependencies": {
@@ -5365,7 +5446,7 @@
     },
     "Bases/Playbooks.md": {
       "dependencies": {
-        "base:Bases/Playbooks.base": "01cc53bab0596c6da9752ca1f9076be0c8d4e9febb4c1580b2f187fb1bd1045c",
+        "base:Bases/Playbooks.base": "7ba6e1f5e3717dbb088cfa65efb66f874f4d9966d32f50a2fc039baf43afca8a",
         "Playbooks/Build and review safely.md": [
           "Playbooks/Build and review safely.md",
           ""
@@ -5412,6 +5493,10 @@
         ],
         "Playbooks/Prove a handover.md": [
           "Playbooks/Prove a handover.md",
+          ""
+        ],
+        "Articles/2026-10-20 - Milos Mandic - The Move-Out Clause": [
+          "Articles/2026-10-20 - Milos Mandic - The Move-Out Clause.md",
           ""
         ],
         "Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering": [
@@ -5468,7 +5553,7 @@
         ]
       },
       "source_blob": "68cc8706522ff3e1ad8660172d56d7053ee8b215",
-      "sha256": "e03edea1d083e8056c3779f51a25c9f998ebe317fac8263ecb2d9ed5c0e05560"
+      "sha256": "37b856f6129e93201b4ac80f1fbce63f634b399e2a4d42cb4257e9864b14da78"
     },
     "Bases/Resources.md": {
       "dependencies": {
@@ -5535,7 +5620,7 @@
     },
     "Bases/Sources.md": {
       "dependencies": {
-        "base:Bases/Sources.base": "a9fb51f0f659957f5b7acc8e9ee7e130b79077c1e5cdc7cedba8d4e3aa9db06a",
+        "base:Bases/Sources.base": "d21ff30b60d12e139d60a9fab4ec7c096a46143ef0d4cfdc7f74495749245dff",
         "Articles/2020-09-04 - Will Larson - Work on what matters.md": [
           "Articles/2020-09-04 - Will Larson - Work on what matters.md",
           ""
@@ -5716,6 +5801,10 @@
           "Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff.md",
           ""
         ],
+        "Articles/2026-10-20 - Milos Mandic - The Move-Out Clause.md": [
+          "Articles/2026-10-20 - Milos Mandic - The Move-Out Clause.md",
+          ""
+        ],
         "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI.md": [
           "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI.md",
           ""
@@ -5762,7 +5851,7 @@
         ]
       },
       "source_blob": "fe01b99ce28b7a1e9dee85cdd07bf1a05aeae470",
-      "sha256": "f534e1f897bca9f3e73c8ebb7614d3b235ed150b0a148c5cc9f75a5adf10bbee"
+      "sha256": "e97c9e902b1ae2f0e2c74ef45399dd43715a6516aeea88cc164d3f0a489cfb09"
     },
     "Catalogue.md": {
       "dependencies": {
@@ -6110,6 +6199,10 @@
           "Articles/2026-10-06 - CTERA - Forward deployed engineering for enterprise AI.md",
           ""
         ],
+        "Articles/2026-10-20 - Milos Mandic - The Move-Out Clause": [
+          "Articles/2026-10-20 - Milos Mandic - The Move-Out Clause.md",
+          ""
+        ],
         "Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff": [
           "Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff.md",
           ""
@@ -6131,8 +6224,8 @@
           ""
         ]
       },
-      "source_blob": "1ff10725b43005b33384d180bfa559d146ee2f85",
-      "sha256": "8a87ede724bc432427cb853a19e07443a09ac71380c1f6131b2e04ad630854e0"
+      "source_blob": "aa943772a83277e49b17b6bb72ec1df74cfc7166",
+      "sha256": "0e8074a144f3282154e8d311bb4827470f39917676c12ee30767046dfeebb648"
     },
     "Operating models/Ground-prove-expand-transfer delivery.md": {
       "dependencies": {
@@ -6612,6 +6705,10 @@
           "Articles/2026-10-20 - Arushi Jain - Implementation to adoption handoff.md",
           ""
         ],
+        "Articles/2026-10-20 - Milos Mandic - The Move-Out Clause": [
+          "Articles/2026-10-20 - Milos Mandic - The Move-Out Clause.md",
+          ""
+        ],
         "FDE#Executing more effectively": [
           "FDE.md",
           "executing-more-effectively"
@@ -6637,8 +6734,8 @@
           ""
         ]
       },
-      "source_blob": "de1abc2611137abeb6f8eff5b1286b3985398be9",
-      "sha256": "00bdb45ee68b3d384c6ed655091d466454880ad3941862676e3e9ead73dc6a8b"
+      "source_blob": "9aa63c1ed82493e82e0b18101379bfc80a57e4bb",
+      "sha256": "b351d5dcc5f6723164da4308c2fc9199c0a76f388324437196a25f6a37c5d499"
     },
     "Playbooks/Rehearse a deployment from delivered artifacts.md": {
       "dependencies": {
@@ -7186,6 +7283,10 @@
     },
     "Themes/Ownership and sustainable delivery.md": {
       "dependencies": {
+        "Articles/2026-10-20 - Milos Mandic - The Move-Out Clause": [
+          "Articles/2026-10-20 - Milos Mandic - The Move-Out Clause.md",
+          ""
+        ],
         "Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering": [
           "Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering.md",
           ""
@@ -7267,8 +7368,8 @@
           ""
         ]
       },
-      "source_blob": "da7735eb160b6e33ef842b2bc281f6e19751e197",
-      "sha256": "50e5bef03cbfbab663f8b579b1bc6f107d618ea11992ca01789706605ce894d8"
+      "source_blob": "fecb80db71043677a7800c423389a5b3475853d3",
+      "sha256": "efa0ca67264e340d882edded2191da8dd5c265078fabf30166ee5965db4be09a"
     },
     "Themes/Role and product feedback.md": {
       "dependencies": {

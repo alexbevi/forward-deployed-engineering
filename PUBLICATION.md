@@ -1,5 +1,5 @@
 # Publication
 
-Generated from [source commit `7923a38f16ab`](https://github.com/alexbevi/forward-deployed-engineering/commit/7923a38f16ab1b2abd21731d77e2360e25f8b20b).
+Generated from [source commit `6b130f9a060d`](https://github.com/alexbevi/forward-deployed-engineering/commit/6b130f9a060d15b8943c76bdb075478e6a40ab1b).
 
 Edit the [Obsidian source](https://github.com/alexbevi/forward-deployed-engineering/tree/main); this branch is generated.

@@ -4,6 +4,7 @@ What should remain usable and maintainable after an FDE engagement ends?
 
 ## Catalogue
 
+- [Mandic, 2026](../Articles/2026-10-20%20-%20Milos%20Mandic%20-%20The%20Move-Out%20Clause.md). Process-owner rule editing.
 - [Shatzkamer, Microsoft, 2026](../Articles/2026-10-28%20-%20Kevin%20Shatzkamer%20-%20Evolution%20of%20forward-deployed%20engineering.md). Transfer during final sprints.
 - [Arushi Jain, Quivly, 2026](../Articles/2026-10-20%20-%20Arushi%20Jain%20-%20Implementation%20to%20adoption%20handoff.md). Adoption ownership and bounded support after cutover.
 - [OrNsoft, 2026](../Articles/2026-10-13%20-%20OrNsoft%20team%20-%20How%20a%20forward-deployed%20engagement%20works.md). Customer operation as the final gate.
@@ -40,5 +41,5 @@ Compare [Customer-owned delivery](../Operating%20models/Customer-owned%20deliver
 | collection | fde |
 | status | evolving |
 | created | 2026-10-05 |
-| updated | 2026-10-31 |
+| updated | 2026-11-05 |
 | tags | fde; fde/ownership; fde/execution |
