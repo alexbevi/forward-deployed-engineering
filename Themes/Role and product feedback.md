@@ -4,6 +4,7 @@ How should FDE responsibilities connect to the organisation's product and engine
 
 ## Catalogue
 
+- [Kupczyk, Brival, 2026](../Articles/2026-11-05%20-%20Mat%20Kupczyk%20-%20Three%20roles%20in%20one%20engineer.md). Consolidated responsibility within a supported team.
 - [Shatzkamer, Microsoft, 2026](../Articles/2026-10-28%20-%20Kevin%20Shatzkamer%20-%20Evolution%20of%20forward-deployed%20engineering.md). Multidisciplinary delivery capability.
 - [Jarvis, 2026](../Articles/2026-10-22%20-%20Colin%20Jarvis%20-%20What%20FDE%20means%20at%20OpenAI.md). Product reuse and model-research feedback as distinct routes.
 - [Clark, 2026](../Articles/2026-10-19%20-%20Caroline%20Clark%20-%20What%20is%20a%20Forward%20Deployed%20Product%20Manager.md). Adjacent FDPM function and field-to-product coordination; peripheral to the FDE role definition.
@@ -45,5 +46,5 @@ Compare [Operating models](../Operating%20models.md) and use [Evaluate outcomes 
 | collection | fde |
 | status | evolving |
 | created | 2026-10-05 |
-| updated | 2026-10-31 |
+| updated | 2026-11-07 |
 | tags | fde; fde/role; fde/product-feedback |

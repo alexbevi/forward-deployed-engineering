@@ -80,7 +80,7 @@ A proposed exercise is to use a real engagement artifact for peer review, select
 
 Company accounts describe different changes. [PagerDuty](Articles/2026-03-24%20-%20Doug%20McClure%20-%20How%20FDE%20was%20born%20at%20PagerDuty.md) describes moving bespoke services toward product contributions and engineering alignment. [HappyRobot](Articles/2026-03-18%20-%20Carlos%20Becker%20-%20FDE%20evolution%20at%20HappyRobot.md) describes embedded missions and expects better tooling to enable deeper domain and product work. [Microsoft's Shatzkamer](Articles/2026-10-28%20-%20Kevin%20Shatzkamer%20-%20Evolution%20of%20forward-deployed%20engineering.md) argues for multidisciplinary delivery teams that retain product feedback and transfer customer operating capability. These accounts do not establish a universal sequence or prove that faster execution produces strategic value.
 
-Compare changes in responsibilities and capabilities rather than publication dates alone. The catalogue contains practitioner arguments, overlapping engagement accounts, announcements, and forecasts. Four APEG pages share an author and examples; they are one related body of evidence, not four independent confirmations. [Catalogue](Catalogue.md) exposes provenance for further reading.
+Compare changes in responsibilities, staffing and capabilities rather than publication dates alone. [Brival](Articles/2026-11-05%20-%20Mat%20Kupczyk%20-%20Three%20roles%20in%20one%20engineer.md) combines several roles in one lead while retaining developers, specialists and QA. The catalogue contains practitioner arguments, overlapping engagement accounts, announcements, and forecasts. Four APEG pages share an author and examples; they are one related body of evidence, not four independent confirmations. [Catalogue](Catalogue.md) exposes provenance for further reading.
 
 ## Questions to investigate
 
@@ -110,5 +110,5 @@ The view below is generated from article frontmatter. Theme notes retain curated
 | collection | fde |
 | status | evolving |
 | created | 2026-10-05 |
-| updated | 2026-11-04 |
+| updated | 2026-11-07 |
 | tags | fde |

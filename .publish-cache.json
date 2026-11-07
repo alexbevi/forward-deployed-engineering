@@ -1,6 +1,6 @@
 {
   "fingerprint": "4cb01aa2cb6742c5a97a4919d5ab595143e009f9a5c40e578a2f737c60273d2b",
-  "source_commit": "6b130f9a060d15b8943c76bdb075478e6a40ab1b",
+  "source_commit": "1a672b74d647bdc3e9f59df8466d7d1b9a5665d6",
   "records": {
     "AGENTS.md": {
       "path": "AGENTS.md",
@@ -1916,6 +1916,56 @@
         "FDE agent requirement discovery and delivery": "fde-agent-requirement-discovery-and-delivery"
       }
     },
+    "Articles/2026-11-05 - Mat Kupczyk - Three roles in one engineer.md": {
+      "path": "Articles/2026-11-05 - Mat Kupczyk - Three roles in one engineer.md",
+      "meta": {
+        "type": "article",
+        "collection": "fde",
+        "title": "From Three Roles to One Forward-Deployed Engineer",
+        "author": [
+          "Mat Kupczyk"
+        ],
+        "author_role": "Consulting Lead, as identified in the article",
+        "site": "Brival",
+        "url": "https://brival.co/insights/2026/11/three-roles-one-engineer",
+        "canonical_url": "https://brival.co/insights/2026/11/three-roles-one-engineer",
+        "publication_date": "2026-11-05",
+        "publication_date_basis": "JSON-LD datePublished; the visible article label gives November 2026 only",
+        "source_updated": "2026-11-05",
+        "source_updated_basis": "JSON-LD dateModified",
+        "accessed": "2026-11-07",
+        "created": "2026-11-07",
+        "updated": "2026-11-07",
+        "status": "reviewed",
+        "source_kind": "vendor-perspective",
+        "evidence_family": "brival-three-roles-2026",
+        "evidence_basis": [
+          "reported-experience",
+          "practitioner-argument"
+        ],
+        "contribution": "Distinguishes consolidated lead responsibilities from total delivery staffing",
+        "tags": [
+          "fde",
+          "fde/role",
+          "fde/execution"
+        ],
+        "themes": [
+          "[[Themes/Role and product feedback]]",
+          "[[Themes/Field discovery and execution]]"
+        ],
+        "playbooks": [
+          "[[Playbooks/Build and review safely]]"
+        ],
+        "models": [],
+        "approaches": [],
+        "people": [],
+        "resources": []
+      },
+      "headings": {
+        "Three roles in one engineer": "three-roles-in-one-engineer",
+        "Connections and verification": "connections-and-verification"
+      }
+    },
     "Articles/undated - Atlassian - Forward deployed engineering playbook.md": {
       "path": "Articles/undated - Atlassian - Forward deployed engineering playbook.md",
       "meta": {
@@ -2117,7 +2167,7 @@
         "collection": "fde",
         "status": "evolving",
         "created": "2026-10-05",
-        "updated": "2026-11-04",
+        "updated": "2026-11-07",
         "tags": [
           "fde"
         ]
@@ -2701,7 +2751,7 @@
         "type": "playbook",
         "collection": "fde",
         "created": "2026-10-05",
-        "updated": "2026-10-05",
+        "updated": "2026-11-07",
         "tags": [
           "fde"
         ],
@@ -2709,6 +2759,7 @@
         "practice_status": "proposed",
         "purpose": "Develop an unfamiliar integration or contribute to shared product code",
         "sources": [
+          "[[Articles/2026-11-05 - Mat Kupczyk - Three roles in one engineer]]",
           "[[Articles/2026-09-14 - Arun Prasath E G - How an FDE engagement works]]",
           "[[Articles/2026-03-24 - Doug McClure - How FDE was born at PagerDuty]]"
         ],
@@ -3226,7 +3277,7 @@
         "collection": "fde",
         "status": "evolving",
         "created": "2026-10-05",
-        "updated": "2026-11-04",
+        "updated": "2026-11-07",
         "tags": [
           "fde",
           "fde/discovery",
@@ -3268,7 +3319,7 @@
         "collection": "fde",
         "status": "evolving",
         "created": "2026-10-05",
-        "updated": "2026-10-31",
+        "updated": "2026-11-07",
         "tags": [
           "fde",
           "fde/role",
@@ -4911,6 +4962,28 @@
       "source_blob": "24ade6f452bf0aa3fd5b2bc4986174dd55dbbbe5",
       "sha256": "9cfe182f2a5a11ce9e49f73a9d3070cb4933633f4fd6a8bbd1026aab6306078f"
     },
+    "Articles/2026-11-05 - Mat Kupczyk - Three roles in one engineer.md": {
+      "dependencies": {
+        "FDE#How the function evolves": [
+          "FDE.md",
+          "how-the-function-evolves"
+        ],
+        "Playbooks/Build and review safely": [
+          "Playbooks/Build and review safely.md",
+          ""
+        ],
+        "Themes/Role and product feedback": [
+          "Themes/Role and product feedback.md",
+          ""
+        ],
+        "Themes/Field discovery and execution": [
+          "Themes/Field discovery and execution.md",
+          ""
+        ]
+      },
+      "source_blob": "7814bf15b10f744bf4d1c328e676123cab4b04a0",
+      "sha256": "bd930b898d570af014e7c999713329744124d39cad7e0ca3e0d8d72b6eeae5c5"
+    },
     "Articles/undated - Atlassian - Forward deployed engineering playbook.md": {
       "dependencies": {
         "Attachments/atlassian-fde-playbook-c9cd5956a217.pdf": [
@@ -5446,9 +5519,13 @@
     },
     "Bases/Playbooks.md": {
       "dependencies": {
-        "base:Bases/Playbooks.base": "7ba6e1f5e3717dbb088cfa65efb66f874f4d9966d32f50a2fc039baf43afca8a",
+        "base:Bases/Playbooks.base": "321dfdc2ae44d62958cc3ea94c00795df1bed2ffbc5e6e8d5ba1f165dd2c7026",
         "Playbooks/Build and review safely.md": [
           "Playbooks/Build and review safely.md",
+          ""
+        ],
+        "Articles/2026-11-05 - Mat Kupczyk - Three roles in one engineer": [
+          "Articles/2026-11-05 - Mat Kupczyk - Three roles in one engineer.md",
           ""
         ],
         "Articles/2026-09-14 - Arun Prasath E G - How an FDE engagement works": [
@@ -5553,7 +5630,7 @@
         ]
       },
       "source_blob": "68cc8706522ff3e1ad8660172d56d7053ee8b215",
-      "sha256": "37b856f6129e93201b4ac80f1fbce63f634b399e2a4d42cb4257e9864b14da78"
+      "sha256": "5c394ed43d65116f771e278902930005eb70a373b596d9083613afb92b1ff5f2"
     },
     "Bases/Resources.md": {
       "dependencies": {
@@ -5620,7 +5697,7 @@
     },
     "Bases/Sources.md": {
       "dependencies": {
-        "base:Bases/Sources.base": "d21ff30b60d12e139d60a9fab4ec7c096a46143ef0d4cfdc7f74495749245dff",
+        "base:Bases/Sources.base": "cd5a97d9a8178f42d068f456b93c739b9a1ee979e18011f91829e67cf8e7a43c",
         "Articles/2020-09-04 - Will Larson - Work on what matters.md": [
           "Articles/2020-09-04 - Will Larson - Work on what matters.md",
           ""
@@ -5817,6 +5894,10 @@
           "Articles/2026-11-02 - Marianne Menglin Liu et al - FDE agent requirement discovery and delivery.md",
           ""
         ],
+        "Articles/2026-11-05 - Mat Kupczyk - Three roles in one engineer.md": [
+          "Articles/2026-11-05 - Mat Kupczyk - Three roles in one engineer.md",
+          ""
+        ],
         "Articles/undated - Atlassian - Forward deployed engineering playbook.md": [
           "Articles/undated - Atlassian - Forward deployed engineering playbook.md",
           ""
@@ -5851,7 +5932,7 @@
         ]
       },
       "source_blob": "fe01b99ce28b7a1e9dee85cdd07bf1a05aeae470",
-      "sha256": "e97c9e902b1ae2f0e2c74ef45399dd43715a6516aeea88cc164d3f0a489cfb09"
+      "sha256": "35630450892d2d42830961ed37abce007ccd06e0caf7a84d6aded10f76a35d65"
     },
     "Catalogue.md": {
       "dependencies": {
@@ -6065,6 +6146,10 @@
           "Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering.md",
           ""
         ],
+        "Articles/2026-11-05 - Mat Kupczyk - Three roles in one engineer": [
+          "Articles/2026-11-05 - Mat Kupczyk - Three roles in one engineer.md",
+          ""
+        ],
         "Catalogue": [
           "Catalogue.md",
           ""
@@ -6102,8 +6187,8 @@
           ""
         ]
       },
-      "source_blob": "33cbe60625eaed1b73db2ad542e05e5f3c134b21",
-      "sha256": "0ba28224f633c91fec6b19567f04197e5befb5fdfb4b053dd5382d4e3f75ad58"
+      "source_blob": "3764f3a0fee3ea0d7f54536dcee179f3540479e5",
+      "sha256": "3eaa30352a037eca0aaf3ec05dbdb0c09729b145edfe2fd667915f2fb1131a48"
     },
     "Operating models.md": {
       "dependencies": {
@@ -6633,6 +6718,10 @@
     },
     "Playbooks/Build and review safely.md": {
       "dependencies": {
+        "Articles/2026-11-05 - Mat Kupczyk - Three roles in one engineer": [
+          "Articles/2026-11-05 - Mat Kupczyk - Three roles in one engineer.md",
+          ""
+        ],
         "FDE#Developing strong FDE peers": [
           "FDE.md",
           "developing-strong-fde-peers"
@@ -6650,8 +6739,8 @@
           ""
         ]
       },
-      "source_blob": "4b5863c418a6e192b160b3fcccfbb2dce7b6964a",
-      "sha256": "068905d15a71e4932c40d03e5e36923c3d84530611848a05798bcafb367c4943"
+      "source_blob": "8b17782d9f62f003efa7818f38bc4f8fef1a8750",
+      "sha256": "8aa85ca1b5f9ed8b7c2bf22c7ad5dfd2f056faea71cd139a2a38fda9c1e72b3e"
     },
     "Playbooks/Evaluate outcomes and reuse.md": {
       "dependencies": {
@@ -7161,6 +7250,10 @@
     },
     "Themes/Field discovery and execution.md": {
       "dependencies": {
+        "Articles/2026-11-05 - Mat Kupczyk - Three roles in one engineer": [
+          "Articles/2026-11-05 - Mat Kupczyk - Three roles in one engineer.md",
+          ""
+        ],
         "Articles/2026-11-02 - Marianne Menglin Liu et al - FDE agent requirement discovery and delivery": [
           "Articles/2026-11-02 - Marianne Menglin Liu et al - FDE agent requirement discovery and delivery.md",
           ""
@@ -7278,8 +7371,8 @@
           ""
         ]
       },
-      "source_blob": "a74aa93607267c1cc1919ea31ba3a37e45920faf",
-      "sha256": "3209aa68c984798db925190e256eef5578c7db99f01a36ae9389c8ff8a41c1b3"
+      "source_blob": "90f9a378a7b89b43363afdf969fa9e8fcbf6e065",
+      "sha256": "d09c9b3fa1d7490336706516cdf6c8302418d1ecb804b9eda3affb074b61eddf"
     },
     "Themes/Ownership and sustainable delivery.md": {
       "dependencies": {
@@ -7373,6 +7466,10 @@
     },
     "Themes/Role and product feedback.md": {
       "dependencies": {
+        "Articles/2026-11-05 - Mat Kupczyk - Three roles in one engineer": [
+          "Articles/2026-11-05 - Mat Kupczyk - Three roles in one engineer.md",
+          ""
+        ],
         "Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering": [
           "Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering.md",
           ""
@@ -7478,8 +7575,8 @@
           ""
         ]
       },
-      "source_blob": "ab1ed3436bcebbdaf6df32df059049b474156ba5",
-      "sha256": "c64318fff94537bed58007585a3259150a39161dec1eda9d559a732d34845542"
+      "source_blob": "f9a935705b4f865681676a43a29c3979bb1bbbd4",
+      "sha256": "81fbda111ec030b50da82e5267075c89ca17a9979d908782a01beb2912cf610b"
     },
     "Themes/Staff engineering and influence.md": {
       "dependencies": {
