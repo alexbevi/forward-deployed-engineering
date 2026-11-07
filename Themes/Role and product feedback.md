@@ -3,7 +3,7 @@ type: theme
 collection: fde
 status: evolving
 created: 2026-10-05
-updated: 2026-10-31
+updated: 2026-11-07
 tags:
   - fde
   - fde/role
@@ -16,6 +16,7 @@ How should FDE responsibilities connect to the organisation's product and engine
 
 ## Catalogue
 
+- [[Articles/2026-11-05 - Mat Kupczyk - Three roles in one engineer|Kupczyk, Brival, 2026]]. Consolidated responsibility within a supported team.
 - [[Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering|Shatzkamer, Microsoft, 2026]]. Multidisciplinary delivery capability.
 - [[Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI|Jarvis, 2026]]. Product reuse and model-research feedback as distinct routes.
 - [[Articles/2026-10-19 - Caroline Clark - What is a Forward Deployed Product Manager|Clark, 2026]]. Adjacent FDPM function and field-to-product coordination; peripheral to the FDE role definition.

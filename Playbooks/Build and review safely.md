@@ -2,13 +2,14 @@
 type: playbook
 collection: fde
 created: &id001 2026-10-05
-updated: *id001
+updated: 2026-11-07
 tags:
 - fde
 status: draft
 practice_status: proposed
 purpose: Develop an unfamiliar integration or contribute to shared product code
 sources:
+- "[[Articles/2026-11-05 - Mat Kupczyk - Three roles in one engineer]]"
 - '[[Articles/2026-09-14 - Arun Prasath E G - How an FDE engagement works]]'
 - '[[Articles/2026-03-24 - Doug McClure - How FDE was born at PagerDuty]]'
 local_observations: []
@@ -22,7 +23,7 @@ When entering an unfamiliar codebase or delivery process. These are proposed pra
 
 ## Procedure
 
-1. Learn the maintainer's standards, contribution boundaries, acceptance criteria, and release process before changing code.
+1. Name who covers product, design, architecture, specialist review and acceptance when roles overlap. Learn the maintainer's standards, contribution boundaries, acceptance criteria, and release process before changing code.
 2. Take a small usable change through the actual build, review, and deployment path. Resolve process gaps before increasing scope.
 3. Where useful, put third-party services behind explicit interfaces and deterministic test stand-ins. Keep stand-in behaviour distinct from live integration evidence.
 4. Encode suitable quality checks in the build, and supplement them with human or automated review appropriate to the risk.
@@ -38,6 +39,8 @@ A small accepted contribution, known checks and limitations, integration evidenc
 Clean lint output does not establish runtime safety. A mock verifies only the assumptions encoded in it. Coding agents can introduce new errors while fixing old ones. Customer urgency does not override the maintainer's ownership or release rules.
 
 ## Evidence
+
+The coverage check adapts [[Articles/2026-11-05 - Mat Kupczyk - Three roles in one engineer|Brival's account]] and remains proposed.
 
 The APEG account reports gates, stand-ins, and repeated review corrections. PagerDuty reports learning feature-team practices and contribution boundaries. We have not reproduced either team's tooling.
 
