@@ -48,7 +48,7 @@ Socol's warning is that faster independent delivery can reduce the interactions 
 
 Durable influence can appear in a product capability, decision heuristic, review habit, or team-owned artifact. "Becoming unnecessary" should mean reducing dependence on private context, not withdrawing support or erasing accountable ownership.
 
-Larson adds two near-term forms of leverage: make a bounded intervention that helps another project succeed, and help nearly finished work cross the last technical or organisational barrier. These are valuable when they increase another person's capability or bring a useful result into operation. They become counterproductive when the Staff engineer takes over, claims visibility, or leaves the original owner dependent on privileged access.
+Larson adds two near-term forms of leverage: make a bounded intervention that helps another project succeed, and help nearly finished work cross the last technical or organisational barrier. These are valuable when they increase another person's capability or bring a useful result into operation. They become counterproductive when the Staff engineer takes over, claims visibility, or leaves the original owner dependent on privileged access. [Ojstersek's public preview](Articles/2026-11-11%20-%20Gregor%20Ojstersek%20-%20How%20an%20experienced%20Staff%20engineer%20works.md) supplies a reported example: a senior engineer leads email workflow automation while van Buuren supports its intended wider adoption. It reports no measured adoption outcome.
 
 His broader duties chapter distinguishes mentorship from sponsorship. Advice and contextual understanding help a colleague reason; sponsorship uses credibility and access to create or protect an opportunity. Both need the recipient's goals and context, and neither is evidence of impact merely because a career ladder asks for it.
 
@@ -93,5 +93,5 @@ Use [Staff engineering and influence](Themes/Staff%20engineering%20and%20influen
 | collection | fde |
 | status | evolving |
 | created | 2026-10-06 |
-| updated | 2026-10-21T10:51 |
+| updated | 2026-11-13 |
 | tags | fde; fde/staff-engineering |

@@ -1,6 +1,6 @@
 {
   "fingerprint": "4cb01aa2cb6742c5a97a4919d5ab595143e009f9a5c40e578a2f737c60273d2b",
-  "source_commit": "1a672b74d647bdc3e9f59df8466d7d1b9a5665d6",
+  "source_commit": "e2ba672bb9a2bdbd21782f09d996559c052a4570",
   "records": {
     "AGENTS.md": {
       "path": "AGENTS.md",
@@ -1966,6 +1966,55 @@
         "Connections and verification": "connections-and-verification"
       }
     },
+    "Articles/2026-11-11 - Gregor Ojstersek - How an experienced Staff engineer works.md": {
+      "path": "Articles/2026-11-11 - Gregor Ojstersek - How an experienced Staff engineer works.md",
+      "meta": {
+        "type": "article",
+        "collection": "fde",
+        "title": "How an Experienced Staff Engineer Works and Uses AI",
+        "author": [
+          "Gregor Ojstersek"
+        ],
+        "profiled_person": "Simone van Buuren",
+        "site": "Engineering Leadership",
+        "url": "https://newsletter.eng-leadership.com/p/how-an-experienced-staff-engineer",
+        "canonical_url": "https://newsletter.eng-leadership.com/p/how-an-experienced-staff-engineer",
+        "publication_date": "2026-11-11",
+        "publication_date_basis": "Visible article date and JSON-LD datePublished",
+        "source_updated": "2026-11-11",
+        "source_updated_basis": "article:modified_time; JSON-LD dateModified repeats the earlier publication timestamp",
+        "accessed": "2026-11-13",
+        "created": "2026-11-13",
+        "updated": "2026-11-13",
+        "status": "partial",
+        "source_kind": "practitioner-profile",
+        "evidence_family": "ojstersek-multiplier-mindset-van-buuren",
+        "evidence_basis": [
+          "reported-experience",
+          "practitioner-argument"
+        ],
+        "contribution": "Illustrates supporting adoption while preserving another engineer's implementation ownership",
+        "tags": [
+          "fde",
+          "fde/staff-engineering",
+          "fde/development"
+        ],
+        "themes": [
+          "[[Themes/Staff engineering and influence]]"
+        ],
+        "people": [
+          "[[People/Simone van Buuren]]"
+        ],
+        "models": [],
+        "approaches": [],
+        "playbooks": [],
+        "resources": []
+      },
+      "headings": {
+        "How an experienced Staff engineer works": "how-an-experienced-staff-engineer-works",
+        "Access and connections": "access-and-connections"
+      }
+    },
     "Articles/undated - Atlassian - Forward deployed engineering playbook.md": {
       "path": "Articles/undated - Atlassian - Forward deployed engineering playbook.md",
       "meta": {
@@ -2681,6 +2730,30 @@
         "Documented contributions": "documented-contributions"
       }
     },
+    "People/Simone van Buuren.md": {
+      "path": "People/Simone van Buuren.md",
+      "meta": {
+        "type": "person",
+        "collection": "fde",
+        "created": "2026-11-13",
+        "updated": "2026-11-13",
+        "status": "documented",
+        "tags": [
+          "fde",
+          "fde/staff-engineering"
+        ],
+        "person_name": "Simone van Buuren",
+        "relevance": "Staff technical leadership, support for implementation owners, and learning through review",
+        "public_url": "https://www.linkedin.com/in/simone-van-buuren/",
+        "public_url_basis": "Linked from the article; profile not independently inspected",
+        "sources": [
+          "[[Articles/2026-11-11 - Gregor Ojstersek - How an experienced Staff engineer works]]"
+        ]
+      },
+      "headings": {
+        "Simone van Buuren": "simone-van-buuren"
+      }
+    },
     "People/Vinoo Ganesh.md": {
       "path": "People/Vinoo Ganesh.md",
       "meta": {
@@ -3207,7 +3280,7 @@
         "collection": "fde",
         "status": "evolving",
         "created": "2026-10-06",
-        "updated": "2026-10-21T10:51",
+        "updated": "2026-11-13",
         "tags": [
           "fde",
           "fde/staff-engineering"
@@ -3340,7 +3413,7 @@
         "collection": "fde",
         "status": "evolving",
         "created": "2026-10-06",
-        "updated": "2026-10-21T10:51",
+        "updated": "2026-11-13",
         "tags": [
           "fde",
           "fde/staff-engineering",
@@ -4984,6 +5057,32 @@
       "source_blob": "7814bf15b10f744bf4d1c328e676123cab4b04a0",
       "sha256": "bd930b898d570af014e7c999713329744124d39cad7e0ca3e0d8d72b6eeae5c5"
     },
+    "Articles/2026-11-11 - Gregor Ojstersek - How an experienced Staff engineer works.md": {
+      "dependencies": {
+        "Staff Engineer#Make influence observable after departure": [
+          "Staff Engineer.md",
+          "make-influence-observable-after-departure"
+        ],
+        "People/Simone van Buuren": [
+          "People/Simone van Buuren.md",
+          ""
+        ],
+        "FDE": [
+          "FDE.md",
+          ""
+        ],
+        "Agentic Development": [
+          "Agentic Development.md",
+          ""
+        ],
+        "Themes/Staff engineering and influence": [
+          "Themes/Staff engineering and influence.md",
+          ""
+        ]
+      },
+      "source_blob": "79357a1cb475192f70531bdf16aec795da1076bb",
+      "sha256": "519024f1b471d3043e743ddc0f81bf9ffdefea500d779ebcb63f7d944cf1bf7b"
+    },
     "Articles/undated - Atlassian - Forward deployed engineering playbook.md": {
       "dependencies": {
         "Attachments/atlassian-fde-playbook-c9cd5956a217.pdf": [
@@ -5392,7 +5491,7 @@
     },
     "Bases/People.md": {
       "dependencies": {
-        "base:Bases/People.base": "9512b4d1c67d69587480100710221769e8d8cfb90a04289df9398c4642880fee",
+        "base:Bases/People.base": "8d2a9ee0931f904c460d3516313d6a079a427e862a44d34be01fe3a4f18441dd",
         "People/Anna Selway.md": [
           "People/Anna Selway.md",
           ""
@@ -5493,6 +5592,14 @@
           "People/Priya Bains.md",
           ""
         ],
+        "People/Simone van Buuren.md": [
+          "People/Simone van Buuren.md",
+          ""
+        ],
+        "Articles/2026-11-11 - Gregor Ojstersek - How an experienced Staff engineer works": [
+          "Articles/2026-11-11 - Gregor Ojstersek - How an experienced Staff engineer works.md",
+          ""
+        ],
         "People/Vinoo Ganesh.md": [
           "People/Vinoo Ganesh.md",
           ""
@@ -5515,7 +5622,7 @@
         ]
       },
       "source_blob": "fe5617e528b9c18e9b2873ea88897923f847faec",
-      "sha256": "8dc1de3db71e4f2dff4a13dc222c32492087761833718241369455344211fcc4"
+      "sha256": "1bbe507ac92497cb9cb0a2ba3f793101a064f366087aa6b98dfd867904a8db77"
     },
     "Bases/Playbooks.md": {
       "dependencies": {
@@ -5697,7 +5804,7 @@
     },
     "Bases/Sources.md": {
       "dependencies": {
-        "base:Bases/Sources.base": "cd5a97d9a8178f42d068f456b93c739b9a1ee979e18011f91829e67cf8e7a43c",
+        "base:Bases/Sources.base": "5a1fd04c24ea5900361c83caf8a1a9ed260ccb046fb87be35f2a44ff644a6ac4",
         "Articles/2020-09-04 - Will Larson - Work on what matters.md": [
           "Articles/2020-09-04 - Will Larson - Work on what matters.md",
           ""
@@ -5898,6 +6005,14 @@
           "Articles/2026-11-05 - Mat Kupczyk - Three roles in one engineer.md",
           ""
         ],
+        "Articles/2026-11-11 - Gregor Ojstersek - How an experienced Staff engineer works.md": [
+          "Articles/2026-11-11 - Gregor Ojstersek - How an experienced Staff engineer works.md",
+          ""
+        ],
+        "People/Simone van Buuren": [
+          "People/Simone van Buuren.md",
+          ""
+        ],
         "Articles/undated - Atlassian - Forward deployed engineering playbook.md": [
           "Articles/undated - Atlassian - Forward deployed engineering playbook.md",
           ""
@@ -5932,7 +6047,7 @@
         ]
       },
       "source_blob": "fe01b99ce28b7a1e9dee85cdd07bf1a05aeae470",
-      "sha256": "35630450892d2d42830961ed37abce007ccd06e0caf7a84d6aded10f76a35d65"
+      "sha256": "2492e57a1b4dd544f9fc58be6d37b0cc4f51ac4bfb44823f2f04275345564af0"
     },
     "Catalogue.md": {
       "dependencies": {
@@ -6642,6 +6757,24 @@
       "source_blob": "900676e3dabcfd44194d612adb306ba50501732f",
       "sha256": "74b24830aeb617fef60d4c42e0e280edf2a91062941dcac29732f2047b0ae826"
     },
+    "People/Simone van Buuren.md": {
+      "dependencies": {
+        "Articles/2026-11-11 - Gregor Ojstersek - How an experienced Staff engineer works": [
+          "Articles/2026-11-11 - Gregor Ojstersek - How an experienced Staff engineer works.md",
+          ""
+        ],
+        "People": [
+          "People.md",
+          ""
+        ],
+        "Themes/Staff engineering and influence": [
+          "Themes/Staff engineering and influence.md",
+          ""
+        ]
+      },
+      "source_blob": "f1b2f626501c2a5e35963471b8687fa1dae6329d",
+      "sha256": "66b03372045b69cf4d2626058013767c476ff7e1b3bb8d8d15cfc0384bd1244b"
+    },
     "People/Vinoo Ganesh.md": {
       "dependencies": {
         "Articles/2026-09-12 - Vinoo Ganesh - The rise of the forward deployed engineer": [
@@ -7168,6 +7301,10 @@
           "Agentic Development.md",
           ""
         ],
+        "Articles/2026-11-11 - Gregor Ojstersek - How an experienced Staff engineer works": [
+          "Articles/2026-11-11 - Gregor Ojstersek - How an experienced Staff engineer works.md",
+          ""
+        ],
         "FDE#Developing strong FDE peers": [
           "FDE.md",
           "developing-strong-fde-peers"
@@ -7193,8 +7330,8 @@
           ""
         ]
       },
-      "source_blob": "a68b827187970c6ad240b7025331dba2a51934e2",
-      "sha256": "2c0d7abb0560201c4c335753c289ecbe9611fa3e1d40a6692c1ce028e028d0ac"
+      "source_blob": "5b6eec23b5b396b44059ae2ff5187b287553d3b3",
+      "sha256": "b39c667fb4d4ce589881dcf21550f25bcf68d1563999daaa491ed535f5e6bda9"
     },
     "Themes/Agent harnesses and verification.md": {
       "dependencies": {
@@ -7580,6 +7717,10 @@
     },
     "Themes/Staff engineering and influence.md": {
       "dependencies": {
+        "Articles/2026-11-11 - Gregor Ojstersek - How an experienced Staff engineer works": [
+          "Articles/2026-11-11 - Gregor Ojstersek - How an experienced Staff engineer works.md",
+          ""
+        ],
         "Articles/2020-11-28 - Will Larson - What do Staff engineers actually do": [
           "Articles/2020-11-28 - Will Larson - What do Staff engineers actually do.md",
           ""
@@ -7621,8 +7762,8 @@
           ""
         ]
       },
-      "source_blob": "c17128055958668488d8742400d771661d44e471",
-      "sha256": "016ca5b108f3ac5d9a1be1eefe554d3e33bf798e2a06a86daea5f6da6b8bf43f"
+      "source_blob": "c8bdebd2a6b9f10a531413c7c613c86e3e19a36e",
+      "sha256": "51047bfe3a348e74954f273c58694356d6f1409a74e2bc854f0ed19a2a97be65"
     },
     "Themes/Technical and professional development.md": {
       "dependencies": {
