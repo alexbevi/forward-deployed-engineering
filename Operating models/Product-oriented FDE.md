@@ -2,7 +2,7 @@
 type: operating-model
 collection: fde
 created: 2026-10-05
-updated: 2026-10-23
+updated: 2026-11-16
 tags:
   - fde
 status: evolving
@@ -12,6 +12,7 @@ engagement_type: Customer engagements feeding maintained product work
 ownership: Product stewardship with customer operational responsibilities to establish
 success_measure: Customer results and accepted shared capabilities
 sources:
+  - "[[Articles/2026-11-09 - Joe O'Meara and Gabor Soter - Running FDE at Encord]]"
   - "[[Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI]]"
   - "[[Articles/2026-10-19 - Caroline Clark - What is a Forward Deployed Product Manager]]"
   - "[[Articles/2026-10-13 - Dominik Metzger - Industry AI and measurable value]]"
@@ -37,12 +38,14 @@ The recurring aim in [[Articles/2026-09-12 - Vinoo Ganesh - The rise of the forw
 
 Agree who can approve product work, who maintains the resulting capability, and who owns its operation at the customer. Cresta's reporting line and pull-request access are one organisational implementation, not requirements for every FDE function. The model does not grant an FDE authority to bypass product or engineering review.
 
+[[Articles/2026-11-09 - Joe O'Meara and Gabor Soter - Running FDE at Encord|Encord]] reports qualified customer pods with separate code paths and debt, and feedback through shared briefings. This describes coordination, without evidence of a shared product capability.
+
 ## Fit and failure modes
 
 This is a candidate when a shared platform exists and there is a viable contribution path. It fails if every account produces an isolated solution, or if customer-specific requirements become permanent product complexity without evidence of reuse. Shared availability is not itself proof that a capability works for another customer.
 
 ## Questions to resolve
 
-What qualifies a finding for product investment? Which customer requirements remain configuration? How are customer commitments balanced with product review?
+What qualifies a finding for product investment? Which customer requirements remain configuration? How are customer commitments balanced with product review? What triggers retirement or transfer of debt from a customer pod?
 
 See [[Playbooks/Evaluate outcomes and reuse]] and [[Playbooks/Build and review safely]]. Return to [[Operating models]].

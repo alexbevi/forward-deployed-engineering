@@ -3,7 +3,7 @@ type: theme
 collection: fde
 status: evolving
 created: 2026-10-05
-updated: 2026-11-07
+updated: 2026-11-16
 tags:
   - fde
   - fde/discovery
@@ -16,6 +16,7 @@ How do FDEs understand a customer's problem and deliver a solution that works in
 
 ## Catalogue
 
+- [[Articles/2026-11-09 - Joe O'Meara and Gabor Soter - Running FDE at Encord|Sharps, Encord interview, 2026]]. Scoping around capabilities and dependencies.
 - [[Articles/2026-11-05 - Mat Kupczyk - Three roles in one engineer|Kupczyk, Brival, 2026]]. Prototype reviews with specialist and QA support.
 - [[Articles/2026-11-02 - Marianne Menglin Liu et al - FDE agent requirement discovery and delivery|Liu et al., 2026]]. Simulated discovery and delivery.
 - [[Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI|Jarvis, 2026]]. Customer evaluations and reported consolidation of custom deployments.

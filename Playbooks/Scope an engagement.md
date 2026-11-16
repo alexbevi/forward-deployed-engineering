@@ -2,13 +2,14 @@
 type: playbook
 collection: fde
 created: 2026-10-05
-updated: 2026-11-04
+updated: 2026-11-16
 tags:
   - fde
 status: draft
 practice_status: proposed
 purpose: Start or reset an engagement
 sources:
+  - "[[Articles/2026-11-09 - Joe O'Meara and Gabor Soter - Running FDE at Encord]]"
   - "[[Articles/2026-11-02 - Marianne Menglin Liu et al - FDE agent requirement discovery and delivery]]"
   - "[[Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works]]"
   - "[[Articles/2026-10-16 - McKinsey - What is a forward-deployed engineer]]"
@@ -35,7 +36,7 @@ Have a business decision-maker and someone who understands the actual workflow. 
 ## Procedure
 
 1. Observe a representative task with its user, noting decisions and data. Describe the current problem, how often it occurs, and observable success condition. Ask the domain reviewer to correct that description.
-2. List business decisions, engineering decisions, spending approvals, and authority over production changes. Name an owner for each.
+2. List business decisions, engineering decisions, spending approvals, and authority over production changes. Name an owner for each. Record approved exceptions to core product constraints and who owns the resulting technical debt.
 3. Verify practical access to representative data and the systems involved. Record limitations and approval dependencies.
 4. Define an initial usable increment, acceptance checks, a baseline, and a date to review progress. Where the choice is material, present alternatives with their effort, payoff, and limitations, including a smaller change or no change.
 5. Agree what is excluded, who operates the result, and how support and transition will work. Record IP ownership, rights needed for maintenance and reuse, and how scope changes affect pricing and acceptance.
@@ -56,6 +57,8 @@ For AI production work, propose a signed acceptance record with versioned evalua
 Can the customer explain the intended outcome and the decisions still theirs? Can an engineer access what delivery needs? An approval promise is not working access. A customer opportunity is not an approved scope change. Revisit decisions when facts change instead of treating the brief as permanent truth.
 
 ## Evidence and adaptation
+
+The exception and debt check adapts [[Articles/2026-11-09 - Joe O'Meara and Gabor Soter - Running FDE at Encord|Sharps' account]] and remains proposed.
 
 The workflow-observation step adapts [[Articles/2026-10-16 - McKinsey - What is a forward-deployed engineer|Harrysson's account]].
 

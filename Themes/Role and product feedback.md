@@ -3,7 +3,7 @@ type: theme
 collection: fde
 status: evolving
 created: 2026-10-05
-updated: 2026-11-07
+updated: 2026-11-16
 tags:
   - fde
   - fde/role
@@ -16,6 +16,7 @@ How should FDE responsibilities connect to the organisation's product and engine
 
 ## Catalogue
 
+- [[Articles/2026-11-09 - Joe O'Meara and Gabor Soter - Running FDE at Encord|Sharps, Encord interview, 2026]]. Mandate exceptions and pod debt ownership.
 - [[Articles/2026-11-05 - Mat Kupczyk - Three roles in one engineer|Kupczyk, Brival, 2026]]. Consolidated responsibility within a supported team.
 - [[Articles/2026-10-28 - Kevin Shatzkamer - Evolution of forward-deployed engineering|Shatzkamer, Microsoft, 2026]]. Multidisciplinary delivery capability.
 - [[Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI|Jarvis, 2026]]. Product reuse and model-research feedback as distinct routes.
