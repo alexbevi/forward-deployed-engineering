@@ -12,7 +12,9 @@ Other accounts describe [outcome-scoped missions](Operating%20models/Outcome-sco
 
 The role can also be framed around an internal business function. [Forte's account](Articles/2026-10-16%20-%20Forte%20Group%20-%20FDEs%20in%20AI-shaped%20organizations.md) compares internal, partner and hybrid staffing. Our synthesis treats staffing source as separate from engagement mandate and ownership. The title alone does not establish shared-product contribution or receiving-team independence, and the account's reported workflow gain does not isolate an effect of the role.
 
-Before relying on a title, establish the mandate, decision authority, operational ownership, success measures, and relationship to the product team. Definitions can differ even within one firm, as [McKinsey's interviewees](Articles/2026-10-16%20-%20McKinsey%20-%20What%20is%20a%20forward-deployed%20engineer.md) illustrate. Treat outcome responsibility, decision authority, IP ownership, and billing as separate agreements. [GoodFirms' survey](Articles/undated%20-%20Kusum%20Motiani%20-%20What%20133%20companies%20reveal%20about%20FDE.md) reports varied structures and pricing, qualifying its own simplified FDE comparison. Responsibility should be bounded by the decisions an engineer can make and the dependencies others control. [Operating models](Operating%20models.md) makes those differences explicit.
+Before relying on a title, establish the mandate, decision authority, operational ownership, success measures, and relationship to the product team. [Encord's account](Articles/2026-11-09%20-%20Joe%20O%27Meara%20and%20Gabor%20Soter%20-%20Running%20FDE%20at%20Encord.md) makes one boundary explicit: selected customer missions can relax core product constraints while the pod owns its technical debt.
+
+Definitions can differ even within one firm, as [McKinsey's interviewees](Articles/2026-10-16%20-%20McKinsey%20-%20What%20is%20a%20forward-deployed%20engineer.md) illustrate. Treat outcome responsibility, decision authority, IP ownership, and billing as separate agreements. [GoodFirms' survey](Articles/undated%20-%20Kusum%20Motiani%20-%20What%20133%20companies%20reveal%20about%20FDE.md) reports varied structures and pricing, qualifying its own simplified FDE comparison. Responsibility should be bounded by the decisions an engineer can make and the dependencies others control. [Operating models](Operating%20models.md) makes those differences explicit.
 
 ## What good looks like
 
@@ -110,5 +112,5 @@ The view below is generated from article frontmatter. Theme notes retain curated
 | collection | fde |
 | status | evolving |
 | created | 2026-10-05 |
-| updated | 2026-11-07 |
+| updated | 2026-11-16 |
 | tags | fde |

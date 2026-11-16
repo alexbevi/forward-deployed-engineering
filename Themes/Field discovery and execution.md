@@ -4,6 +4,7 @@ How do FDEs understand a customer's problem and deliver a solution that works in
 
 ## Catalogue
 
+- [Sharps, Encord interview, 2026](../Articles/2026-11-09%20-%20Joe%20O%27Meara%20and%20Gabor%20Soter%20-%20Running%20FDE%20at%20Encord.md). Scoping around capabilities and dependencies.
 - [Kupczyk, Brival, 2026](../Articles/2026-11-05%20-%20Mat%20Kupczyk%20-%20Three%20roles%20in%20one%20engineer.md). Prototype reviews with specialist and QA support.
 - [Liu et al., 2026](../Articles/2026-11-02%20-%20Marianne%20Menglin%20Liu%20et%20al%20-%20FDE%20agent%20requirement%20discovery%20and%20delivery.md). Simulated discovery and delivery.
 - [Jarvis, 2026](../Articles/2026-10-22%20-%20Colin%20Jarvis%20-%20What%20FDE%20means%20at%20OpenAI.md). Customer evaluations and reported consolidation of custom deployments.
@@ -49,5 +50,5 @@ Use [Scope an engagement](../Playbooks/Scope%20an%20engagement.md), [Build and r
 | collection | fde |
 | status | evolving |
 | created | 2026-10-05 |
-| updated | 2026-11-07 |
+| updated | 2026-11-16 |
 | tags | fde; fde/discovery; fde/execution |

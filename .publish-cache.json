@@ -1,6 +1,6 @@
 {
   "fingerprint": "4cb01aa2cb6742c5a97a4919d5ab595143e009f9a5c40e578a2f737c60273d2b",
-  "source_commit": "e2ba672bb9a2bdbd21782f09d996559c052a4570",
+  "source_commit": "b2535636de4de89c0510b7e0c5c1d170f271fd21",
   "records": {
     "AGENTS.md": {
       "path": "AGENTS.md",
@@ -1966,6 +1966,60 @@
         "Connections and verification": "connections-and-verification"
       }
     },
+    "Articles/2026-11-09 - Joe O'Meara and Gabor Soter - Running FDE at Encord.md": {
+      "path": "Articles/2026-11-09 - Joe O'Meara and Gabor Soter - Running FDE at Encord.md",
+      "meta": {
+        "type": "article",
+        "collection": "fde",
+        "title": "Issue #2: Lessons from Running the Forward Deployed Engineering Function at a High-Growth Startup - Justin Sharps",
+        "author": [
+          "Joe O'Meara",
+          "Gabor Soter"
+        ],
+        "interview_subject": "Justin Sharps",
+        "subject_role": "Head of Forward Deployed Engineering at Encord, as identified in the interview",
+        "site": "Forward Deployed Engineering",
+        "url": "https://www.forwarddeployed.engineering/p/issue-2-lessons-from-running-the-forward-deployed-engineering-function-at-a-high-growth-startup-just",
+        "canonical_url": "https://www.forwarddeployed.engineering/p/issue-2-lessons-from-running-the-forward-deployed-engineering-function-at-a-high-growth-startup-just",
+        "publication_date": "2026-11-09",
+        "publication_date_basis": "Visible article date, article:published_time and JSON-LD datePublished",
+        "source_updated": "2026-11-09",
+        "source_updated_basis": "article:modified_time and JSON-LD dateModified",
+        "accessed": "2026-11-16",
+        "created": "2026-11-16",
+        "updated": "2026-11-16",
+        "status": "reviewed",
+        "source_kind": "practitioner-interview",
+        "evidence_family": "encord-sharps-fde-operating-account-2026",
+        "evidence_basis": [
+          "reported-experience",
+          "practitioner-argument"
+        ],
+        "contribution": "Makes exceptions to core product constraints and debt ownership explicit",
+        "tags": [
+          "fde",
+          "fde/role",
+          "fde/execution",
+          "fde/product-feedback"
+        ],
+        "themes": [
+          "[[Themes/Role and product feedback]]",
+          "[[Themes/Field discovery and execution]]"
+        ],
+        "models": [
+          "[[Operating models/Product-oriented FDE]]"
+        ],
+        "playbooks": [
+          "[[Playbooks/Scope an engagement]]"
+        ],
+        "people": [],
+        "resources": []
+      },
+      "headings": {
+        "Running FDE at Encord": "running-fde-at-encord",
+        "Connections and verification": "connections-and-verification"
+      }
+    },
     "Articles/2026-11-11 - Gregor Ojstersek - How an experienced Staff engineer works.md": {
       "path": "Articles/2026-11-11 - Gregor Ojstersek - How an experienced Staff engineer works.md",
       "meta": {
@@ -2216,7 +2270,7 @@
         "collection": "fde",
         "status": "evolving",
         "created": "2026-10-05",
-        "updated": "2026-11-07",
+        "updated": "2026-11-16",
         "tags": [
           "fde"
         ]
@@ -2404,7 +2458,7 @@
         "type": "operating-model",
         "collection": "fde",
         "created": "2026-10-05",
-        "updated": "2026-10-23",
+        "updated": "2026-11-16",
         "tags": [
           "fde"
         ],
@@ -2415,6 +2469,7 @@
         "ownership": "Product stewardship with customer operational responsibilities to establish",
         "success_measure": "Customer results and accepted shared capabilities",
         "sources": [
+          "[[Articles/2026-11-09 - Joe O'Meara and Gabor Soter - Running FDE at Encord]]",
           "[[Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI]]",
           "[[Articles/2026-10-19 - Caroline Clark - What is a Forward Deployed Product Manager]]",
           "[[Articles/2026-10-13 - Dominik Metzger - Industry AI and measurable value]]",
@@ -2950,7 +3005,7 @@
         "type": "playbook",
         "collection": "fde",
         "created": "2026-10-05",
-        "updated": "2026-11-04",
+        "updated": "2026-11-16",
         "tags": [
           "fde"
         ],
@@ -2958,6 +3013,7 @@
         "practice_status": "proposed",
         "purpose": "Start or reset an engagement",
         "sources": [
+          "[[Articles/2026-11-09 - Joe O'Meara and Gabor Soter - Running FDE at Encord]]",
           "[[Articles/2026-11-02 - Marianne Menglin Liu et al - FDE agent requirement discovery and delivery]]",
           "[[Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works]]",
           "[[Articles/2026-10-16 - McKinsey - What is a forward-deployed engineer]]",
@@ -3350,7 +3406,7 @@
         "collection": "fde",
         "status": "evolving",
         "created": "2026-10-05",
-        "updated": "2026-11-07",
+        "updated": "2026-11-16",
         "tags": [
           "fde",
           "fde/discovery",
@@ -3392,7 +3448,7 @@
         "collection": "fde",
         "status": "evolving",
         "created": "2026-10-05",
-        "updated": "2026-11-07",
+        "updated": "2026-11-16",
         "tags": [
           "fde",
           "fde/role",
@@ -5057,6 +5113,32 @@
       "source_blob": "7814bf15b10f744bf4d1c328e676123cab4b04a0",
       "sha256": "bd930b898d570af014e7c999713329744124d39cad7e0ca3e0d8d72b6eeae5c5"
     },
+    "Articles/2026-11-09 - Joe O'Meara and Gabor Soter - Running FDE at Encord.md": {
+      "dependencies": {
+        "FDE#Current understanding of the role": [
+          "FDE.md",
+          "current-understanding-of-the-role"
+        ],
+        "Operating models/Product-oriented FDE": [
+          "Operating models/Product-oriented FDE.md",
+          ""
+        ],
+        "Playbooks/Scope an engagement": [
+          "Playbooks/Scope an engagement.md",
+          ""
+        ],
+        "Themes/Role and product feedback": [
+          "Themes/Role and product feedback.md",
+          ""
+        ],
+        "Themes/Field discovery and execution": [
+          "Themes/Field discovery and execution.md",
+          ""
+        ]
+      },
+      "source_blob": "bb8b7f9c1d9ee226deb50b18c519ae336a1a0354",
+      "sha256": "5c0547b95fdf51d52769bab98da0b033e815966ba2bfc42acf8e86e2d563e9c5"
+    },
     "Articles/2026-11-11 - Gregor Ojstersek - How an experienced Staff engineer works.md": {
       "dependencies": {
         "Staff Engineer#Make influence observable after departure": [
@@ -5388,7 +5470,7 @@
     },
     "Bases/Operating models.md": {
       "dependencies": {
-        "base:Bases/Operating models.base": "1b670a51c1f2de73b8ae1192339115333edb012d5acd8b629d2d8ad25b4e06cc",
+        "base:Bases/Operating models.base": "fb552ab245e93acfb59fd70e448d7bbb43d9b831d47ba4f36a282f4fae308f66",
         "Operating models/Atlassian co-engineering.md": [
           "Operating models/Atlassian co-engineering.md",
           ""
@@ -5461,6 +5543,10 @@
           "Operating models/Product-oriented FDE.md",
           ""
         ],
+        "Articles/2026-11-09 - Joe O'Meara and Gabor Soter - Running FDE at Encord": [
+          "Articles/2026-11-09 - Joe O'Meara and Gabor Soter - Running FDE at Encord.md",
+          ""
+        ],
         "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI": [
           "Articles/2026-10-22 - Colin Jarvis - What FDE means at OpenAI.md",
           ""
@@ -5487,7 +5573,7 @@
         ]
       },
       "source_blob": "cbaf2207d36514483d6477bcd762aac50083ef5b",
-      "sha256": "1f74ad8b5d3d8adf7ffabb4a42264f5f138bf9cf3b52fd369abd87604d997f96"
+      "sha256": "9a0cec76456d7a1e0685ff08ebb1a97edf7f9d7c42d0bf18b1a736f782bab11d"
     },
     "Bases/People.md": {
       "dependencies": {
@@ -5626,7 +5712,7 @@
     },
     "Bases/Playbooks.md": {
       "dependencies": {
-        "base:Bases/Playbooks.base": "321dfdc2ae44d62958cc3ea94c00795df1bed2ffbc5e6e8d5ba1f165dd2c7026",
+        "base:Bases/Playbooks.base": "c6d30b469333221edb4095dc2ce7f7656f198391b0b531e570dfe31e9ba9219e",
         "Playbooks/Build and review safely.md": [
           "Playbooks/Build and review safely.md",
           ""
@@ -5711,6 +5797,10 @@
           "Playbooks/Scope an engagement.md",
           ""
         ],
+        "Articles/2026-11-09 - Joe O'Meara and Gabor Soter - Running FDE at Encord": [
+          "Articles/2026-11-09 - Joe O'Meara and Gabor Soter - Running FDE at Encord.md",
+          ""
+        ],
         "Articles/2026-11-02 - Marianne Menglin Liu et al - FDE agent requirement discovery and delivery": [
           "Articles/2026-11-02 - Marianne Menglin Liu et al - FDE agent requirement discovery and delivery.md",
           ""
@@ -5737,7 +5827,7 @@
         ]
       },
       "source_blob": "68cc8706522ff3e1ad8660172d56d7053ee8b215",
-      "sha256": "5c394ed43d65116f771e278902930005eb70a373b596d9083613afb92b1ff5f2"
+      "sha256": "9a9f02becc38640e7811814956b3b5a16633ee9e734a65c6f45e554b94441e8f"
     },
     "Bases/Resources.md": {
       "dependencies": {
@@ -5804,7 +5894,7 @@
     },
     "Bases/Sources.md": {
       "dependencies": {
-        "base:Bases/Sources.base": "5a1fd04c24ea5900361c83caf8a1a9ed260ccb046fb87be35f2a44ff644a6ac4",
+        "base:Bases/Sources.base": "b3cfd91264e0572d8875e35cea7f31addad14cd06a7e133a999792effc62acb9",
         "Articles/2020-09-04 - Will Larson - Work on what matters.md": [
           "Articles/2020-09-04 - Will Larson - Work on what matters.md",
           ""
@@ -6005,6 +6095,10 @@
           "Articles/2026-11-05 - Mat Kupczyk - Three roles in one engineer.md",
           ""
         ],
+        "Articles/2026-11-09 - Joe O'Meara and Gabor Soter - Running FDE at Encord.md": [
+          "Articles/2026-11-09 - Joe O'Meara and Gabor Soter - Running FDE at Encord.md",
+          ""
+        ],
         "Articles/2026-11-11 - Gregor Ojstersek - How an experienced Staff engineer works.md": [
           "Articles/2026-11-11 - Gregor Ojstersek - How an experienced Staff engineer works.md",
           ""
@@ -6047,7 +6141,7 @@
         ]
       },
       "source_blob": "fe01b99ce28b7a1e9dee85cdd07bf1a05aeae470",
-      "sha256": "2492e57a1b4dd544f9fc58be6d37b0cc4f51ac4bfb44823f2f04275345564af0"
+      "sha256": "d7c3cffdb6acf963221477a07c12d8b494572dbc7b92d83875632c4e56cb2717"
     },
     "Catalogue.md": {
       "dependencies": {
@@ -6135,6 +6229,10 @@
         ],
         "Articles/2026-10-16 - Forte Group - FDEs in AI-shaped organizations": [
           "Articles/2026-10-16 - Forte Group - FDEs in AI-shaped organizations.md",
+          ""
+        ],
+        "Articles/2026-11-09 - Joe O'Meara and Gabor Soter - Running FDE at Encord": [
+          "Articles/2026-11-09 - Joe O'Meara and Gabor Soter - Running FDE at Encord.md",
           ""
         ],
         "Articles/2026-10-16 - McKinsey - What is a forward-deployed engineer": [
@@ -6302,8 +6400,8 @@
           ""
         ]
       },
-      "source_blob": "3764f3a0fee3ea0d7f54536dcee179f3540479e5",
-      "sha256": "3eaa30352a037eca0aaf3ec05dbdb0c09729b145edfe2fd667915f2fb1131a48"
+      "source_blob": "49e0e44e151c58c0d84f26bbc23ee77af6d59196",
+      "sha256": "8631ff56944a169d85ee4dd6e92df747ffd9786402714bf8823b587aebf24634"
     },
     "Operating models.md": {
       "dependencies": {
@@ -6543,6 +6641,10 @@
           "Articles/2026-10-13 - Dominik Metzger - Industry AI and measurable value.md",
           ""
         ],
+        "Articles/2026-11-09 - Joe O'Meara and Gabor Soter - Running FDE at Encord": [
+          "Articles/2026-11-09 - Joe O'Meara and Gabor Soter - Running FDE at Encord.md",
+          ""
+        ],
         "Playbooks/Evaluate outcomes and reuse": [
           "Playbooks/Evaluate outcomes and reuse.md",
           ""
@@ -6556,8 +6658,8 @@
           ""
         ]
       },
-      "source_blob": "31b499e0c69658baf2cb9f28308d52690e31e182",
-      "sha256": "f12218ba5bdb46c47771f589aa986c0f0a6eead7e1a9a03b38179d04450f61dd"
+      "source_blob": "0ecd04300e24eb56a18409077047e75854b82580",
+      "sha256": "9d7058590369b67d5a8f742d69a47efe16aafabf763d4817ec9fa7a2c4248379"
     },
     "People.md": {
       "dependencies": {
@@ -6995,6 +7097,10 @@
           "Articles/2026-10-13 - OrNsoft team - How a forward-deployed engagement works.md",
           ""
         ],
+        "Articles/2026-11-09 - Joe O'Meara and Gabor Soter - Running FDE at Encord": [
+          "Articles/2026-11-09 - Joe O'Meara and Gabor Soter - Running FDE at Encord.md",
+          ""
+        ],
         "Articles/2026-10-16 - McKinsey - What is a forward-deployed engineer": [
           "Articles/2026-10-16 - McKinsey - What is a forward-deployed engineer.md",
           ""
@@ -7032,8 +7138,8 @@
           ""
         ]
       },
-      "source_blob": "3172ec224faabc8a83c256f02dbc68b611231ac3",
-      "sha256": "48d4f40f67dd9785a81e8d167a0f51b2af5fcc2f89914c41ea295a367ec11e27"
+      "source_blob": "04a9275baf8e1ed1446a5d76a0cd5e8f8685a7a0",
+      "sha256": "83b56585ab0a080aa9f52c7a7c047553d8f0d3c40ee3c2a3a4ca0606761445ef"
     },
     "Playbooks/Stage agent autonomy.md": {
       "dependencies": {
@@ -7387,6 +7493,10 @@
     },
     "Themes/Field discovery and execution.md": {
       "dependencies": {
+        "Articles/2026-11-09 - Joe O'Meara and Gabor Soter - Running FDE at Encord": [
+          "Articles/2026-11-09 - Joe O'Meara and Gabor Soter - Running FDE at Encord.md",
+          ""
+        ],
         "Articles/2026-11-05 - Mat Kupczyk - Three roles in one engineer": [
           "Articles/2026-11-05 - Mat Kupczyk - Three roles in one engineer.md",
           ""
@@ -7508,8 +7618,8 @@
           ""
         ]
       },
-      "source_blob": "90f9a378a7b89b43363afdf969fa9e8fcbf6e065",
-      "sha256": "d09c9b3fa1d7490336706516cdf6c8302418d1ecb804b9eda3affb074b61eddf"
+      "source_blob": "40ddc69fb1baec523e128108c93ff8a1706f53c9",
+      "sha256": "f43df75c9a29a48127d36d900efe3dce6ca4ca59cc6cb7d4923cc0d2379721fa"
     },
     "Themes/Ownership and sustainable delivery.md": {
       "dependencies": {
@@ -7603,6 +7713,10 @@
     },
     "Themes/Role and product feedback.md": {
       "dependencies": {
+        "Articles/2026-11-09 - Joe O'Meara and Gabor Soter - Running FDE at Encord": [
+          "Articles/2026-11-09 - Joe O'Meara and Gabor Soter - Running FDE at Encord.md",
+          ""
+        ],
         "Articles/2026-11-05 - Mat Kupczyk - Three roles in one engineer": [
           "Articles/2026-11-05 - Mat Kupczyk - Three roles in one engineer.md",
           ""
@@ -7712,8 +7826,8 @@
           ""
         ]
       },
-      "source_blob": "f9a935705b4f865681676a43a29c3979bb1bbbd4",
-      "sha256": "81fbda111ec030b50da82e5267075c89ca17a9979d908782a01beb2912cf610b"
+      "source_blob": "ff6fb8ff9bba40236cc7698097e5b46ca8a39aa2",
+      "sha256": "c4866be47becde9d6f5c6af9b55544fa5f463df7a0fce4d0fdd09b44f00c8683"
     },
     "Themes/Staff engineering and influence.md": {
       "dependencies": {

@@ -4,6 +4,7 @@ How should FDE responsibilities connect to the organisation's product and engine
 
 ## Catalogue
 
+- [Sharps, Encord interview, 2026](../Articles/2026-11-09%20-%20Joe%20O%27Meara%20and%20Gabor%20Soter%20-%20Running%20FDE%20at%20Encord.md). Mandate exceptions and pod debt ownership.
 - [Kupczyk, Brival, 2026](../Articles/2026-11-05%20-%20Mat%20Kupczyk%20-%20Three%20roles%20in%20one%20engineer.md). Consolidated responsibility within a supported team.
 - [Shatzkamer, Microsoft, 2026](../Articles/2026-10-28%20-%20Kevin%20Shatzkamer%20-%20Evolution%20of%20forward-deployed%20engineering.md). Multidisciplinary delivery capability.
 - [Jarvis, 2026](../Articles/2026-10-22%20-%20Colin%20Jarvis%20-%20What%20FDE%20means%20at%20OpenAI.md). Product reuse and model-research feedback as distinct routes.
@@ -46,5 +47,5 @@ Compare [Operating models](../Operating%20models.md) and use [Evaluate outcomes 
 | collection | fde |
 | status | evolving |
 | created | 2026-10-05 |
-| updated | 2026-11-07 |
+| updated | 2026-11-16 |
 | tags | fde; fde/role; fde/product-feedback |
