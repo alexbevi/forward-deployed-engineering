@@ -4,6 +4,7 @@ How do senior individual contributors shape technical systems, decisions, collab
 
 ## Catalogue
 
+- [George, 2026](../Articles/2026-11-16%20-%20Manju%20George%20-%20Systems%20thinking%20outlasts%20frameworks.md). Workflow boundaries and reuse costs.
 - [Ojstersek, 2026, public preview](../Articles/2026-11-11%20-%20Gregor%20Ojstersek%20-%20How%20an%20experienced%20Staff%20engineer%20works.md). Implementation ownership and wider adoption.
 - [Larson, 2020](../Articles/2020-11-28%20-%20Will%20Larson%20-%20What%20do%20Staff%20engineers%20actually%20do.md). Shared duties across Staff archetypes: technical direction, sponsorship, engineering decision context, exploration, glue work, and variable coding.
 - [Larson, 2020](../Articles/2020-09-04%20-%20Will%20Larson%20-%20Work%20on%20what%20matters.md). Work-selection failure modes and a conditional prioritisation lens based on consequence, room, attention, completion, and distinctive capability.
@@ -32,5 +33,5 @@ This theme covers technical leadership by individual contributors, not people-ma
 | collection | fde |
 | status | evolving |
 | created | 2026-10-06 |
-| updated | 2026-11-13 |
+| updated | 2026-11-17 |
 | tags | fde; fde/staff-engineering; fde/development |

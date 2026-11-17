@@ -1,6 +1,6 @@
 {
   "fingerprint": "4cb01aa2cb6742c5a97a4919d5ab595143e009f9a5c40e578a2f737c60273d2b",
-  "source_commit": "b2535636de4de89c0510b7e0c5c1d170f271fd21",
+  "source_commit": "3b1d7b41270781310a5724f83fef95f9109f917b",
   "records": {
     "AGENTS.md": {
       "path": "AGENTS.md",
@@ -2069,6 +2069,58 @@
         "Access and connections": "access-and-connections"
       }
     },
+    "Articles/2026-11-16 - Manju George - Systems thinking outlasts frameworks.md": {
+      "path": "Articles/2026-11-16 - Manju George - Systems thinking outlasts frameworks.md",
+      "meta": {
+        "type": "article",
+        "collection": "fde",
+        "title": "Systems thinking outlasts frameworks",
+        "author": [
+          "Manju George"
+        ],
+        "author_role": "Staff software engineer at GE HealthCare, as identified by LeadDev",
+        "site": "LeadDev",
+        "url": "https://leaddev.com/technical-direction/systems-thinking-outlasts-frameworks",
+        "canonical_url": "https://leaddev.com/technical-direction/systems-thinking-outlasts-frameworks",
+        "publication_date": "2026-11-16",
+        "publication_date_basis": "Visible article date, article:published_time and JSON-LD datePublished",
+        "source_updated": "2026-11-16",
+        "source_updated_basis": "article:modified_time and JSON-LD dateModified",
+        "accessed": "2026-11-17",
+        "created": "2026-11-17",
+        "updated": "2026-11-17",
+        "status": "reviewed",
+        "source_kind": "practitioner-essay",
+        "evidence_family": "george-systems-thinking-2026",
+        "evidence_basis": [
+          "reported-experience",
+          "practitioner-argument"
+        ],
+        "contribution": "Connects workflow review with the maintenance economics of reuse",
+        "tags": [
+          "fde",
+          "fde/staff-engineering",
+          "fde/development"
+        ],
+        "themes": [
+          "[[Themes/Staff engineering and influence]]",
+          "[[Themes/Technical and professional development]]"
+        ],
+        "people": [
+          "[[People/Manju George]]"
+        ],
+        "playbooks": [
+          "[[Playbooks/Evaluate outcomes and reuse]]"
+        ],
+        "models": [],
+        "approaches": [],
+        "resources": []
+      },
+      "headings": {
+        "Systems thinking outlasts frameworks": "systems-thinking-outlasts-frameworks",
+        "Connections and verification": "connections-and-verification"
+      }
+    },
     "Articles/undated - Atlassian - Forward deployed engineering playbook.md": {
       "path": "Articles/undated - Atlassian - Forward deployed engineering playbook.md",
       "meta": {
@@ -2270,7 +2322,7 @@
         "collection": "fde",
         "status": "evolving",
         "created": "2026-10-05",
-        "updated": "2026-11-16",
+        "updated": "2026-11-17",
         "tags": [
           "fde"
         ]
@@ -2716,6 +2768,29 @@
         "Documented contributions": "documented-contributions"
       }
     },
+    "People/Manju George.md": {
+      "path": "People/Manju George.md",
+      "meta": {
+        "type": "person",
+        "collection": "fde",
+        "created": "2026-11-17",
+        "updated": "2026-11-17",
+        "status": "documented",
+        "tags": [
+          "fde",
+          "fde/staff-engineering"
+        ],
+        "person_name": "Manju George",
+        "relevance": "Systems thinking, software reuse boundaries and technical review",
+        "public_url": "https://leaddev.com/community/manju-george",
+        "sources": [
+          "[[Articles/2026-11-16 - Manju George - Systems thinking outlasts frameworks]]"
+        ]
+      },
+      "headings": {
+        "Manju George": "manju-george"
+      }
+    },
     "People/Mukul Saha.md": {
       "path": "People/Mukul Saha.md",
       "meta": {
@@ -2908,7 +2983,7 @@
         "type": "playbook",
         "collection": "fde",
         "created": "2026-10-05",
-        "updated": "2026-10-09T10:42",
+        "updated": "2026-11-17",
         "tags": [
           "fde"
         ],
@@ -2916,6 +2991,7 @@
         "practice_status": "proposed",
         "purpose": "Review a deployed capability or proposed product improvement",
         "sources": [
+          "[[Articles/2026-11-16 - Manju George - Systems thinking outlasts frameworks]]",
           "[[Articles/2026-09-21 - Pablo Bermejo - Turning intelligence into lasting value]]",
           "[[Articles/2026-09-12 - Vinoo Ganesh - The rise of the forward deployed engineer]]",
           "[[Articles/2026-10-01 - Karthik Sonti et al - FDE pathways for AWS partners]]",
@@ -3336,7 +3412,7 @@
         "collection": "fde",
         "status": "evolving",
         "created": "2026-10-06",
-        "updated": "2026-11-13",
+        "updated": "2026-11-17",
         "tags": [
           "fde",
           "fde/staff-engineering"
@@ -3469,7 +3545,7 @@
         "collection": "fde",
         "status": "evolving",
         "created": "2026-10-06",
-        "updated": "2026-11-13",
+        "updated": "2026-11-17",
         "tags": [
           "fde",
           "fde/staff-engineering",
@@ -3490,7 +3566,7 @@
         "collection": "fde",
         "status": "evolving",
         "created": "2026-10-05",
-        "updated": "2026-10-20",
+        "updated": "2026-11-17",
         "tags": [
           "fde",
           "fde/development"
@@ -5165,6 +5241,36 @@
       "source_blob": "79357a1cb475192f70531bdf16aec795da1076bb",
       "sha256": "519024f1b471d3043e743ddc0f81bf9ffdefea500d779ebcb63f7d944cf1bf7b"
     },
+    "Articles/2026-11-16 - Manju George - Systems thinking outlasts frameworks.md": {
+      "dependencies": {
+        "Staff Engineer#Shape the problem before scaling the solution": [
+          "Staff Engineer.md",
+          "shape-the-problem-before-scaling-the-solution"
+        ],
+        "FDE#What good looks like": [
+          "FDE.md",
+          "what-good-looks-like"
+        ],
+        "Playbooks/Evaluate outcomes and reuse": [
+          "Playbooks/Evaluate outcomes and reuse.md",
+          ""
+        ],
+        "People/Manju George": [
+          "People/Manju George.md",
+          ""
+        ],
+        "Themes/Staff engineering and influence": [
+          "Themes/Staff engineering and influence.md",
+          ""
+        ],
+        "Themes/Technical and professional development": [
+          "Themes/Technical and professional development.md",
+          ""
+        ]
+      },
+      "source_blob": "dbce60850c44c4401fe2a6b33f93838d9faf9473",
+      "sha256": "756bfef15a577b024aa7abe951d9d921640523eb0d66a3beee3819d1f5263dd0"
+    },
     "Articles/undated - Atlassian - Forward deployed engineering playbook.md": {
       "dependencies": {
         "Attachments/atlassian-fde-playbook-c9cd5956a217.pdf": [
@@ -5577,7 +5683,7 @@
     },
     "Bases/People.md": {
       "dependencies": {
-        "base:Bases/People.base": "8d2a9ee0931f904c460d3516313d6a079a427e862a44d34be01fe3a4f18441dd",
+        "base:Bases/People.base": "181658613b3b4333cf431d4faf6f44da7d740c496fdd8a481508b1fcf642ac2a",
         "People/Anna Selway.md": [
           "People/Anna Selway.md",
           ""
@@ -5658,6 +5764,14 @@
           "People/Karthik Sonti.md",
           ""
         ],
+        "People/Manju George.md": [
+          "People/Manju George.md",
+          ""
+        ],
+        "Articles/2026-11-16 - Manju George - Systems thinking outlasts frameworks": [
+          "Articles/2026-11-16 - Manju George - Systems thinking outlasts frameworks.md",
+          ""
+        ],
         "People/Mukul Saha.md": [
           "People/Mukul Saha.md",
           ""
@@ -5708,11 +5822,11 @@
         ]
       },
       "source_blob": "fe5617e528b9c18e9b2873ea88897923f847faec",
-      "sha256": "1bbe507ac92497cb9cb0a2ba3f793101a064f366087aa6b98dfd867904a8db77"
+      "sha256": "9e54099b430c1b4953d36def64fab502fb4080e85abdf1e805f770ace31377bd"
     },
     "Bases/Playbooks.md": {
       "dependencies": {
-        "base:Bases/Playbooks.base": "c6d30b469333221edb4095dc2ce7f7656f198391b0b531e570dfe31e9ba9219e",
+        "base:Bases/Playbooks.base": "5b741ded0b490bf79b0eb20e9d1691afd8b94e84701e0ee74ead4a0f9fb4ba82",
         "Playbooks/Build and review safely.md": [
           "Playbooks/Build and review safely.md",
           ""
@@ -5731,6 +5845,10 @@
         ],
         "Playbooks/Evaluate outcomes and reuse.md": [
           "Playbooks/Evaluate outcomes and reuse.md",
+          ""
+        ],
+        "Articles/2026-11-16 - Manju George - Systems thinking outlasts frameworks": [
+          "Articles/2026-11-16 - Manju George - Systems thinking outlasts frameworks.md",
           ""
         ],
         "Articles/2026-09-21 - Pablo Bermejo - Turning intelligence into lasting value": [
@@ -5827,7 +5945,7 @@
         ]
       },
       "source_blob": "68cc8706522ff3e1ad8660172d56d7053ee8b215",
-      "sha256": "9a9f02becc38640e7811814956b3b5a16633ee9e734a65c6f45e554b94441e8f"
+      "sha256": "5c3e1ce526d91406d0159767e4d5412d78545143610d90ccb132d39eaee5d8bd"
     },
     "Bases/Resources.md": {
       "dependencies": {
@@ -5894,7 +6012,7 @@
     },
     "Bases/Sources.md": {
       "dependencies": {
-        "base:Bases/Sources.base": "b3cfd91264e0572d8875e35cea7f31addad14cd06a7e133a999792effc62acb9",
+        "base:Bases/Sources.base": "1be148eade40630815cea71165a682061203c94843bfedfd29ea2b8d09b242e3",
         "Articles/2020-09-04 - Will Larson - Work on what matters.md": [
           "Articles/2020-09-04 - Will Larson - Work on what matters.md",
           ""
@@ -6107,6 +6225,14 @@
           "People/Simone van Buuren.md",
           ""
         ],
+        "Articles/2026-11-16 - Manju George - Systems thinking outlasts frameworks.md": [
+          "Articles/2026-11-16 - Manju George - Systems thinking outlasts frameworks.md",
+          ""
+        ],
+        "People/Manju George": [
+          "People/Manju George.md",
+          ""
+        ],
         "Articles/undated - Atlassian - Forward deployed engineering playbook.md": [
           "Articles/undated - Atlassian - Forward deployed engineering playbook.md",
           ""
@@ -6141,7 +6267,7 @@
         ]
       },
       "source_blob": "fe01b99ce28b7a1e9dee85cdd07bf1a05aeae470",
-      "sha256": "d7c3cffdb6acf963221477a07c12d8b494572dbc7b92d83875632c4e56cb2717"
+      "sha256": "d6d6d54b9ab56ad7066853419d12dd7162d7ba69eb24aa3cc86416ba42d3bfd0"
     },
     "Catalogue.md": {
       "dependencies": {
@@ -6254,6 +6380,10 @@
         "Articles/2026-09-21 - Pablo Bermejo - Turning intelligence into lasting value": [
           "Articles/2026-09-21 - Pablo Bermejo - Turning intelligence into lasting value.md",
           ""
+        ],
+        "Staff Engineer#Shape the problem before scaling the solution": [
+          "Staff Engineer.md",
+          "shape-the-problem-before-scaling-the-solution"
         ],
         "Articles/2026-11-02 - Marianne Menglin Liu et al - FDE agent requirement discovery and delivery": [
           "Articles/2026-11-02 - Marianne Menglin Liu et al - FDE agent requirement discovery and delivery.md",
@@ -6400,8 +6530,8 @@
           ""
         ]
       },
-      "source_blob": "49e0e44e151c58c0d84f26bbc23ee77af6d59196",
-      "sha256": "8631ff56944a169d85ee4dd6e92df747ffd9786402714bf8823b587aebf24634"
+      "source_blob": "28326d8d1eb6b1e34235d2db66422f9fc7b4f9fb",
+      "sha256": "ff3d156339bcd58df310386c31948ed627f64ddffcd90ff4e1c91e84c672facd"
     },
     "Operating models.md": {
       "dependencies": {
@@ -6817,6 +6947,24 @@
       "source_blob": "1b25fe3fb5a8c64e4cf206222b9a50d0d808092a",
       "sha256": "6ab1dabbdd9b75481ca0419f9e160fc3cc745f44bdb9455e78d1cadb1edea6cc"
     },
+    "People/Manju George.md": {
+      "dependencies": {
+        "Articles/2026-11-16 - Manju George - Systems thinking outlasts frameworks": [
+          "Articles/2026-11-16 - Manju George - Systems thinking outlasts frameworks.md",
+          ""
+        ],
+        "People": [
+          "People.md",
+          ""
+        ],
+        "Themes/Staff engineering and influence": [
+          "Themes/Staff engineering and influence.md",
+          ""
+        ]
+      },
+      "source_blob": "fe283661fbbace71e6ca7395f1886031b8a95449",
+      "sha256": "d1db784ac99832783343f5eb74fbf26ecda777d6ca0d68343e2401b356a1a95c"
+    },
     "People/Mukul Saha.md": {
       "dependencies": {
         "Articles/2026-09-29 - Gartner - Vendor FDE abandonment forecast": [
@@ -6991,6 +7139,10 @@
           "Articles/2026-10-06 - Jove Zhong - Building a world-class FDE team.md",
           ""
         ],
+        "Articles/2026-11-16 - Manju George - Systems thinking outlasts frameworks": [
+          "Articles/2026-11-16 - Manju George - Systems thinking outlasts frameworks.md",
+          ""
+        ],
         "FDE#What good looks like": [
           "FDE.md",
           "what-good-looks-like"
@@ -7016,8 +7168,8 @@
           ""
         ]
       },
-      "source_blob": "3da3d5f835f2bd6d23781e439aabdab5f6d716ba",
-      "sha256": "07f37d2a39ccb5ed76564ff38d07c64b6771df9944c63c0e50935005c2f5eb23"
+      "source_blob": "1d7be755bd27ebf7dbfd8e775ee355176e1406cc",
+      "sha256": "2206d8100df48fa47a5fa756bee1fac9a52cf66c46878ebaae8b5f9ebccc6377"
     },
     "Playbooks/Prove a handover.md": {
       "dependencies": {
@@ -7407,6 +7559,10 @@
           "Agentic Development.md",
           ""
         ],
+        "Articles/2026-11-16 - Manju George - Systems thinking outlasts frameworks": [
+          "Articles/2026-11-16 - Manju George - Systems thinking outlasts frameworks.md",
+          ""
+        ],
         "Articles/2026-11-11 - Gregor Ojstersek - How an experienced Staff engineer works": [
           "Articles/2026-11-11 - Gregor Ojstersek - How an experienced Staff engineer works.md",
           ""
@@ -7436,8 +7592,8 @@
           ""
         ]
       },
-      "source_blob": "5b6eec23b5b396b44059ae2ff5187b287553d3b3",
-      "sha256": "b39c667fb4d4ce589881dcf21550f25bcf68d1563999daaa491ed535f5e6bda9"
+      "source_blob": "2120ff54d9ef1b6917249df1552194ec879c11e4",
+      "sha256": "c9ccfcf21eb2c768d611b38fd678b29642963535bddb245e3e7db6b0c0e32a6a"
     },
     "Themes/Agent harnesses and verification.md": {
       "dependencies": {
@@ -7831,6 +7987,10 @@
     },
     "Themes/Staff engineering and influence.md": {
       "dependencies": {
+        "Articles/2026-11-16 - Manju George - Systems thinking outlasts frameworks": [
+          "Articles/2026-11-16 - Manju George - Systems thinking outlasts frameworks.md",
+          ""
+        ],
         "Articles/2026-11-11 - Gregor Ojstersek - How an experienced Staff engineer works": [
           "Articles/2026-11-11 - Gregor Ojstersek - How an experienced Staff engineer works.md",
           ""
@@ -7876,11 +8036,15 @@
           ""
         ]
       },
-      "source_blob": "c8bdebd2a6b9f10a531413c7c613c86e3e19a36e",
-      "sha256": "51047bfe3a348e74954f273c58694356d6f1409a74e2bc854f0ed19a2a97be65"
+      "source_blob": "0cd2c1d0251e472e93dfc3e00d08b30382b231e2",
+      "sha256": "bae558d3a91bcba5d9e047225ac98cc19728a8a163e31f223642739ac8073485"
     },
     "Themes/Technical and professional development.md": {
       "dependencies": {
+        "Articles/2026-11-16 - Manju George - Systems thinking outlasts frameworks": [
+          "Articles/2026-11-16 - Manju George - Systems thinking outlasts frameworks.md",
+          ""
+        ],
         "Articles/2020-11-28 - Will Larson - What do Staff engineers actually do": [
           "Articles/2020-11-28 - Will Larson - What do Staff engineers actually do.md",
           ""
@@ -7974,8 +8138,8 @@
           ""
         ]
       },
-      "source_blob": "2bc23ae58a4ce20c4ab2d89ccd558c04d8b7dca9",
-      "sha256": "61bec954f7caa91e6a82137407e487f5c136a95f3ecea15a24376cad7ee08617"
+      "source_blob": "5e72a13b57ac93cf5d90760ca271edc3de2d7e48",
+      "sha256": "cd32ee19d53625de62d3e54f1736b32f99191a5d0cfa35855b64805a789f56ea"
     }
   }
 }

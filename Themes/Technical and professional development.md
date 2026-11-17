@@ -4,6 +4,7 @@ How can FDEs improve their own practice and help peers become stronger engineers
 
 ## Catalogue
 
+- [George, 2026](../Articles/2026-11-16%20-%20Manju%20George%20-%20Systems%20thinking%20outlasts%20frameworks.md). Dependencies and failure analysis.
 - [Larson, 2020](../Articles/2020-11-28%20-%20Will%20Larson%20-%20What%20do%20Staff%20engineers%20actually%20do.md). Mentorship and sponsorship, exploration, longer feedback cycles, and technical grounding without a code-volume target.
 - [Larson, 2020](../Articles/2020-09-04%20-%20Will%20Larson%20-%20Work%20on%20what%20matters.md). Selecting consequential work, fostering others' growth, and using senior context to unblock rather than take over.
 - [Zhong, 2026](../Articles/2026-10-06%20-%20Jove%20Zhong%20-%20Building%20a%20world-class%20FDE%20team.md). Production-scenario interviews for vertical knowledge, technical and business judgment, and customer-facing maturity.
@@ -45,5 +46,5 @@ Use [Build and review safely](../Playbooks/Build%20and%20review%20safely.md) for
 | collection | fde |
 | status | evolving |
 | created | 2026-10-05 |
-| updated | 2026-10-20 |
+| updated | 2026-11-17 |
 | tags | fde; fde/development |

@@ -29,7 +29,7 @@ Our proposed rubric asks for observable evidence. It is not a validated scoring 
 | Professional practice | Clear decision rights, accurate commitments, and explicit uncertainty. |
 | Peer contribution | Reviewable artifacts and reasoning another engineer can apply. |
 
-Keep agent correctness, workflow improvement, and reuse evidence separate. A system can pass evaluations without improving work, and a useful customer implementation can remain bespoke. [Evaluate outcomes and reuse](Playbooks/Evaluate%20outcomes%20and%20reuse.md) develops this distinction from [Bermejo's proposed feedback model](Articles/2026-09-21%20-%20Pablo%20Bermejo%20-%20Turning%20intelligence%20into%20lasting%20value.md).
+Keep agent correctness, workflow improvement, and reuse evidence separate. A system can pass evaluations without improving work, and a useful customer implementation can remain bespoke. [Evaluate outcomes and reuse](Playbooks/Evaluate%20outcomes%20and%20reuse.md) develops this distinction from [Bermejo's proposed feedback model](Articles/2026-09-21%20-%20Pablo%20Bermejo%20-%20Turning%20intelligence%20into%20lasting%20value.md). For FDE reuse decisions, we propose adapting [George's internal library account](Staff%20Engineer.md#shape-the-problem-before-scaling-the-solution) by comparing reuse benefits with continuing maintenance costs. Adoption inside one organisation does not establish transfer across customers.
 
 Agent-assisted discovery needs review for omissions and unresolved decisions. [One text-to-SQL case study](Articles/2026-11-02%20-%20Marianne%20Menglin%20Liu%20et%20al%20-%20FDE%20agent%20requirement%20discovery%20and%20delivery.md) motivates this proposed check.
 
@@ -112,5 +112,5 @@ The view below is generated from article frontmatter. Theme notes retain curated
 | collection | fde |
 | status | evolving |
 | created | 2026-10-05 |
-| updated | 2026-11-16 |
+| updated | 2026-11-17 |
 | tags | fde |
