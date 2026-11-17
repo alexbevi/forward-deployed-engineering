@@ -3,7 +3,7 @@ type: theme
 collection: fde
 status: evolving
 created: 2026-10-05
-updated: 2026-10-20
+updated: 2026-11-17
 tags:
   - fde
   - fde/development
@@ -15,6 +15,7 @@ How can FDEs improve their own practice and help peers become stronger engineers
 
 ## Catalogue
 
+- [[Articles/2026-11-16 - Manju George - Systems thinking outlasts frameworks|George, 2026]]. Dependencies and failure analysis.
 - [[Articles/2020-11-28 - Will Larson - What do Staff engineers actually do|Larson, 2020]]. Mentorship and sponsorship, exploration, longer feedback cycles, and technical grounding without a code-volume target.
 - [[Articles/2020-09-04 - Will Larson - Work on what matters|Larson, 2020]]. Selecting consequential work, fostering others' growth, and using senior context to unblock rather than take over.
 - [[Articles/2026-10-06 - Jove Zhong - Building a world-class FDE team|Zhong, 2026]]. Production-scenario interviews for vertical knowledge, technical and business judgment, and customer-facing maturity.

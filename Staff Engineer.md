@@ -3,7 +3,7 @@ type: synthesis
 collection: fde
 status: evolving
 created: 2026-10-06
-updated: 2026-11-13
+updated: 2026-11-17
 tags:
   - fde
   - fde/staff-engineering
@@ -45,7 +45,7 @@ A qualified application of [[Articles/2026-10-12 - Robert Kimani - Your engineer
 
 ### Shape the problem before scaling the solution
 
-Ask what is directly observed, what is inferred through proxies, and which assumption has escaped review. A Staff contribution may be a better question or system boundary rather than the implementation itself. Conviction should follow evidence: Selway's example supports generating important information at source, but it does not justify redesign whenever an imperfect metric exists.
+Ask what is directly observed, what is inferred through proxies, and which assumption has escaped review. A Staff contribution may be a better question or system boundary rather than the implementation itself. Conviction should follow evidence: Selway's example supports generating important information at source, but it does not justify redesign whenever an imperfect metric exists. [[Articles/2026-11-16 - Manju George - Systems thinking outlasts frameworks|George]] offers a concrete review lens: trace dependencies and failure paths beyond the component, then justify a shared abstraction against its extension, versioning and ownership costs. This is practitioner guidance, without a validated review method.
 
 ### Design alignment as part of the work
 

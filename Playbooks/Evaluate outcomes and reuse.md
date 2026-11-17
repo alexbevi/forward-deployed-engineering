@@ -2,13 +2,14 @@
 type: playbook
 collection: fde
 created: 2026-10-05
-updated: 2026-10-09T10:42
+updated: 2026-11-17
 tags:
   - fde
 status: draft
 practice_status: proposed
 purpose: Review a deployed capability or proposed product improvement
 sources:
+  - "[[Articles/2026-11-16 - Manju George - Systems thinking outlasts frameworks]]"
   - "[[Articles/2026-09-21 - Pablo Bermejo - Turning intelligence into lasting value]]"
   - "[[Articles/2026-09-12 - Vinoo Ganesh - The rise of the forward deployed engineer]]"
   - "[[Articles/2026-10-01 - Karthik Sonti et al - FDE pathways for AWS partners]]"
@@ -34,7 +35,7 @@ Define representative cases, an operational baseline, people who can judge busin
 1. Evaluate behaviour against explicit criteria, including incomplete evidence, uncertainty, and relevant failure cases. Investigate failures and retain useful regression cases.
 2. Observe the workflow. Compare total effort, mistakes, review burden, sustained adoption, operating costs, and agreed outcomes with the baseline. Count exception handling, ordinary review, correction, recurring engineering, and supplier effort across the common process boundary.
 3. Decide whether the underlying cause needs an agent change, an integration change, or an authorised process change.
-4. Separate a candidate shared capability from customer-specific assumptions and configuration. Record what would falsify the reuse hypothesis.
+4. Separate a candidate shared capability from customer-specific assumptions and configuration. Record what would falsify the reuse hypothesis. Compare expected reuse benefits with extension, versioning, adoption and ownership costs.
 5. Test the candidate under another customer's conditions when possible. Document adaptations and failures rather than counting deployment alone as proof of generality.
 6. Re-evaluate behaviour and workflow outcomes after a change, and report the remaining uncertainty.
 
@@ -43,6 +44,8 @@ The [[Articles/undated - Atlassian - Forward deployed engineering playbook|Atlas
 [[Articles/2026-09-24 - Jeremy Canale - The Last Human Gate|Canale]] further separates accepted task execution, complete-route reliability, and net human-work substitution. A high success or coverage rate does not estimate labor removed when difficult exceptions, verification, rework, or maintenance retain a disproportionate share of effort.
 
 [[Articles/2026-10-06 - Jove Zhong - Building a world-class FDE team|Cresta]] reports creating evaluation sets from real conversations and moving recurring patterns, connectors, and workflow improvements into a shared platform. This supports linking evaluation findings to reuse decisions while keeping their evidence separate: the article does not show evaluation results or demonstrate that a shared capability succeeds under another customer's conditions.
+
+The proposed cost check adapts [[Articles/2026-11-16 - Manju George - Systems thinking outlasts frameworks|George's internal library account]].
 
 ## Artifact to leave
 

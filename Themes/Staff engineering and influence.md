@@ -3,7 +3,7 @@ type: theme
 collection: fde
 status: evolving
 created: 2026-10-06
-updated: 2026-11-13
+updated: 2026-11-17
 tags:
   - fde
   - fde/staff-engineering
@@ -16,6 +16,7 @@ How do senior individual contributors shape technical systems, decisions, collab
 
 ## Catalogue
 
+- [[Articles/2026-11-16 - Manju George - Systems thinking outlasts frameworks|George, 2026]]. Workflow boundaries and reuse costs.
 - [[Articles/2026-11-11 - Gregor Ojstersek - How an experienced Staff engineer works|Ojstersek, 2026, public preview]]. Implementation ownership and wider adoption.
 - [[Articles/2020-11-28 - Will Larson - What do Staff engineers actually do|Larson, 2020]]. Shared duties across Staff archetypes: technical direction, sponsorship, engineering decision context, exploration, glue work, and variable coding.
 - [[Articles/2020-09-04 - Will Larson - Work on what matters|Larson, 2020]]. Work-selection failure modes and a conditional prioritisation lens based on consequence, room, attention, completion, and distinctive capability.
