@@ -4,6 +4,7 @@ Which feedback and acceptance mechanisms improve agent-produced software, under 
 
 ## Catalogue
 
+- [Yao et al., AWS/Airbnb, 2026](../Articles/2026-11-18%20-%20Alan%20Yao%20et%20al%20-%20Cost%20per%20task%20for%20coding%20agents.md). Evaluation cost versus production usage.
 - [Jain, 2026](../Articles/2026-10-13%20-%20Naresh%20Jain%20-%20Are%20Harnesses%20Worth%20the%20Cost.md). Reported harness comparison; feedback cadence remains a research question.
 
 - [Kimani](../Articles/2026-10-12%20-%20Robert%20Kimani%20-%20Your%20engineering%20strategy%20has%20a%20new%20failure%20mode.md). Practitioner argument connecting verification capacity to investment reassessment.
@@ -33,5 +34,5 @@ Return to [Agentic Development](../Agentic%20Development.md).
 | collection | agentic-development |
 | status | evolving |
 | created | 2026-10-21 |
-| updated | 2026-10-25 |
+| updated | 2026-11-19 |
 | tags | agentic-development; agentic-development/verification; agentic-development/harnesses |

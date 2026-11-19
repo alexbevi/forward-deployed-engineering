@@ -10,6 +10,8 @@ Separate feedback used while an agent builds from the independent checks used to
 
 Before adopting a workflow, ask which requirements the checks cover, which failure modes remain unobserved, who defined the expected results, and what human effort the cost accounting leaves out. These are questions for investigation, not a locally validated procedure.
 
+For model economics, keep estimated token cost per attempt, cost per accepted delivery and spend per user distinct. [Airbnb's case](Articles/2026-11-18%20-%20Alan%20Yao%20et%20al%20-%20Cost%20per%20task%20for%20coding%20agents.md) motivates checking task mix and acceptance after rollout.
+
 [Kimani](Articles/2026-10-12%20-%20Robert%20Kimani%20-%20Your%20engineering%20strategy%20has%20a%20new%20failure%20mode.md) adds a system-level question: does faster implementation increase accepted delivery, or move the constraint downstream? His assumption register is practitioner guidance, not a validated intervention.
 
 For agent-assisted optimisation, [Goedecke](Articles/2026-10-23%20-%20Sean%20Goedecke%20-%20Performance%20design%20before%20language%20rewrites.md) suggests measuring the workload before choosing a language rewrite. Treat this as a candidate workflow; benefits and correctness remain untested here.
@@ -48,5 +50,5 @@ No local experiments have been recorded for this collection yet. [Catalogue](Cat
 | collection | agentic-development |
 | status | evolving |
 | created | 2026-10-21 |
-| updated | 2026-10-25 |
+| updated | 2026-11-19 |
 | tags | agentic-development |
