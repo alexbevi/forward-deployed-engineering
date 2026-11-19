@@ -3,7 +3,7 @@ type: synthesis
 collection: agentic-development
 status: evolving
 created: 2026-10-21
-updated: 2026-10-25
+updated: 2026-11-19
 tags:
   - agentic-development
 ---
@@ -19,6 +19,8 @@ This collection develops subject-matter knowledge about building software with a
 Separate feedback used while an agent builds from the independent checks used to accept its output. [[Articles/2026-10-13 - Naresh Jain - Are Harnesses Worth the Cost|Jain's experiment]] motivates investigating feedback cadence against task outcomes and total cost; it does not establish a universal model-selection rule.
 
 Before adopting a workflow, ask which requirements the checks cover, which failure modes remain unobserved, who defined the expected results, and what human effort the cost accounting leaves out. These are questions for investigation, not a locally validated procedure.
+
+For model economics, keep estimated token cost per attempt, cost per accepted delivery and spend per user distinct. [[Articles/2026-11-18 - Alan Yao et al - Cost per task for coding agents|Airbnb's case]] motivates checking task mix and acceptance after rollout.
 
 [[Articles/2026-10-12 - Robert Kimani - Your engineering strategy has a new failure mode|Kimani]] adds a system-level question: does faster implementation increase accepted delivery, or move the constraint downstream? His assumption register is practitioner guidance, not a validated intervention.
 

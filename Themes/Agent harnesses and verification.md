@@ -3,7 +3,7 @@ type: theme
 collection: agentic-development
 status: evolving
 created: 2026-10-21
-updated: 2026-10-25
+updated: 2026-11-19
 tags:
   - agentic-development
   - agentic-development/verification
@@ -16,6 +16,7 @@ Which feedback and acceptance mechanisms improve agent-produced software, under 
 
 ## Catalogue
 
+- [[Articles/2026-11-18 - Alan Yao et al - Cost per task for coding agents|Yao et al., AWS/Airbnb, 2026]]. Evaluation cost versus production usage.
 - [[Articles/2026-10-13 - Naresh Jain - Are Harnesses Worth the Cost|Jain, 2026]]. Reported harness comparison; feedback cadence remains a research question.
 
 - [[Articles/2026-10-12 - Robert Kimani - Your engineering strategy has a new failure mode|Kimani]]. Practitioner argument connecting verification capacity to investment reassessment.
