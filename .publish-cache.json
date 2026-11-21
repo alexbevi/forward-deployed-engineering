@@ -1,6 +1,6 @@
 {
   "fingerprint": "4cb01aa2cb6742c5a97a4919d5ab595143e009f9a5c40e578a2f737c60273d2b",
-  "source_commit": "1447b4562a7627b5ee4ac91ab70a77a808ddc959",
+  "source_commit": "79b73c73e7cd5be547aa72c3c26fe2e4b270bf4a",
   "records": {
     "AGENTS.md": {
       "path": "AGENTS.md",
@@ -1008,6 +1008,52 @@
         "Reported experiment": "reported-experiment",
         "Perspective and limits": "perspective-and-limits",
         "Proposed application": "proposed-application"
+      }
+    },
+    "Articles/2026-09-28 - Pavan Belagatti - How to become a forward deployed engineer.md": {
+      "path": "Articles/2026-09-28 - Pavan Belagatti - How to become a forward deployed engineer.md",
+      "meta": {
+        "type": "article",
+        "collection": "fde",
+        "title": "How to Become a Forward Deployed Engineer (FDE) - The Hottest Tech Job Today!",
+        "author": [
+          "Pavan Belagatti"
+        ],
+        "site": "The AI Insider on LinkedIn",
+        "url": "https://www.linkedin.com/pulse/how-become-forward-deployed-engineer-fde-hottest-tech-belagatti-hrq7c/",
+        "canonical_url": null,
+        "publication_date": "2026-09-28",
+        "publication_date_basis": "Visible LinkedIn byline, Sep 28, 2026. Structured metadata could not be verified.",
+        "accessed": "2026-11-21",
+        "created": "2026-11-21",
+        "updated": "2026-11-21",
+        "status": "reviewed",
+        "source_kind": "practitioner-article",
+        "evidence_family": "belagatti-fde-roadmap-2026",
+        "evidence_basis": [
+          "practitioner-argument",
+          "hypothetical-example"
+        ],
+        "contribution": "Pairs a skills roadmap with six decisions in a fictional incident investigation deployment.",
+        "tags": [
+          "fde",
+          "fde/development",
+          "fde/execution",
+          "fde/agentic-ai"
+        ],
+        "themes": [
+          "[[Themes/Technical and professional development]]"
+        ],
+        "people": [],
+        "models": [],
+        "playbooks": [],
+        "resources": [
+          "[[Resources/FDE Mission]]"
+        ]
+      },
+      "headings": {
+        "How to become a forward deployed engineer": "how-to-become-a-forward-deployed-engineer",
+        "Evidence and limits": "evidence-and-limits"
       }
     },
     "Articles/2026-09-29 - Gartner - Vendor FDE abandonment forecast.md": {
@@ -3339,6 +3385,38 @@
         "Evidence limits and proposed trial": "evidence-limits-and-proposed-trial"
       }
     },
+    "Resources/FDE Mission.md": {
+      "path": "Resources/FDE Mission.md",
+      "meta": {
+        "type": "resource",
+        "collection": "fde",
+        "status": "reviewed",
+        "created": "2026-11-21",
+        "updated": "2026-11-21",
+        "tags": [
+          "fde",
+          "fde/development"
+        ],
+        "resource_kind": "training",
+        "purpose": "Rehearse decisions in a fictional customer deployment and discuss the reasoning with a peer.",
+        "url": "https://pavanbelagatti.github.io/fde-playground/",
+        "availability": "Public browser exercise with no sign-in or installation.",
+        "last_verified": "2026-11-21",
+        "reviewed_revision": "443f11a7d90145ec325c5d20277b8276e630865c",
+        "license": null,
+        "review_scope": "Inspected the hosted HTML and JavaScript and matched them to the pinned repository file.",
+        "sources": [
+          "[[Articles/2026-09-28 - Pavan Belagatti - How to become a forward deployed engineer]]"
+        ],
+        "themes": [
+          "[[Themes/Technical and professional development]]"
+        ],
+        "local_observations": []
+      },
+      "headings": {
+        "FDE Mission": "fde-mission"
+      }
+    },
     "Resources/FDE-Bench development repository.md": {
       "path": "Resources/FDE-Bench development repository.md",
       "meta": {
@@ -3617,7 +3695,7 @@
         "collection": "fde",
         "status": "evolving",
         "created": "2026-10-05",
-        "updated": "2026-11-17",
+        "updated": "2026-11-21",
         "tags": [
           "fde",
           "fde/development"
@@ -4727,6 +4805,20 @@
       },
       "source_blob": "26e9df8f4b2bcdae3dd0f9ce59890b9d72a868fd",
       "sha256": "13fc7d4051faaa841c897fb4f9f1988bea190d8b1471fad6cb9dd3f32c0ee5e5"
+    },
+    "Articles/2026-09-28 - Pavan Belagatti - How to become a forward deployed engineer.md": {
+      "dependencies": {
+        "Resources/FDE Mission": [
+          "Resources/FDE Mission.md",
+          ""
+        ],
+        "Themes/Technical and professional development": [
+          "Themes/Technical and professional development.md",
+          ""
+        ]
+      },
+      "source_blob": "7319f26151c8871dcf91ac7941b79a34237428a3",
+      "sha256": "a8a2da6d3be681efdbefc5f0d8118c9f266665e23280a9ccfc56c282eb47cdb7"
     },
     "Articles/2026-09-29 - Gartner - Vendor FDE abandonment forecast.md": {
       "dependencies": {
@@ -6030,7 +6122,7 @@
     },
     "Bases/Resources.md": {
       "dependencies": {
-        "base:Bases/Resources.base": "f7344b24a6094d09daffd0eacc7d90ed879f7d509040b62166e453f35d5bf7d7",
+        "base:Bases/Resources.base": "232722d0b4980a926af3ff681bad0e908ce968c19b711f5d155a6a3e3fc54016",
         "Resources/Atlassian FDE playbook.md": [
           "Resources/Atlassian FDE playbook.md",
           ""
@@ -6063,6 +6155,14 @@
           "Articles/2026-09-24 - Jeremy Canale - The Last Human Gate.md",
           ""
         ],
+        "Resources/FDE Mission.md": [
+          "Resources/FDE Mission.md",
+          ""
+        ],
+        "Articles/2026-09-28 - Pavan Belagatti - How to become a forward deployed engineer": [
+          "Articles/2026-09-28 - Pavan Belagatti - How to become a forward deployed engineer.md",
+          ""
+        ],
         "Resources/FDE-Bench development repository.md": [
           "Resources/FDE-Bench development repository.md",
           ""
@@ -6089,11 +6189,11 @@
         ]
       },
       "source_blob": "725d26ce27e4d8ca942fc8c8aa3f85aa72efb6e3",
-      "sha256": "926bf3175331ac143e51a721f9b852f943615107a628238a646a4902fcd515ab"
+      "sha256": "0245abfa500d5d81d1c94868ab9c49d5de4adc0f6deb341da0ca2cb5a4b09d04"
     },
     "Bases/Sources.md": {
       "dependencies": {
-        "base:Bases/Sources.base": "1be148eade40630815cea71165a682061203c94843bfedfd29ea2b8d09b242e3",
+        "base:Bases/Sources.base": "9af646a57a2be256df2e708b651a79bb8b96af9abfe5b68aa8bb74ae30ee42dd",
         "Articles/2020-09-04 - Will Larson - Work on what matters.md": [
           "Articles/2020-09-04 - Will Larson - Work on what matters.md",
           ""
@@ -6212,6 +6312,10 @@
         ],
         "Approaches/Contract-based governed task transfer": [
           "Approaches/Contract-based governed task transfer.md",
+          ""
+        ],
+        "Articles/2026-09-28 - Pavan Belagatti - How to become a forward deployed engineer.md": [
+          "Articles/2026-09-28 - Pavan Belagatti - How to become a forward deployed engineer.md",
           ""
         ],
         "Articles/2026-09-29 - Gartner - Vendor FDE abandonment forecast.md": [
@@ -6348,7 +6452,7 @@
         ]
       },
       "source_blob": "fe01b99ce28b7a1e9dee85cdd07bf1a05aeae470",
-      "sha256": "d6d6d54b9ab56ad7066853419d12dd7162d7ba69eb24aa3cc86416ba42d3bfd0"
+      "sha256": "2768af24f102caa2fe247c8eab4d03fd96ce212d64c5504ee8c83bb786ac0271"
     },
     "Catalogue.md": {
       "dependencies": {
@@ -7530,6 +7634,24 @@
       "source_blob": "497e830b9cf7830a7c66edf4253f81c55f6c261a",
       "sha256": "1f912ac317dc3830b95aa0b12a0233b32f10eb4e23db5465598c7b645b823963"
     },
+    "Resources/FDE Mission.md": {
+      "dependencies": {
+        "Articles/2026-09-28 - Pavan Belagatti - How to become a forward deployed engineer": [
+          "Articles/2026-09-28 - Pavan Belagatti - How to become a forward deployed engineer.md",
+          ""
+        ],
+        "Resources": [
+          "Resources.md",
+          ""
+        ],
+        "Themes/Technical and professional development": [
+          "Themes/Technical and professional development.md",
+          ""
+        ]
+      },
+      "source_blob": "d501b5cd3fd2ee866eb08f5438ca1c76698b01ca",
+      "sha256": "0bafda5f69a4d4898f69c9686ae38051e889071621a25dbeb8afc3abfc393461"
+    },
     "Resources/FDE-Bench development repository.md": {
       "dependencies": {
         "Articles/2026-09-23 - Weihang Ding et al - FDE-Bench": [
@@ -8166,6 +8288,10 @@
           "Articles/2026-10-01 - Karthik Sonti et al - FDE pathways for AWS partners.md",
           ""
         ],
+        "Articles/2026-09-28 - Pavan Belagatti - How to become a forward deployed engineer": [
+          "Articles/2026-09-28 - Pavan Belagatti - How to become a forward deployed engineer.md",
+          ""
+        ],
         "Articles/2026-09-14 - Arun Prasath E G - FDE engagements for owners": [
           "Articles/2026-09-14 - Arun Prasath E G - FDE engagements for owners.md",
           ""
@@ -8210,6 +8336,10 @@
           "Resources/FDEOps.md",
           ""
         ],
+        "Resources/FDE Mission": [
+          "Resources/FDE Mission.md",
+          ""
+        ],
         "Playbooks/Build and review safely": [
           "Playbooks/Build and review safely.md",
           ""
@@ -8223,8 +8353,8 @@
           ""
         ]
       },
-      "source_blob": "5e72a13b57ac93cf5d90760ca271edc3de2d7e48",
-      "sha256": "cd32ee19d53625de62d3e54f1736b32f99191a5d0cfa35855b64805a789f56ea"
+      "source_blob": "e0d8d75a219171d102787deb10f53ee8e91242ab",
+      "sha256": "e7d443c86d610be8294ae3f348c677a2320c7bc1bf359b5d070159e5203ab19f"
     }
   }
 }

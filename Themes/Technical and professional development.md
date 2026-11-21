@@ -14,6 +14,7 @@ How can FDEs improve their own practice and help peers become stronger engineers
 - [Selway, 2026](../Articles/2026-08-26%20-%20Anna%20Selway%20-%20Staff%20engineers%20shift%20from%20solving%20problems%20to%20shaping%20systems.md). Staff-level problem selection, alignment, and capability-building; transferred to FDE with explicit limits.
 - [Socol, 2026](../Articles/2026-08-18%20-%20James%20Socol%20-%20Staff%20engineers%20must%20rebuild%20team%20culture.md). Deliberate collaboration and cultural reinforcement under AI-enabled autonomous delivery.
 - [AWS, 2026](../Articles/2026-10-01%20-%20Karthik%20Sonti%20et%20al%20-%20FDE%20pathways%20for%20AWS%20partners.md). Applied technical assessment.
+- [Belagatti, 2026](../Articles/2026-09-28%20-%20Pavan%20Belagatti%20-%20How%20to%20become%20a%20forward%20deployed%20engineer.md). Skills roadmap illustrated through a fictional incident investigation deployment.
 - [Prasath, owner's guide](../Articles/2026-09-14%20-%20Arun%20Prasath%20E%20G%20-%20FDE%20engagements%20for%20owners.md). Communication with business decision-makers.
 - [Prasath, role comparison](../Articles/2026-09-14%20-%20Arun%20Prasath%20E%20G%20-%20FDE%20and%20adjacent%20roles.md). Skill overlap and responsibility boundaries.
 - [McClure, 2026](../Articles/2026-03-24%20-%20Doug%20McClure%20-%20How%20FDE%20was%20born%20at%20PagerDuty.md). Product-team onboarding.
@@ -36,6 +37,8 @@ Related themes: [Staff engineering and influence](Staff%20engineering%20and%20in
 
 [FDEOps](../Resources/FDEOps.md) offers a proposed handoff-drafting exercise with fictional inputs. Compare the result against the existing playbook before treating the tool as useful in practice.
 
+[FDE Mission](../Resources/FDE%20Mission.md) is a role-play for discussing how discovery, permissions, and failure handling affect rollout decisions. Its scores and time savings are scripted.
+
 Use [Build and review safely](../Playbooks/Build%20and%20review%20safely.md) for a peer exercise; [People](../People.md) and [Resources](../Resources.md) provide discovery leads.
 
 ## Record metadata
@@ -46,5 +49,5 @@ Use [Build and review safely](../Playbooks/Build%20and%20review%20safely.md) for
 | collection | fde |
 | status | evolving |
 | created | 2026-10-05 |
-| updated | 2026-11-17 |
+| updated | 2026-11-21 |
 | tags | fde; fde/development |
