@@ -3,7 +3,7 @@ type: theme
 collection: fde
 status: evolving
 created: 2026-10-05
-updated: 2026-11-17
+updated: 2026-11-21
 tags:
   - fde
   - fde/development
@@ -25,6 +25,7 @@ How can FDEs improve their own practice and help peers become stronger engineers
 - [[Articles/2026-08-26 - Anna Selway - Staff engineers shift from solving problems to shaping systems|Selway, 2026]]. Staff-level problem selection, alignment, and capability-building; transferred to FDE with explicit limits.
 - [[Articles/2026-08-18 - James Socol - Staff engineers must rebuild team culture|Socol, 2026]]. Deliberate collaboration and cultural reinforcement under AI-enabled autonomous delivery.
 - [[Articles/2026-10-01 - Karthik Sonti et al - FDE pathways for AWS partners|AWS, 2026]]. Applied technical assessment.
+- [[Articles/2026-09-28 - Pavan Belagatti - How to become a forward deployed engineer|Belagatti, 2026]]. Skills roadmap illustrated through a fictional incident investigation deployment.
 - [[Articles/2026-09-14 - Arun Prasath E G - FDE engagements for owners|Prasath, owner's guide]]. Communication with business decision-makers.
 - [[Articles/2026-09-14 - Arun Prasath E G - FDE and adjacent roles|Prasath, role comparison]]. Skill overlap and responsibility boundaries.
 - [[Articles/2026-03-24 - Doug McClure - How FDE was born at PagerDuty|McClure, 2026]]. Product-team onboarding.
@@ -46,5 +47,7 @@ Related themes: [[Themes/Staff engineering and influence]], [[Themes/Field disco
 ## Practical connections
 
 [[Resources/FDEOps]] offers a proposed handoff-drafting exercise with fictional inputs. Compare the result against the existing playbook before treating the tool as useful in practice.
+
+[[Resources/FDE Mission]] is a role-play for discussing how discovery, permissions, and failure handling affect rollout decisions. Its scores and time savings are scripted.
 
 Use [[Playbooks/Build and review safely]] for a peer exercise; [[People]] and [[Resources]] provide discovery leads.
